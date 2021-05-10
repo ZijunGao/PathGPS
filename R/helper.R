@@ -63,6 +63,7 @@ EVToGraph = function(V, varProp = NULL, k = NULL, eigenvalues = NULL, returnFull
   weight = table(unlist(edgeList))/r; if(class(V) == "list"){weight = weight/length(V)}
   edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
   names(weight) = NULL; igraph::E(g)$weight = weight
+  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
   if(!returnFull){return(g)
     } else {result = list(); result$g = g; result$edge = edge; result$weight = weight; return(result)}
 }
@@ -106,13 +107,11 @@ EVToGraphHelper = function(V, edgeList, varProp = NULL, k = NULL, eigenvalues = 
 weightToGraph = function(weightMatrix, mode = "undirected"){
   diag(weightMatrix) = 0
   g = igraph::graph_from_adjacency_matrix(weightMatrix, mode = mode, weighted = TRUE)
+  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
   return(g)
 }
 
 # transfrorm EVs to a full weighted undirected graph with three types of edges
-EVToGraphFull = function(U, V, kU = NULL,  kV = NULL, betweenWeight = 1, phenotypeWeight = 1, genotypeWeight = 1)
-  
-  
 EVToGraphFull = function(U, V, varPropU = NULL, kU = NULL, varPropV = NULL, kV = NULL, betweenWeight = 1, phenotypeWeight = 1, genotypeWeight = 1, eigenvalues = NULL, returnFull = FALSE){
   edgeList = list(); edgeList$edgeListUU = list(); edgeList$edgeListVV = list(); edgeList$edgeListUV = list()
   if(class(V) != "list"){
@@ -136,6 +135,7 @@ EVToGraphFull = function(U, V, varPropU = NULL, kU = NULL, varPropV = NULL, kV =
   weight = weight/r; if(class(V) == "list"){weight = weight/length(V)}
   edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
   names(weight) = NULL; igraph::E(g)$weight = weight
+  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
   if(!returnFull){return(g)
   } else {
     result = list(); result$g = g; result$edge = edge; result$weight = weight
@@ -281,6 +281,7 @@ EVToGraphBipartite = function(V, varProp = NULL, k = NULL, eigenvalues = NULL, r
   weight = table(unlist(edgeList))/r; if(class(V) == "list"){weight = weight/length(V)}
   edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
   names(weight) = NULL; igraph::E(g)$weight = weight
+  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
   if(!returnFull){return(g)
   } else {result = list(); result$g = g; result$edge = edge; result$weight = weight; return(result)}
 }
