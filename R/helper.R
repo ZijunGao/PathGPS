@@ -45,6 +45,7 @@ myHardThresholding = function(V, zeroProp){
 
 
 # transfrorm EVs to a weighted undirected graph
+#' @export
 EVToGraph = function(V, varProp = NULL, k = NULL, eigenvalues = NULL, returnFull = FALSE){
   edgeList = list()
   if(class(V) != "list"){
@@ -104,6 +105,7 @@ EVToGraphHelper = function(V, edgeList, varProp = NULL, k = NULL, eigenvalues = 
   return (edgeList)
 }
 
+#' @export
 weightToGraph = function(weightMatrix, mode = "undirected"){
   diag(weightMatrix) = 0
   g = igraph::graph_from_adjacency_matrix(weightMatrix, mode = mode, weighted = TRUE)
@@ -112,6 +114,7 @@ weightToGraph = function(weightMatrix, mode = "undirected"){
 }
 
 # transfrorm EVs to a full weighted undirected graph with three types of edges
+#' @export
 EVToGraphFull = function(U, V, varPropU = NULL, kU = NULL, varPropV = NULL, kV = NULL, betweenWeight = 1, phenotypeWeight = 1, genotypeWeight = 1, eigenvalues = NULL, returnFull = FALSE){
   edgeList = list(); edgeList$edgeListUU = list(); edgeList$edgeListVV = list(); edgeList$edgeListUV = list()
   if(class(V) != "list"){
