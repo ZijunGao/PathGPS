@@ -4,7 +4,7 @@
 \alias{latentMediatorExample}
 \title{latentMediatorExample}
 \usage{
-latentMediatorExample(data = "metabolites")
+latentMediatorExample(data = "metabolites", plotOnly = TRUE)
 }
 \arguments{
 \item{X}{...}

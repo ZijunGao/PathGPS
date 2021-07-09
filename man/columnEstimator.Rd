@@ -10,18 +10,21 @@ columnEstimator(
   pNull,
   pSample = NULL,
   r,
-  m = 100,
   V.subtract = TRUE,
-  V.rotate = TRUE,
-  V.rotate.m = 1,
+  rotate = TRUE,
+  rotate.m = 1,
   U.project = TRUE,
-  randomSeed = 318
+  UV.truncate = FALSE,
+  aggregate.method = "bootstrap",
+  parameters = list()
 )
 }
 \arguments{
-\item{randomSeed}{}
-
 \item{X}{covariate matrix to predict conditional densities at; each row represents an observation vector.}
+
+\item{aggregate.method:}{"subsample", "bootstrap"}
+
+\item{parameters:}{list of parameters: rotate.m, propUZero, probVZero, randomSeed, similarity.truncate, n.subsample}
 }
 \value{
 VHat, UHat
