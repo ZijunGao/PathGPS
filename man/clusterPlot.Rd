@@ -4,7 +4,7 @@
 \alias{clusterPlot}
 \title{clusterPlot}
 \usage{
-clusterPlot(g, maximalSimilarity = 1, parameters = list())
+clusterPlot(model, pValue = NULL, names = TRUE)
 }
 \arguments{
 \item{g}{...}

@@ -43,7 +43,7 @@ clusteringError = function(U = NULL, V, UTrue = NULL, VTrue, probUZero = 0, prob
     if(r > 6){stop("permutation is computationally prohibitive")}
 
     if(is.null(probVZero) == 0){
-      V = myHardThresholding(V, zeroProp = rep(probVZero, r), normalize = FALSE)
+      V = hardThresholding(V, zeroProp = rep(probVZero, r), normalize = FALSE)
     }
 
     # all possible permutations
@@ -78,8 +78,8 @@ clusteringError = function(U = NULL, V, UTrue = NULL, VTrue, probUZero = 0, prob
     if(r > 6){stop("permutation is computationally prohibitive")}
 
     if((is.null(probUZero) + is.null(probVZero)) == 0){
-      U = myHardThresholding(U, zeroProp = rep(probUZero, r), normalize = FALSE)
-      V = myHardThresholding(V, zeroProp = rep(probVZero, r), normalize = FALSE)
+      U = hardThresholding(U, zeroProp = rep(probUZero, r), normalize = FALSE)
+      V = hardThresholding(V, zeroProp = rep(probVZero, r), normalize = FALSE)
     }
 
     # all possible permutations
@@ -121,28 +121,31 @@ clusteringErrorHelper = function(U = NULL, V, UTrue = NULL, VTrue){
   # V: p by q vector, we truncate each column and preserve proportions of zeros in each column at zeroProp
   # zeroProp:proprotion of zeros for each column; if only a scalar is input, control the proportion of zeros in V
   # normalize: normalize the columns of the hard-thresholded V
-myHardThresholding = function(V, zeroProp, normalize = TRUE){
+hardThresholding = function(V, zeroProp, normalize = TRUE){
   if(is.null(V)){V = matrix(V, ncol = 1)}
   if(dim(V)[1] < dim(V)[2]){V = t(V)}
   p = dim(V)[1]; q = dim(V)[2]
-  if(length(zeroProp) == 1){
-    # correct: at least preserve the largest...
-    index1 = apply(abs(V),2,which.max)
-    index = order(abs(V), decreasing = TRUE)[1:floor((1-zeroProp) * p * q)]
-    V[-index] = 0; V = matrix(V, ncol = q)
-    if(normalize){
-      VNorm = diag(t(V) %*% V)
-      V[cbind(index1[VNorm == 0], which(VNorm == 0))] = 1; VNorm[which(VNorm == 0)] = 1
-      V = V %*% diag(1/sqrt(VNorm))
-    }
-    return(V)
-  }
+  if(length(zeroProp) == 1){zeroProp = rep(zeroProp, q)}
+  # if(length(zeroProp) == 1){
+  #   index.max = apply(abs(V),2,which.max)
+  #   index = order(abs(V), decreasing = TRUE)[1:floor((1-zeroProp) * p * q)]
+  #   V[-index] = 0; V = matrix(V, ncol = q)
+  #   if(normalize){
+  #     VNorm = diag(t(V) %*% V)
+  #     V[cbind(index.max[VNorm == 0], which(VNorm == 0))] = 1; VNorm[which(VNorm == 0)] = 1
+  #     V = V %*% diag(1/sqrt(VNorm))
+  #   }
+  #   return(V)
+  # }
   for(j in 1:q){
-    index = order(abs(V[,j]), decreasing = TRUE)[1:floor((1-zeroProp[j]) * p)]
-    if(floor((1-zeroProp[j]) * p) == 0){V[-which.max(abs(V[,j])), j] = 0
-    } else if(length(index) < p){V[-index, j] = 0}
-    if(normalize){V[,j] = V[,j]/sqrt(sum((V[,j])^2))}
+    nonZero.number = floor((1-zeroProp[j]) * p)
+    if(nonZero.number <= 0){V[-which.max(abs(V[,j])), j] = 0}
+    if(nonZero.number < p){
+      nonZero.index = order(abs(V[,j]), decreasing = TRUE)[1:nonZero.number]
+      V[-nonZero.index, j] = 0
+    }
   }
+  if(normalize){V = V %*% diag(1/sqrt(apply(V^2, 2, sum)))}
   return(V)
 }
 
@@ -185,7 +188,7 @@ UVEstimator = function(beta, beta2, r, subtract = TRUE, rotate = TRUE, hardThres
       V = t(elasticnet::spca(covBetaQ - covBetaQ2 * p/p2, K=r, para=rep(parameters$VVarnum, r), type=c("Gram"), sparse=c("varnum"), use.corr=FALSE, lambda=1e-6, max.iter=200, trace=FALSE, eps.conv=1e-3)$loadings)
     }
     U = beta %*% t(V) %*% solve(V %*% t(V))
-    U = myHardThresholding(U, zeroProp = rep(1-parameters$UVarnum/p, r), normalize = FALSE)
+    U = hardThresholding(U, zeroProp = rep(1-parameters$UVarnum/p, r), normalize = FALSE)
   }
 
   # rotate
@@ -208,8 +211,8 @@ UVEstimator = function(beta, beta2, r, subtract = TRUE, rotate = TRUE, hardThres
   }
 
   if(hardThresholding){
-    V = t(myHardThresholding(V, zeroProp = 1-parameters$VVarnum/q, normalize = FALSE))
-    U = myHardThresholding(U, zeroProp = 1-parameters$UVarnum/p, normalize = FALSE)
+    V = t(hardThresholding(V, zeroProp = 1-parameters$VVarnum/q, normalize = FALSE))
+    U = hardThresholding(U, zeroProp = 1-parameters$UVarnum/p, normalize = FALSE)
   }
 
   # result
@@ -320,109 +323,114 @@ biPromax = function(U, V, lambda = 1, normalizeVarimax = TRUE, eps = 1e-05, m = 
   return(result)
 }
 
-# transfrorm EVs to a weighted undirected graph
-#' @export
-EVToGraph = function(V, varProp = NULL, k = NULL, eigenvalues = NULL, returnFull = FALSE){
-  edgeList = list()
-  if(class(V) != "list"){
-    r = min(dim(V))
-    edgeList = EVToGraphHelper(V = V, edgeList = edgeList,
-                               varProp = varProp, k = k, eigenvalues = eigenvalues)
-  } else {
-    r = min(dim(V[[1]]))
-    for(i in 1:length(V)){
-      edgeList = EVToGraphHelper(V = V[[i]], edgeList = edgeList,
-                                 varProp = varProp, k = k, eigenvalues = eigenvalues)
-    }
-  }
-  # construct graphs
-  if(length(edgeList) == 0){print("no edge"); return(NULL)}
-  weight = table(unlist(edgeList))/r; if(class(V) == "list"){weight = weight/length(V)}
-  edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
-  names(weight) = NULL; igraph::E(g)$weight = weight
-  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
-  if(!returnFull){return(g)
-    } else {result = list(); result$g = g; result$edge = edge; result$weight = weight; return(result)}
-}
+#' # transfrorm EVs to a weighted undirected graph
+#' #' @export
+#' EVToGraph = function(V, varProp = NULL, k = NULL, eigenvalues = NULL, returnFull = FALSE){
+#'   edgeList = list()
+#'   if(class(V) != "list"){
+#'     r = min(dim(V))
+#'     edgeList = EVToGraphHelper(V = V, edgeList = edgeList,
+#'                                varProp = varProp, k = k, eigenvalues = eigenvalues)
+#'   } else {
+#'     r = min(dim(V[[1]]))
+#'     for(i in 1:length(V)){
+#'       edgeList = EVToGraphHelper(V = V[[i]], edgeList = edgeList,
+#'                                  varProp = varProp, k = k, eigenvalues = eigenvalues)
+#'     }
+#'   }
+#'   # construct graphs
+#'   if(length(edgeList) == 0){print("no edge"); return(NULL)}
+#'   weight = table(unlist(edgeList))/r; if(class(V) == "list"){weight = weight/length(V)}
+#'   edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
+#'   names(weight) = NULL; igraph::E(g)$weight = weight
+#'   g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
+#'   if(!returnFull){return(g)
+#'     } else {result = list(); result$g = g; result$edge = edge; result$weight = weight; return(result)}
+#' }
 
-EVToGraphHelper = function(V, edgeList, varProp = NULL, k = NULL, eigenvalues = NULL){
-  # preprocess
-  if(is.null(dim(V))){V = matrix(V, ncol = 1)}
-  if(dim(V)[1] <= dim(V)[2]){V = t(V)}
-  q = dim(V)[1]; r = dim(V)[2]
-  if(is.null(rownames(V))){stop("please input names of V")} else {nodeNames = rownames(V)}
-  edgeCounter = length(edgeList)
-  if(is.null(eigenvalues)){
-    # determine dominating phenotypes
-    if(!is.null(k)){
-      for(i in 1:r){
-        index = order((V[,i])^2, decreasing = TRUE)[1:k]
-        for(j in 2:k){
-          for(l in 1:(j-1)){
-            edgeCounter = edgeCounter + 1
-            edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
-          }
-        }
-      }
-    } else if(!is.null(varProp)){
-      for(i in 1:r){
-        maxIndex = suppressWarnings(max(which(cumsum(sort((V[,i])^2, decreasing = TRUE)) <= varProp)))
-        if(maxIndex <= 1){next}
-        index = order((V[,i])^2, decreasing = TRUE)[1:maxIndex]
-        for(j in 2:maxIndex){
-          for(l in 1:(j-1)){
-            edgeCounter = edgeCounter + 1
-            edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
-          }
-        }
-      }
-    }
-  }
-  return (edgeList)
-}
+# EVToGraphHelper = function(V, edgeList, varProp = NULL, k = NULL, eigenvalues = NULL){
+#   # preprocess
+#   if(is.null(dim(V))){V = matrix(V, ncol = 1)}
+#   if(dim(V)[1] <= dim(V)[2]){V = t(V)}
+#   q = dim(V)[1]; r = dim(V)[2]
+#   if(is.null(rownames(V))){stop("please input names of V")} else {nodeNames = rownames(V)}
+#   edgeCounter = length(edgeList)
+#   if(is.null(eigenvalues)){
+#     # determine dominating phenotypes
+#     if(!is.null(k)){
+#       for(i in 1:r){
+#         index = order((V[,i])^2, decreasing = TRUE)[1:k]
+#         for(j in 2:k){
+#           for(l in 1:(j-1)){
+#             edgeCounter = edgeCounter + 1
+#             edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
+#           }
+#         }
+#       }
+#     } else if(!is.null(varProp)){
+#       for(i in 1:r){
+#         maxIndex = suppressWarnings(max(which(cumsum(sort((V[,i])^2, decreasing = TRUE)) <= varProp)))
+#         if(maxIndex <= 1){next}
+#         index = order((V[,i])^2, decreasing = TRUE)[1:maxIndex]
+#         for(j in 2:maxIndex){
+#           for(l in 1:(j-1)){
+#             edgeCounter = edgeCounter + 1
+#             edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
+#           }
+#         }
+#       }
+#     }
+#   }
+#   return (edgeList)
+# }
 
-#' @export
-weightToGraph = function(weightMatrix, mode = "undirected"){
-  diag(weightMatrix) = 0
-  g = igraph::graph_from_adjacency_matrix(weightMatrix, mode = mode, weighted = TRUE)
-  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
-  return(g)
-}
+#' #' @export
+#' weightToGraph = function(weightMatrix, mode = "undirected"){
+#'   diag(weightMatrix) = 0
+#'   g = igraph::graph_from_adjacency_matrix(weightMatrix, mode = mode, weighted = TRUE)
+#'   g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
+#'   return(g)
+#' }
 
 # transfrorm EVs to a full weighted undirected graph with three types of edges
 #' @export
-EVToGraphFull = function(U, V, varPropU = NULL, kU = NULL, varPropV = NULL, kV = NULL, betweenWeight = 1, phenotypeWeight = 1, genotypeWeight = 1, eigenvalues = NULL, returnFull = FALSE, weightMatrixBootstrap = NULL){
+EVToGraphFull = function(U, V, kU = NULL,kV = NULL, gp.weight = 1, pp.weight = 1, gg.weight = 1, returnFull = FALSE, weightMatrixBootstrap = NULL){
   edgeList = list(); edgeList$edgeListUU = list(); edgeList$edgeListVV = list(); edgeList$edgeListUV = list()
-  if(class(V) != "list"){
-    r = min(dim(V))
-    edgeList = EVToGraphFullHelper(U = U, V = V, edgeList = edgeList,
-                               varPropU = varPropU, kU = kU, varPropV = varPropV,
-                               kV = kV, eigenvalues = eigenvalues)
-  } else {
-    r = min(dim(V[[1]]))
-    for(i in 1:length(V)){
-      edgeList = EVToGraphFullHelper(U = U[[i]], V = V[[i]], edgeList = edgeList,
-                                    varPropU = varPropU, kU = kU, varPropV =
-                                    varPropV, kV = kV, eigenvalues = eigenvalues)
-    }
+  if(class(V) != "list"){V = list(V)}
+  if(class(U) != "list"){U = list(U)}
+  # if(class(V) != "list"){
+  #   r = min(dim(V))
+  #   edgeList = EVToGraphFullHelper(U = U, V = V, edgeList = edgeList,
+  #                              varPropU = varPropU, kU = kU, varPropV = varPropV,
+  #                              kV = kV, eigenvalues = eigenvalues)
+  # } else {
+  #   r = min(dim(V[[1]]))
+  #   for(i in 1:length(V)){
+  #     edgeList = EVToGraphFullHelper(U = U[[i]], V = V[[i]], edgeList = edgeList,
+  #                                   varPropU = varPropU, kU = kU, varPropV =
+  #                                   varPropV, kV = kV, eigenvalues = eigenvalues)
+  #   }
+  # }
+  r = min(dim(V[[1]]))
+  for(i in 1:length(V)){
+    edgeList = EVToGraphFullHelper(U = U[[i]], V = V[[i]], edgeList = edgeList, kU = kU, kV = kV)
   }
-  # construct graphs
-  if((length(edgeList$edgeListUU) + length(edgeList$edgeListVV) + length(edgeList$edgeListUV)) == 0){print("no edge"); return(NULL)}
-  weight = c(table(unlist(edgeList$edgeListUU)) * genotypeWeight, table(unlist(edgeList$edgeListVV)) * phenotypeWeight, table(unlist(edgeList$edgeListUV)) * betweenWeight)
+
+  if((length(edgeList$edgeListUU) + length(edgeList$edgeListVV) + length(edgeList$edgeListUV)) == 0){print("no edge detected"); return(NULL)}
+  weight = c(table(unlist(edgeList$edgeListUU)) * gg.weight, table(unlist(edgeList$edgeListVV)) * pp.weight, table(unlist(edgeList$edgeListUV)) * gp.weight)
   indexZeroWeight = which(weight == 0)
   if(length(indexZeroWeight) != 0){weight = weight[-indexZeroWeight]}
-  weight = weight/r; if(class(V) == "list"){weight = weight/length(V)}
-  edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
-  names(weight) = NULL; igraph::E(g)$weight = weight
-  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
+  edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge)
+  weight = weight/r/length(V); names(weight) = NULL; igraph::E(g)$weight = weight
+  g = igraph::as.undirected(g, mode= "collapse", edge.attr.comb=list(weight="sum", "ignore"))
 
   # remove non-significant edges
-  if(!is.null(weightMatrixBootstrap)){
-    weightMatrix = igraph::get.adjacency(g, type=c("both"), attr="weight", names=TRUE); weightMatrix = as.matrix(weightMatrix)
-    weightMatrixZero = weightMatrix * weightMatrixBootstrap[colnames(weightMatrix), colnames(weightMatrix)]
-    isolatedNode = colnames(weightMatrix)[which(apply(weightMatrixZero,2,sum) == 0)]
-    if(length(isolatedNode) > 0) {g = igraph::delete.vertices(g, isolatedNode)}
-  }
+  # if(!is.null(weightMatrixBootstrap)){
+  #   weightMatrix = igraph::get.adjacency(g, type=c("both"), attr="weight", names=TRUE); weightMatrix = as.matrix(weightMatrix)
+  #   weightMatrixZero = weightMatrix * weightMatrixBootstrap[colnames(weightMatrix), colnames(weightMatrix)]
+  #   isolatedNode = colnames(weightMatrix)[which(apply(weightMatrixZero,2,sum) == 0)]
+  #   if(length(isolatedNode) > 0) {g = igraph::delete.vertices(g, isolatedNode)}
+  # }
 
   if(!returnFull){return(g)
   } else {
@@ -431,188 +439,133 @@ EVToGraphFull = function(U, V, varPropU = NULL, kU = NULL, varPropV = NULL, kV =
   }
 }
 
-EVToGraphFullHelper = function(U, V, edgeList, varPropU = NULL, kU = NULL, varPropV = NULL, kV = NULL, eigenvalues = NULL){
+EVToGraphFullHelper = function(U, V, edgeList, kU = NULL, kV = NULL){
   # preprocess
   if(is.null(dim(V))){V = matrix(V, ncol = 1)}
   if(is.null(dim(V))){U = matrix(U, ncol = 1)}
   if(dim(V)[1] <= dim(V)[2]){V = t(V)}
   if(dim(U)[1] <= dim(U)[2]){U = t(U)}
   q = dim(V)[1]; r = dim(V)[2]; p = dim(U)[1]
-  if(is.null(rownames(V))){stop("please input names of V")} else {nodeNamesV = rownames(V)}
-  if(is.null(rownames(U))){stop("please input names of U")} else {nodeNamesU = rownames(U)}
+  if(is.null(rownames(V))){stop("please input rownames of V")} else {nodeNamesV = rownames(V)}
+  if(is.null(rownames(U))){stop("please input rownames of U")} else {nodeNamesU = rownames(U)}
   edgeCounterVV = length(edgeList$edgeListVV)
   edgeCounterUV = length(edgeList$edgeListUV)
   edgeCounterUU = length(edgeList$edgeListUU)
-  if(is.null(eigenvalues)){
-    # determine dominating phenotypes
+
+  # determine dominating phenotypes
+  for(i in 1:r){
+    indexU = order((U[,i])^2, decreasing = TRUE)[1:min(kU, sum(U[,i] != 0))]
+    indexV = order((V[,i])^2, decreasing = TRUE)[1:min(kV, sum(V[,i] != 0))]
     # VV
-    if(!is.null(kV)){
-      for(i in 1:r){
-        indexV = order((V[,i])^2, decreasing = TRUE)[1:min(kV, sum(V[,i]^2 != 0))]
-        if(length(indexV) > 1){
-          for(j in 2:length(indexV)){
-            for(l in 1:(j-1)){
-              edgeCounterVV = edgeCounterVV + 1
-              edgeList$edgeListVV[[edgeCounterVV]] = paste(nodeNamesV[indexV[j]], nodeNamesV[indexV[l]], sep = ";")
-            }
-          }
-        }
-      }
-    } else if(!is.null(varPropV)){
-      for(i in 1:r){
-        maxIndexV = suppressWarnings(max(which(cumsum(sort((V[,i])^2, decreasing = TRUE)) <= varPropV)))
-        if(maxIndexV <= 1){next} else {
-          indexV = order((V[,i])^2, decreasing = TRUE)[1:maxIndexV]
-          for(j in 2:maxIndexV){
-            for(l in 1:(j-1)){
-              edgeCounterVV = edgeCounterVV + 1
-              edgeList$edgeListVV[[edgeCounterVV]] = paste(nodeNamesV[indexV[j]], nodeNamesV[indexV[l]], sep = ";")
-            }
-          }
+    if(length(indexV) > 1){
+      for(j in 2:length(indexV)){
+        for(l in 1:(j-1)){
+          edgeCounterVV = edgeCounterVV + 1
+          edgeList$edgeListVV[[edgeCounterVV]] = paste(nodeNamesV[indexV[j]], nodeNamesV[indexV[l]], sep = ";")
         }
       }
     }
     # UU
-    if(!is.null(kU)){
-      for(i in 1:r){
-        indexU = order((U[,i])^2, decreasing = TRUE)[1:min(kU, sum(U[,i]^2 != 0))]
-        if(length(indexU) > 1){
-          for(j in 2:length(indexU)){
-            for(l in 1:(j-1)){
-              edgeCounterUU = edgeCounterUU + 1
-              edgeList$edgeListUU[[edgeCounterUU]] = paste(nodeNamesU[indexU[j]], nodeNamesU[indexU[l]], sep = ";")
-            }
-          }
-        }
-      }
-    } else if(!is.null(varPropU)){
-      for(i in 1:r){
-        maxIndexU = suppressWarnings(max(which(cumsum(sort((U[,i])^2, decreasing = TRUE)) <= varPropU)))
-        if(maxIndexU <= 1){next}
-        indexU = order((U[,i])^2, decreasing = TRUE)[1:maxIndexU]
-        for(j in 2:maxIndexU){
-          for(l in 1:(j-1)){
-            edgeCounterUU = edgeCounterUU + 1
-            edgeList$edgeListUU[[edgeCounterUU]] = paste(nodeNamesU[indexU[j]], nodeNamesU[indexU[l]], sep = ";")
-          }
+    if(length(indexU) > 1){
+      for(j in 2:length(indexU)){
+        for(l in 1:(j-1)){
+          edgeCounterUU = edgeCounterUU + 1
+          edgeList$edgeListUU[[edgeCounterUU]] = paste(nodeNamesU[indexU[j]], nodeNamesU[indexU[l]], sep = ";")
         }
       }
     }
     # UV
-    if((is.null(kU) + is.null(kV)) == 0){
-      for(i in 1:r){
-        indexU = order((U[,i])^2, decreasing = TRUE)[1:min(kU, sum(U[,i]^2 != 0))]
-        indexV = order((V[,i])^2, decreasing = TRUE)[1:min(kV, sum(V[,i]^2 != 0))]
-        for(j in 1:length(indexU)){
-          for(l in 1:length(indexV)){
-            edgeCounterUV = edgeCounterUV + 1
-            edgeList$edgeListUV[[edgeCounterUV]] = paste(nodeNamesU[indexU[j]], nodeNamesV[indexV[l]], sep = ";")
-          }
-        }
-      }
-    } else if((is.null(kV) + is.null(varPropU)) == 0){
-      for(i in 1:r){
-        maxIndexU = suppressWarnings(max(which(cumsum(sort((U[,i])^2, decreasing = TRUE)) <= varPropU)))
-        indexV = order((V[,i])^2, decreasing = TRUE)[1:min(kV, sum(V[,i]^2 != 0))]
-        if(maxIndexU <= 0){next}
-        indexU = order((U[,i])^2, decreasing = TRUE)[1:maxIndexU]
-        for(j in 1:maxIndexU){
-          for(l in 1:length(indexV)){
-            edgeCounterUV = edgeCounterUV + 1
-            edgeList$edgeListUV[[edgeCounterUV]] = paste(nodeNamesU[indexU[j]], nodeNamesV[indexV[l]], sep = ";")
-          }
-        }
-      }
-    } else if ((is.null(varPropV) + is.null(kU)) == 0){
-      for(i in 1:r){
-        indexU = order((U[,i])^2, decreasing = TRUE)[1:min(kU, sum(U[,i]^2 != 0))]
-        maxIndexV = suppressWarnings(max(which(cumsum(sort((V[,i])^2, decreasing = TRUE)) <= varPropV)))
-        if(maxIndexV <= 0){next}
-        indexV = order((V[,i])^2, decreasing = TRUE)[1:maxIndexV]
-        for(j in 1:length(indexU)){
-          for(l in 1:maxIndexV){
-            edgeCounterUV = edgeCounterUV + 1
-            edgeList$edgeListUV[[edgeCounterUV]] = paste(nodeNamesU[indexU[j]], nodeNamesV[indexV[l]], sep = ";")
-          }
-        }
-      }
-    } else if ((is.null(varPropV) + is.null(varPropU)) == 0){
-      for(i in 1:r){
-        maxIndexU = suppressWarnings(max(which(cumsum(sort((U[,i])^2, decreasing = TRUE)) <= varPropU)))
-        maxIndexV = suppressWarnings(max(which(cumsum(sort((V[,i])^2, decreasing = TRUE)) <= varPropV)))
-        if(maxIndexU <= 0){next}
-        indexU = order((U[,i])^2, decreasing = TRUE)[1:maxIndexU]
-        indexV = order((V[,i])^2, decreasing = TRUE)[1:maxIndexV]
-        for(j in 1:maxIndexU){
-          for(l in 1:maxIndexV){
-            edgeCounterUV = edgeCounterUV + 1
-            edgeList$edgeListUV[[edgeCounterUV]] = paste(nodeNamesU[indexU[j]], nodeNamesV[indexV[l]], sep = ";")
-          }
-        }
+    for(j in 1:length(indexU)){
+      for(l in 1:length(indexV)){
+        edgeCounterUV = edgeCounterUV + 1
+        edgeList$edgeListUV[[edgeCounterUV]] = paste(nodeNamesU[indexU[j]], nodeNamesV[indexV[l]], sep = ";")
       }
     }
   }
+  # # UU
+  # for(i in 1:r){
+  #   indexU = order((U[,i])^2, decreasing = TRUE)[1:min(kU, sum(U[,i]^2 != 0))]
+  #   if(length(indexU) > 1){
+  #     for(j in 2:length(indexU)){
+  #       for(l in 1:(j-1)){
+  #         edgeCounterUU = edgeCounterUU + 1
+  #         edgeList$edgeListUU[[edgeCounterUU]] = paste(nodeNamesU[indexU[j]], nodeNamesU[indexU[l]], sep = ";")
+  #       }
+  #     }
+  #   }
+  # }
+  # # UV
+  # for(i in 1:r){
+  #   indexU = order((U[,i])^2, decreasing = TRUE)[1:min(kU, sum(U[,i]^2 != 0))]
+  #   indexV = order((V[,i])^2, decreasing = TRUE)[1:min(kV, sum(V[,i]^2 != 0))]
+  #   for(j in 1:length(indexU)){
+  #     for(l in 1:length(indexV)){
+  #       edgeCounterUV = edgeCounterUV + 1
+  #       edgeList$edgeListUV[[edgeCounterUV]] = paste(nodeNamesU[indexU[j]], nodeNamesV[indexV[l]], sep = ";")
+  #     }
+  #   }
+  # }
   return (edgeList)
 }
 
 
 # bipartite graph
-EVToGraphBipartite = function(V, varProp = NULL, k = NULL, eigenvalues = NULL, returnFull = FALSE){
-  if(class(V) != "list"){
-    edgeList = EVToGraphHelper(V = V, edgeList = list(),
-                               varProp = varProp, k = k, eigenvalues = eigenvalues)
-  } else {
-    edgeList = list()
-    for(i in 1:length(V)){
-      edgeList = EVToGraphHelper(V = V[[i]], edgeList = edgeList,
-                                 varProp = varProp, k = k, eigenvalues = eigenvalues)
-    }
-  }
-  # construct graphs
-  if(length(edgeList) == 0){print("no edge"); return(NULL)}
-  weight = table(unlist(edgeList))/r; if(class(V) == "list"){weight = weight/length(V)}
-  edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
-  names(weight) = NULL; igraph::E(g)$weight = weight
-  g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
-  if(!returnFull){return(g)
-  } else {result = list(); result$g = g; result$edge = edge; result$weight = weight; return(result)}
-}
+# EVToGraphBipartite = function(V, varProp = NULL, k = NULL, eigenvalues = NULL, returnFull = FALSE){
+#   if(class(V) != "list"){
+#     edgeList = EVToGraphHelper(V = V, edgeList = list(),
+#                                varProp = varProp, k = k, eigenvalues = eigenvalues)
+#   } else {
+#     edgeList = list()
+#     for(i in 1:length(V)){
+#       edgeList = EVToGraphHelper(V = V[[i]], edgeList = edgeList,
+#                                  varProp = varProp, k = k, eigenvalues = eigenvalues)
+#     }
+#   }
+#   # construct graphs
+#   if(length(edgeList) == 0){print("no edge"); return(NULL)}
+#   weight = table(unlist(edgeList))/r; if(class(V) == "list"){weight = weight/length(V)}
+#   edge = unlist(strsplit(names(weight),split = ";")); g = igraph::graph(edge) # isolates not needed
+#   names(weight) = NULL; igraph::E(g)$weight = weight
+#   g = igraph::as.undirected(g, mode= "collapse",edge.attr.comb=list(weight="sum", "ignore"))
+#   if(!returnFull){return(g)
+#   } else {result = list(); result$g = g; result$edge = edge; result$weight = weight; return(result)}
+# }
 
-EVToGraphBipartiteHelper = function(V, edgeList, varProp = NULL, k = NULL, eigenvalues = NULL){
-  # preprocess
-  if(is.null(dim(V))){V = matrix(V, ncol = 1)}
-  if(dim(V)[1] <= dim(V)[2]){V = t(V)}
-  q = dim(V)[1]; r = dim(V)[2]
-  if(is.null(rownames(V))){stop("please input names of V")} else {nodeNames = rownames(V)}
-  edgeCounter = length(edgeList)
-  if(is.null(eigenvalues)){
-    # determine dominating phenotypes
-    if(!is.null(k)){
-      for(i in 1:r){
-        index = order((V[,i])^2, decreasing = TRUE)[1:k]
-        for(j in 2:k){
-          for(l in 1:(j-1)){
-            edgeCounter = edgeCounter + 1
-            edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
-          }
-        }
-      }
-    } else if(!is.null(varProp)){
-      for(i in 1:r){
-        maxIndex = suppressWarnings(max(which(cumsum(sort((V[,i])^2, decreasing = TRUE)) <= varProp)))
-        if(maxIndex <= 1){return (edgeList)}
-        index = order((V[,i])^2, decreasing = TRUE)[1:maxIndex]
-        for(j in 2:maxIndex){
-          for(l in 1:(j-1)){
-            edgeCounter = edgeCounter + 1
-            edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
-          }
-        }
-      }
-    }
-  }
-  return (edgeList)
-}
+# EVToGraphBipartiteHelper = function(V, edgeList, varProp = NULL, k = NULL, eigenvalues = NULL){
+#   # preprocess
+#   if(is.null(dim(V))){V = matrix(V, ncol = 1)}
+#   if(dim(V)[1] <= dim(V)[2]){V = t(V)}
+#   q = dim(V)[1]; r = dim(V)[2]
+#   if(is.null(rownames(V))){stop("please input names of V")} else {nodeNames = rownames(V)}
+#   edgeCounter = length(edgeList)
+#   if(is.null(eigenvalues)){
+#     # determine dominating phenotypes
+#     if(!is.null(k)){
+#       for(i in 1:r){
+#         index = order((V[,i])^2, decreasing = TRUE)[1:k]
+#         for(j in 2:k){
+#           for(l in 1:(j-1)){
+#             edgeCounter = edgeCounter + 1
+#             edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
+#           }
+#         }
+#       }
+#     } else if(!is.null(varProp)){
+#       for(i in 1:r){
+#         maxIndex = suppressWarnings(max(which(cumsum(sort((V[,i])^2, decreasing = TRUE)) <= varProp)))
+#         if(maxIndex <= 1){return (edgeList)}
+#         index = order((V[,i])^2, decreasing = TRUE)[1:maxIndex]
+#         for(j in 2:maxIndex){
+#           for(l in 1:(j-1)){
+#             edgeCounter = edgeCounter + 1
+#             edgeList[[edgeCounter]] = paste(nodeNames[index[j]], nodeNames[index[l]], sep = ";")
+#           }
+#         }
+#       }
+#     }
+#   }
+#   return (edgeList)
+# }
 
 
 # clustering methods with hyper-parameter tuning
@@ -621,7 +574,7 @@ EVToGraphBipartiteHelper = function(V, edgeList, varProp = NULL, k = NULL, eigen
 #   distMatrix: named pairwise distance matrix
 #   kernMatrix: named kernel matrix
 #   method: clustering method: kmeans, cmeans, spectral, hierarchical
-#   parameters: list of candidate tuning parameters of the the clustering method: genotypeWeight, betweenWeight, phenotypeWeight, similarity.distance, number.center
+#   parameters: list of candidate tuning parameters of the the clustering method: gg.weight, gp.weight, pp.weight, similarity.distance, number.center
 # output:
 #   weightMatrix: named weightMatrix to compare to in tuning
 #   membership: matrix of membership: each row represents a cluster, each column represents a named element
@@ -640,19 +593,20 @@ myClustering = function(X = NULL, distMatrix = NULL, kernMatrix = NULL, weightMa
     }
     similarityDistance = rep(0, length(numberCenterSeq))
     for(i in 1:length(numberCenterSeq)){
+      if(!is.null(parameters$randomSeed2)){set.seed(parameters$randomSeed2)}
       kmeansMembership = kmeans(X, centers = numberCenterSeq[i], nstart = 20)$cluster
       weightMatrixTemp = matrix(rep(kmeansMembership, length(kmeansMembership)), length(kmeansMembership))
       weightMatrixTemp = (weightMatrixTemp == t(weightMatrixTemp))
       diag(weightMatrixTemp) = 0
       if(length(SNPIndex) > 0){
-        weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$genotypeWeight
+        weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$gg.weight
         if(length(phenotypeIndex) > 0){
-          weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$betweenWeight
-          weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$betweenWeight
+          weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$gp.weight
+          weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$gp.weight
         }
       }
       if(length(phenotypeIndex) > 0){
-        weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$phenotypeWeight
+        weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$pp.weight
       }
       if(parameters$similarity.distance == "Frobenius"){
         lmTemp = lm(c(weightMatrix) ~ c(weightMatrixTemp) - 1)
@@ -662,6 +616,7 @@ myClustering = function(X = NULL, distMatrix = NULL, kernMatrix = NULL, weightMa
       }
     }
     index = which.min(similarityDistance)
+    if(!is.null(parameters$randomSeed2)){set.seed(parameters$randomSeed2)}
     membership = kmeans(X, centers = numberCenterSeq[index], nstart = 20)$cluster
     V = matrix(0, nrow=numberCenterSeq[index], ncol = length(membership))
     colnames(V) = names(membership)
@@ -676,19 +631,20 @@ myClustering = function(X = NULL, distMatrix = NULL, kernMatrix = NULL, weightMa
     }
     similarityDistance = rep(0, length(numberCenterSeq))
     for(i in 1:length(numberCenterSeq)){
+      if(!is.null(parameters$randomSeed2)){set.seed(parameters$randomSeed2)}
       spcMembership = kernlab::specc(x = temp, centers = numberCenterSeq[i])
       weightMatrixTemp = matrix(rep(spcMembership, length(spcMembership)), length(spcMembership))
       weightMatrixTemp = (weightMatrixTemp == t(weightMatrixTemp))
       diag(weightMatrixTemp) = 0
       if(length(SNPIndex) > 0){
-        weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$genotypeWeight
+        weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$gg.weight
         if(length(phenotypeIndex) > 0){
-          weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$betweenWeight
-          weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$betweenWeight
+          weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$gp.weight
+          weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$gp.weight
         }
       }
       if(length(phenotypeIndex) > 0){
-        weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$phenotypeWeight
+        weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$pp.weight
       }
       if(parameters$similarity.distance == "Frobenius"){
         lmTemp = lm(c(weightMatrix) ~ c(weightMatrixTemp) - 1)
@@ -698,6 +654,7 @@ myClustering = function(X = NULL, distMatrix = NULL, kernMatrix = NULL, weightMa
       }
     }
     index = which.min(similarityDistance)
+    if(!is.null(parameters$randomSeed2)){set.seed(parameters$randomSeed2)}
     membership = kernlab::specc(x = temp, centers = numberCenterSeq[index])
     names(membership) = rownames(kernMatrix)
     V = matrix(0, nrow=numberCenterSeq[index], ncol = length(membership))
@@ -716,14 +673,14 @@ myClustering = function(X = NULL, distMatrix = NULL, kernMatrix = NULL, weightMa
       weightMatrixTemp = (weightMatrixTemp == t(weightMatrixTemp))
       diag(weightMatrixTemp) = 0
       if(length(SNPIndex) > 0){
-        weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$genotypeWeight
+        weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$gg.weight
         if(length(phenotypeIndex) > 0){
-          weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$betweenWeight
-          weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$betweenWeight
+          weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$gp.weight
+          weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$gp.weight
         }
       }
       if(length(phenotypeIndex) > 0){
-        weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$phenotypeWeight
+        weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$pp.weight
       }
       if(parameters$similarity.distance == "Frobenius"){
         lmTemp = lm(c(weightMatrix) ~ c(weightMatrixTemp) - 1)
@@ -755,14 +712,14 @@ myClustering = function(X = NULL, distMatrix = NULL, kernMatrix = NULL, weightMa
           weightMatrixTemp = probMatrixTemp %*% t(probMatrixTemp)
           diag(weightMatrixTemp) = 0
           if(length(SNPIndex) > 0){
-            weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$genotypeWeight
+            weightMatrixTemp[SNPIndex, SNPIndex] = weightMatrixTemp[SNPIndex, SNPIndex] * parameters$gg.weight
             if(length(phenotypeIndex) > 0){
-              weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$betweenWeight
-              weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$betweenWeight
+              weightMatrixTemp[SNPIndex, phenotypeIndex] = weightMatrixTemp[SNPIndex, phenotypeIndex] * parameters$gp.weight
+              weightMatrixTemp[phenotypeIndex, SNPIndex] = weightMatrixTemp[phenotypeIndex, SNPIndex] * parameters$gp.weight
             }
           }
           if(length(phenotypeIndex) > 0){
-            weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$phenotypeWeight
+            weightMatrixTemp[phenotypeIndex, phenotypeIndex] = weightMatrixTemp[phenotypeIndex, phenotypeIndex] * parameters$pp.weight
           }
           if(parameters$similarity.distance == "Frobenius"){
             lmTemp = lm(c(weightMatrix) ~ c(weightMatrixTemp) - 1)

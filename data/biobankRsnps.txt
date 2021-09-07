@@ -1,0 +1,2495 @@
+"rsid" "gene" "protein" "eQTL" "ref"
+"1" "rs10011326" "HTT" "." "Nerve_Tibial, Thyroid, Adipose_Subcutaneous" NA
+"2" "rs1002436" "RP11-76N22.2" "." "Cells_Transformed_fibroblasts, Nerve_Tibial, Esophagus_Mucosa" NA
+"3" "rs10031229" "RP11-422J15.1" "." "." NA
+"4" "rs10044000" "CATSPER3" "." "Testis" NA
+"5" "rs10056700" "RAD50" "." "." NA
+"6" "rs10063744" "CTD-2337A12.1" "." "Nerve_Tibial, Brain_WHMT" NA
+"7" "rs10075137" "SPOCK1" "." "." NA
+"8" "rs10090496" "RP11-579E24.2" "." "." NA
+"9" "rs10101154" "C8orf34" "." "." NA
+"10" "rs10101410" "ZFAT" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "Lymphoblastoid_EUR_exonlevel" NA
+"11" "rs1010717" "SPSB4" "." "Whole_Blood, Thyroid" NA
+"12" "rs10120452" "GABBR2" "." "Lymphoblastoid_EUR_exonlevel" NA
+"13" "rs10151599" "RP11-255G12.3" "." "." NA
+"14" "rs10152928" "IQGAP1" "." "Esophagus_Muscularis, Artery_Aorta, Stomach" NA
+"15" "rs10157929" "JAK1" "." "." NA
+"16" "rs10166834" "AC007277.3" "." "." NA
+"17" "rs10168889" "Y_RNA" "." "Artery_Aorta, Artery_Tibial" NA
+"18" "rs10170257" "FANCL" "." "." NA
+"19" "rs10171410" "AC013480.2" "." "Lung" NA
+"20" "rs10180713" "SPTBN1" "." "Whole_Blood, Cells_Transformed_fibroblasts, Thyroid" NA
+"21" "rs10189498" "AC093865.1" "." "Whole_Blood" NA
+"22" "rs10190250" "RQCD1" "." "Whole_Blood, Artery_Aorta, Lymphoblastoid_EUR_exonlevel" NA
+"23" "rs10194007" "RP11-764E7.1" "." "." NA
+"24" "rs1019880" "RP11-351E7.1" "." "." NA
+"25" "rs10231142" "DGKB" "." "." NA
+"26" "rs10252733" "EIF2AK1" "." "Testis, Lymphoblastoid_EUR_exonlevel" NA
+"27" "rs1025452" "C4orf45" "." "." NA
+"28" "rs10258081" "NPSR1-AS1" "." "." NA
+"29" "rs10258803" "CTB-111H14.1" "." "." NA
+"30" "rs10278110" "ITGB8" "." "." NA
+"31" "rs10278591" "MAD1L1" "." "Whole_Blood" NA
+"32" "rs1030431" "UBXN2B" "." "Heart_Left_Ventricle, Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"33" "rs1036332" "RP11-16L9.4" "." "." NA
+"34" "rs1036876" "TMPRSS7" "." "." NA
+"35" "rs1039405" "SIGLEC9" "." "Lung" NA
+"36" "rs10404028" "Metazoa_SRP" "." "." NA
+"37" "rs10406381" "ZSCAN22" "." "." NA
+"38" "rs10411584" "ZNF211" "." "Lymphoblastoid_EUR_exonlevel, Muscle_Skeletal" NA
+"39" "rs10412624" "MIER2" "." "Lung, Heart_Left_Ventricle, Thyroid" NA
+"40" "rs10440319" "MIR5705" "." "Whole_Blood, Skin_Sun_Exposed_Lower_leg" NA
+"41" "rs10467747" "TC2N" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"42" "rs1047891" "CPS1" "." "." NA
+"43" "rs10489493" "Y_RNA" "." "Nerve_Tibial, Thyroid" NA
+"44" "rs10492106" "NECAP1" "." "Whole_Blood" NA
+"45" "rs10493008" "USP48" "K562,CJUN,Stanford,IFNa6h;K562,CJUN,Stanford,IFNg30;K562,CJUN,Stanford,IFNg6h;K562,POL2,Stanford,IFNg6h;K562,STAT1,Stanford,IFNg30;K562,STAT1,Stanford,IFNg6h" "Whole_Blood" NA
+"46" "rs10493592" "AC104458.1" "." "." NA
+"47" "rs1049897" "MGP" "." "Whole_Blood, Testis, Thyroid" NA
+"48" "rs10499310" "TULP4" "." "." NA
+"49" "rs10501068" "SLC5A12" "." "." NA
+"50" "rs10502340" "RP11-793A3.2" "." "." NA
+"51" "rs10508019" "ABCC4" "K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;K562,STAT2,Stanford,IFNa30" "." NA
+"52" "rs10516865" "FAM190A" "." "." NA
+"53" "rs10520936" "RP11-46C20.1" "." "." NA
+"54" "rs1054334" "RAB11FIP3" "A549,POL2,HudsonAlpha,EtOH_0.02pct;HepG2,POL2,Stanford,forskolin" "Cells_Transformed_fibroblasts, Lymphoblastoid_EUR_exonlevel" NA
+"55" "rs1060431" "SLC25A11" "." "Esophagus_Mucosa, Lung, Skin_Sun_Exposed_Lower_leg" NA
+"56" "rs1064213" "PLCL1" "." "Whole_Blood, Adipose_Subcutaneous" NA
+"57" "rs10738622" "Metazoa_SRP" "." "." NA
+"58" "rs10739470" "ASTN2" "." "." NA
+"59" "rs10741083" "CACNB2" "." "Adipose_Subcutaneous, Lymphoblastoid_EUR_exonlevel, Nerve_Tibial" NA
+"60" "rs10742308" "LMO2" "." "." NA
+"61" "rs10762667" "C10orf11" "." "Thyroid" NA
+"62" "rs10770699" "PDE3A" "." "." NA
+"63" "rs10779419" "HLX" "." "." NA
+"64" "rs10780209" "MIR4289" "." "." NA
+"65" "rs10786568" "CUTC" "." "Cells_Transformed_fibroblasts, Whole_Blood" NA
+"66" "rs10793565" "TMEM72-AS1" "." "Heart_Atrial_Appendage, Whole_Blood" NA
+"67" "rs10803467" "C1orf196" "." "." NA
+"68" "rs10805383" "RP11-158J3.2" "." "." NA
+"69" "rs10810636" "BNC2" "." "." NA
+"70" "rs10813766" "DOCK8" "." "." NA
+"71" "rs10816971" "TXNDC8" "." "." NA
+"72" "rs10820606" "ZNF367" "." "." NA
+"73" "rs10822055" "PRKG1" "." "." NA
+"74" "rs10829476" "RP11-442O18.3" "." "." NA
+"75" "rs10831155" "GRM5" "." "." NA
+"76" "rs10846305" "SLC15A5" "." "." NA
+"77" "rs10856783" "AC010880.1" "." "." NA
+"78" "rs10868590" "DAPK1" "." "." NA
+"79" "rs10876550" "RP11-968A15.8" "." "Whole_Blood, Muscle_Skeletal" NA
+"80" "rs10882925" "RRP12" "." "Heart_Left_Ventricle, Muscle_Skeletal, Whole_Blood" NA
+"81" "rs10888260" "TRIM58" "." "Whole_Blood, Nerve_Tibial" NA
+"82" "rs10900219" "MARCH8" "." "Whole_Blood, Brain_Cerebellum, Skin_Sun_Exposed_Lower_leg" NA
+"83" "rs10903790" "RP11-526P5.2" "." "." NA
+"84" "rs10906026" "C10orf47" "." "Whole_Blood, Testis" NA
+"85" "rs10911246" "LAMC1" "." "Nerve_Tibial, Lung, Whole_Blood" NA
+"86" "rs10929234" "MLPH" "." "Esophagus_Mucosa, Skin_Sun_Exposed_Lower_leg, Thyroid" NA
+"87" "rs10930948" "UBE2E3" "." "Thyroid" NA
+"88" "rs10931982" "AC007358.1" "." "." NA
+"89" "rs10936143" "RSRC1" "." "Lymphoblastoid_EUR_genelevel, Artery_Tibial, Nerve_Tibial" NA
+"90" "rs10937226" "SENP2" "." "Whole_Blood" NA
+"91" "rs10937779" "RP11-367J11.2" "MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"92" "rs10938397" "RP11-362I1.1" "." "." NA
+"93" "rs10945089" "RP11-406O16.1" "." "Testis" NA
+"94" "rs10946388" "CDKAL1" "." "Thyroid" NA
+"95" "rs10956487" "RP11-419K12.1" "." "Esophagus_Mucosa, Skin_Sun_Exposed_Lower_leg" NA
+"96" "rs10964557" "MLLT3" "." "." NA
+"97" "rs10970979" "DOCK8" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"98" "rs11004998" "PCDH15" "." "." NA
+"99" "rs11021347" "MTMR2" "." "Muscle_Skeletal, Skin_Sun_Exposed_Lower_leg, Skin_Not_Sun_Exposed_Suprapubic" NA
+"100" "rs11023895" "SOX6" "." "." NA
+"101" "rs11024035" "C11orf58" "." "." NA
+"102" "rs11036562" "HBG2" "." "Lung, Whole_Blood" NA
+"103" "rs11044056" "PIK3C2G" "." "." NA
+"104" "rs11049337" "CCDC91" "." "Muscle_Skeletal" NA
+"105" "rs11052101" "FGD4" "." "Whole_Blood" NA
+"106" "rs11061965" "ADIPOR2" "." "Nerve_Tibial" NA
+"107" "rs11070742" "ATP8B4" "." "." NA
+"108" "rs11071720" "TPM1" "." "Whole_Blood" NA
+"109" "rs11107120" "SOCS2" "K562,CMYC,Stanford,IFNg30;K562,POL2,Stanford,IFNa30;K562,POL2,Stanford,IFNa6h;K562,POL2,Stanford,IFNg6h" "." NA
+"110" "rs11120633" "USH2A" "." "." NA
+"111" "rs11122517" "PGBD5" "." "." NA
+"112" "rs111227771" "PLCXD3" "." "." NA
+"113" "rs111265935" "RP11-717H13.1" "." "." NA
+"114" "rs111339513" "MFHAS1" "." "." NA
+"115" "rs11134742" "SH3PXD2B" "." "." NA
+"116" "rs11135050" "EBF1" "." "." NA
+"117" "rs111365308" "AC016682.1" "." "." NA
+"118" "rs111371332" "AC113208.1" "." "." NA
+"119" "rs111469507" "RNU105C" "." "." NA
+"120" "rs111510758" "SAMSN1" "." "." NA
+"121" "rs11155108" "MIR3668" "." "." NA
+"122" "rs111571429" "GABRB1" "." "Esophagus_Mucosa" NA
+"123" "rs111582045" "RP1-149C7.1" "." "." NA
+"124" "rs111600043" "RNU1-14P" "." "." NA
+"125" "rs11161147" "SNRPN" "." "." NA
+"126" "rs11161271" "RP11-1084I9.1" "." "." NA
+"127" "rs111631066" "GYPC" "." "." NA
+"128" "rs111655465" "ZKSCAN2" "." "." NA
+"129" "rs111657448" "RP11-164J13.1" "." "Whole_Blood" NA
+"130" "rs111688732" "GS1-39E22.1" "." "." NA
+"131" "rs111692050" "PCSK6" "." "." NA
+"132" "rs11170002" "RP1-288H2.2" "." "." NA
+"133" "rs11170394" "SPRYD3" "." "Pituitary, Whole_Blood" NA
+"134" "rs111723635" "AC073316.1" "." "." NA
+"135" "rs111743191" "CTC-305H11.1" "." "." NA
+"136" "rs111752253" "TDP1" "." "." NA
+"137" "rs11175919" "HMGA2" "." "." NA
+"138" "rs111764866" "TLL1" "." "." NA
+"139" "rs111774930" "SUPT3H" "." "." NA
+"140" "rs111779523" "CNTN4" "." "." NA
+"141" "rs111814466" "MFHAS1" "." "." NA
+"142" "rs111828298" "CCL28" "." "." NA
+"143" "rs111844837" "CCDC64" "." "." NA
+"144" "rs11185556" "AC093627.9" "." "." NA
+"145" "rs111880648" "RET" "." "." NA
+"146" "rs11190141" "NKX2-3" "." "Colon_Transverse, Spleen" NA
+"147" "rs111929596" "CTD-2281E23.1" "." "." NA
+"148" "rs111953546" "SH2D4B" "." "." NA
+"149" "rs112005871" "PIGK" "." "." NA
+"150" "rs112006186" "KCNIP4" "A549,CTCF,HudsonAlpha,EtOH_0.02pct" "." NA
+"151" "rs11203124" "SLC16A12" "." "." NA
+"152" "rs112037277" "SYN3" "." "." NA
+"153" "rs112044950" "NAALADL2" "." "." NA
+"154" "rs112050269" "RAB8A" "." "Adipose_Subcutaneous, Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts" NA
+"155" "rs112055941" "EDARADD" "." "." NA
+"156" "rs11206574" "U6" "." "." NA
+"157" "rs112084973" "Y_RNA" "." "." NA
+"158" "rs112092228" "SEL1L3" "." "." NA
+"159" "rs112093854" "AC027119.1" "." "." NA
+"160" "rs112114811" "RP11-174J11.1" "." "." NA
+"161" "rs112118500" "CITED4" "." "." NA
+"162" "rs11214758" "USP28" "." "Nerve_Tibial, Lymphoblastoid_EUR_exonlevel" NA
+"163" "rs11217223" "RP11-99C10.1" "." "." NA
+"164" "rs112183400" "FHOD3" "." "." NA
+"165" "rs11222391" "SNX19" "." "Whole_Blood, Muscle_Skeletal, Stomach" NA
+"166" "rs11225152" "YAP1" "." "." NA
+"167" "rs112305366" "ARL17B" "." "Whole_Blood, Adipose_Subcutaneous" NA
+"168" "rs112316758" "C9orf163" "." "." NA
+"169" "rs112348322" "SYNPO2" "." "." NA
+"170" "rs11236451" "GDPD5" "." "Whole_Blood" NA
+"171" "rs112395759" "RP11-457K10.1" "." "." NA
+"172" "rs112498752" "RP11-427M20.1" "." "." NA
+"173" "rs11250625" "ADARB2" "." "." NA
+"174" "rs11253511" "LARP4B" "." "Lymphoblastoid_EUR_exonlevel, Nerve_Tibial, Lymphoblastoid_EUR_genelevel" NA
+"175" "rs11257460" "PFKFB3" "A549,POL2,HudsonAlpha,DEX_100nM;A549,POL2,HudsonAlpha,EtOH_0.02pct" "." NA
+"176" "rs11259151" "FAM107B" "." "Lymphoblastoid_EUR_exonlevel" NA
+"177" "rs11261474" "CA3" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"178" "rs11265621" "SHE" "." "Adipose_Visceral_Omentum, Thyroid, Testis" NA
+"179" "rs1126809" "TYR" "." "." NA
+"180" "rs112829579" "HRSP12" "." "." NA
+"181" "rs112835958" "RP11-1029J19.2" "." "." NA
+"182" "rs112892750" "RP11-260O18.1" "." "." NA
+"183" "rs112987863" "RP11-437J19.1" "." "." NA
+"184" "rs113046074" "AC134698.1" "." "." NA
+"185" "rs113070463" "TMPRSS11D" "." "." "https://en.wikipedia.org/wiki/TMPRSS11D. This protein may play some biological role in the host defense system on the mucous membrane (粘膜) independently of or in cooperation with other substances in airway (气管) mucous or bronchial (支气管) secretions."
+"186" "rs113085271" "BCL9" "." "." NA
+"187" "rs113086400" "RHOF" "." "." NA
+"188" "rs113154393" "POU6F2" "." "." NA
+"189" "rs113278716" "SNCAIP" "." "." NA
+"190" "rs113339019" "GALNT9" "." "." NA
+"191" "rs1133400" "INPP5A" "." "Brain_FCTX, Brain_OCTX, Brain_aveALL" NA
+"192" "rs113341996" "RP11-566K8.2" "." "." NA
+"193" "rs113397149" "MCF2L" "." "." NA
+"194" "rs113420128" "AC079612.2" "." "." NA
+"195" "rs113438248" "C2orf55" "." "." NA
+"196" "rs113457380" "GALNT14" "." "." NA
+"197" "rs113469713" "RP11-168C9.1" "." "." NA
+"198" "rs113508841" "RP13-143G15.4" "." "." NA
+"199" "rs113529123" "UNC13A" "." "." NA
+"200" "rs113658632" "RP11-171A24.2" "." "." NA
+"201" "rs1136948" "TRAP1" "." "Lymphoblastoid_EUR_exonlevel, Heart_Atrial_Appendage, Esophagus_Muscularis" NA
+"202" "rs113698623" "AF131217.1" "." "." NA
+"203" "rs113712766" "GINS2" "T-47D,P300,HudsonAlpha,DMSO_0.02pct" "." NA
+"204" "rs1137134" "RP11-3L8.3" "." "Brain_Putamen_basal_ganglia, Brain_Caudate_basal_ganglia" NA
+"205" "rs113717650" "AC002386.1" "." "." NA
+"206" "rs113824284" "TBC1D9" "." "." NA
+"207" "rs113829802" "MIR548AB" "." "." NA
+"208" "rs113851554" "MEIS1" "." "." NA
+"209" "rs113852006" "RP11-68L1.2" "." "." NA
+"210" "rs113881833" "RP11-43F13.3" "." "Cells_Transformed_fibroblasts" NA
+"211" "rs113931125" "AVL9" "." "Nerve_Tibial, Testis, Whole_Blood" NA
+"212" "rs114086277" "ERVMER61-1" "." "." NA
+"213" "rs114116177" "ZNF496" "." "." NA
+"214" "rs114129619" "ASIC5" "." "." NA
+"215" "rs114142949" "VEGFA" "A549,USF1,HudsonAlpha,DEX_100nM;A549,USF1,HudsonAlpha,EtOH_0.02pct;K562,CMYC,Stanford,IFNa6h" "." NA
+"216" "rs114165349" "ARID1A" "HepG2,POL2,Stanford,forskolin" "Esophagus_Mucosa, Skin_Sun_Exposed_Lower_leg, Esophagus_Muscularis" NA
+"217" "rs114175048" "KNDC1" "." "." NA
+"218" "rs114197338" "RP11-625I7.1" "." "." NA
+"219" "rs114209822" "RP11-475B2.1" "." "." NA
+"220" "rs114260065" "RN5S117" "." "." NA
+"221" "rs114297139" "RPAP2" "." "." NA
+"222" "rs114313003" "EIF2B5" "." "." NA
+"223" "rs114371923" "SMYD3" "." "." NA
+"224" "rs114377606" "RP11-445O3.3" "." "." NA
+"225" "rs114406136" "MAS1L" "." "Artery_Tibial" NA
+"226" "rs114467488" "RP11-118N24.3" "." "." NA
+"227" "rs114521441" "DST" "." "Heart_Left_Ventricle, Lung, Testis" NA
+"228" "rs114544034" "GLS" "." "." NA
+"229" "rs114631747" "snoZ40" "." "." NA
+"230" "rs11465538" "IL17F" "." "." NA
+"231" "rs114660144" "GFRA1" "." "." NA
+"232" "rs114679303" "AC018685.1" "." "." NA
+"233" "rs114694170" "CTC-454M9.1" "K562,CMYC,Stanford,IFNg30" "." NA
+"234" "rs114761033" "Metazoa_SRP" "." "." NA
+"235" "rs114762018" "LSAMP" "." "." NA
+"236" "rs114831674" "MOBP" "." "." NA
+"237" "rs114922630" "RP13-977J11.2" "." "." NA
+"238" "rs11493495" "OR52B4" "." "." NA
+"239" "rs114947869" "RP11-415C15.2" "." "." NA
+"240" "rs114956717" "SMYD3" "." "." NA
+"241" "rs114958652" "EPHB1" "." "." NA
+"242" "rs114965909" "AC008706.1" "." "Testis" NA
+"243" "rs114976075" "EPHA6" "." "." NA
+"244" "rs115008360" "INTU" "." "." NA
+"245" "rs115014961" "STOML3" "." "." NA
+"246" "rs115016318" "U1" "." "." NA
+"247" "rs115018790" "PELO" "." "Cells_Transformed_fibroblasts, Whole_Blood, Skin_Sun_Exposed_Lower_leg" NA
+"248" "rs115047626" "HLA-G" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "." "https://en.wikipedia.org/wiki/PELO. The encoded protein may have a role in spermatogenesis, cell cycle control, and in meiotic cell division."
+"249" "rs115064799" "EDAR" "." "." NA
+"250" "rs115083479" "RP5-1066H13.4" "." "." NA
+"251" "rs115088446" "AC007106.1" "." "." NA
+"252" "rs115153909" "AC006227.1" "." "." NA
+"253" "rs115171563" "MIR145" "." "." NA
+"254" "rs115187973" "IQCJ-SCHIP1" "." "." NA
+"255" "rs115223236" "METAP1D" "." "." NA
+"256" "rs115235513" "HCG17" "." "." NA
+"257" "rs115237855" "AC091878.1" "." "." NA
+"258" "rs115250888" "CDC123" "." "." NA
+"259" "rs115284511" "CETN1" "." "." NA
+"260" "rs115290480" "PARD3B" "." "." NA
+"261" "rs11531456" "AGR3" "." "." NA
+"262" "rs115337835" "C1orf101" "." "." NA
+"263" "rs115425386" "INPP4A" "." "." NA
+"264" "rs11545016" "PDLIM2" "A549,POL2,HudsonAlpha,EtOH_0.02pct;ECC-1,POL2,HudsonAlpha,DMSO_0.02pct" "." NA
+"265" "rs115464928" "TPRG1" "." "." NA
+"266" "rs115491988" "AC068292.1" "." "." NA
+"267" "rs115503786" "AC026188.1" "." "." NA
+"268" "rs115511508" "RASSF2" "." "." NA
+"269" "rs115516304" "RP11-475N22.4" "." "." NA
+"270" "rs115629016" "CTD-2012I17.1" "." "." NA
+"271" "rs11567699" "IL7R" "." "." NA
+"272" "rs115684294" "MORC1" "." "." NA
+"273" "rs115684722" "Metazoa_SRP" "." "." NA
+"274" "rs11571302" "CTLA4" "." "Testis" NA
+"275" "rs115746533" "LIMD1" "." "." NA
+"276" "rs11577369" "SCARNA16" "." "Thyroid, Brain_Nucleus_accumbens_basal_ganglia, Brain_Caudate_basal_ganglia" NA
+"277" "rs115803158" "AC016575.1" "." "." NA
+"278" "rs115818594" "AC011343.1" "A549,GR,HudsonAlpha,DEX_50nM" "." NA
+"279" "rs115823700" "FSTL5" "." "." NA
+"280" "rs115846097" "CTNNA1" "." "." NA
+"281" "rs1158570" "ASAP1" "." "." NA
+"282" "rs115860521" "LINC00519" "." "." NA
+"283" "rs115861013" "CSNK1G3" "." "." NA
+"284" "rs115899080" "KCTD1" "." "." NA
+"285" "rs115914233" "AC108105.1" "." "." NA
+"286" "rs115917043" "BSDC1" "." "." NA
+"287" "rs115943740" "LRRTM4" "." "." NA
+"288" "rs115975233" "U6" "." "." NA
+"289" "rs11598538" "TCERG1L" "." "." NA
+"290" "rs116008029" "AC133109.1" "." "." NA
+"291" "rs116035099" "CTD-2134P3.1" "." "." NA
+"292" "rs11604127" "ODF3" "." "Lymphoblastoid_EUR_exonlevel, Artery_Tibial, Adipose_Subcutaneous" NA
+"293" "rs11608018" "ETS1" "." "." NA
+"294" "rs116085594" "RP1-137K24.1" "." "." NA
+"295" "rs11611138" "TMEM120B" "." "." NA
+"296" "rs11612642" "NINJ2" "." "Whole_Blood" NA
+"297" "rs116126990" "SLC1A3" "." "." NA
+"298" "rs116150890" "snoU13" "." "." NA
+"299" "rs11615716" "FGF6" "." "Artery_Tibial" NA
+"300" "rs11615745" "WDR66" "." "." NA
+"301" "rs116181955" "FRYL" "." "Muscle_Skeletal" NA
+"302" "rs116222284" "CDH9" "." "." NA
+"303" "rs11627485" "FNTB" "." "Skin_Sun_Exposed_Lower_leg, Cells_Transformed_fibroblasts, Muscle_Skeletal" NA
+"304" "rs116283987" "GMPS" "." "." NA
+"305" "rs11630497" "RP11-797A18.4" "." "Muscle_Skeletal, Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"306" "rs116316941" "AC009478.1" "." "." NA
+"307" "rs116329140" "KCTD16" "." "." NA
+"308" "rs11638316" "RP11-624L4.1" "." "." NA
+"309" "rs116411941" "RN5S178" "." "." NA
+"310" "rs116427684" "RP11-883A18.3" "." "." NA
+"311" "rs11643207" "TMEM170A" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;HepG2,CEBPB,Stanford,forskolin;K562,CMYC,Stanford,IFNa30;K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;K562,IRF1,Stanford,IFNg6h;MCF-7,CMYC,UT-A,estrogen;MCF-7,CMYC,UT-A,vehicle;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle;T-47D,CTCF,HudsonAlpha,DMSO_0.02pct" "Cells_Transformed_fibroblasts, Thyroid, Esophagus_Mucosa" NA
+"312" "rs11643568" "RP11-53L24.1" "." "." NA
+"313" "rs116439145" "NFATC2" "." "." NA
+"314" "rs116470470" "DENND2C" "." "Brain_Cerebellum" NA
+"315" "rs11647250" "SEC14L5" "." "Whole_Blood, Heart_Left_Ventricle" NA
+"316" "rs11649220" "RP11-863P13.3" "." "." NA
+"317" "rs116504153" "RP4-663N10.1" "." "." NA
+"318" "rs11654428" "GPATCH8" "." "." NA
+"319" "rs11657315" "YWHAE" "." "." NA
+"320" "rs116577981" "GRXCR1" "." "." NA
+"321" "rs116581888" "AC062032.1" "ECC-1,ERALPHA_A,HudsonAlpha,Estradiol_10nM;ECC-1,ERALPHA_A,HudsonAlpha,Genistein_100nM;ECC-1,GR,HudsonAlpha,DEX_100nM" "." NA
+"322" "rs116606963" "7SK" "." "." NA
+"323" "rs116618130" "REEP1" "." "." NA
+"324" "rs11663932" "GALNT1" "." "." NA
+"325" "rs116672762" "PARD3B" "." "." NA
+"326" "rs11670030" "ADAMTS10" "." "." NA
+"327" "rs11672387" "MAST1" "." "Muscle_Skeletal" NA
+"328" "rs116723896" "ST6GALNAC1" "." "." NA
+"329" "rs116729589" "RP11-18H21.1" "." "." NA
+"330" "rs116730706" "snoU13" "." "." NA
+"331" "rs116757305" "SZT2" "." "." NA
+"332" "rs116765583" "GADL1" "." "." NA
+"333" "rs116780325" "VGLL3" "." "." NA
+"334" "rs1167848" "IL20RA" "ECC-1,GR,HudsonAlpha,DEX_100nM;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct;T-47D,GATA3,HudsonAlpha,DMSO_0.02pct;T-47D,P300,HudsonAlpha,DMSO_0.02pct" "." NA
+"335" "rs116789647" "GRIA2" "." "." NA
+"336" "rs116805470" "CTB-1I21.1" "." "." NA
+"337" "rs116808781" "RP3-448I9.2" "." "." NA
+"338" "rs116809521" "RP11-468D11.1" "." "." NA
+"339" "rs116852363" "CTD-2015H3.1" "." "." NA
+"340" "rs116853028" "DZANK1" "." "." NA
+"341" "rs116893219" "TTC9" "." "." NA
+"342" "rs116912853" "PSMG2" "." "." NA
+"343" "rs116925180" "ATP8A2" "." "." NA
+"344" "rs11693078" "AC108463.1" "." "Lung" NA
+"345" "rs116946737" "DYNC1I1" "." "." NA
+"346" "rs116961872" "PCSK6" "." "." NA
+"347" "rs11696241" "SLC23A2" "." "." NA
+"348" "rs116987865" "CDH2" "." "." NA
+"349" "rs116989854" "CYFIP1" "." "." NA
+"350" "rs117010490" "snoU13" "." "." NA
+"351" "rs11701383" "RUNX1" "." "." NA
+"352" "rs117025774" "PDE10A" "." "." NA
+"353" "rs117060081" "PAPD5" "." "." NA
+"354" "rs117062316" "MIR3924" "." "." NA
+"355" "rs117063220" "FAM124A" "MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "." NA
+"356" "rs117075165" "RP11-760D2.1" "." "." NA
+"357" "rs117078929" "ZCWPW1" "." "Muscle_Skeletal, Skin_Sun_Exposed_Lower_leg, Lung" NA
+"358" "rs117078983" "AC008085.1" "." "." NA
+"359" "rs117102083" "IPO8" "." "." NA
+"360" "rs117109095" "AL354775.1" "." "." NA
+"361" "rs117145787" "RP11-439I14.2" "." "." NA
+"362" "rs117148236" "RBBP8" "." "." NA
+"363" "rs117192087" "RP4-725G10.1" "." "." NA
+"364" "rs11720285" "FLNB" "." "Whole_Blood" NA
+"365" "rs117211722" "C9orf85" "." "." NA
+"366" "rs117213448" "SNORA68" "." "." NA
+"367" "rs117214546" "RP11-384P14.1" "." "." NA
+"368" "rs117216105" "AP000946.2" "." "." NA
+"369" "rs117222157" "RP5-945F2.3" "." "." NA
+"370" "rs117225239" "CSMD3" "." "." NA
+"371" "rs117235488" "RP11-744K17.2" "." "." NA
+"372" "rs117254864" "FAM189A2" "." "." NA
+"373" "rs117263930" "Metazoa_SRP" "T-47D,GATA3,HudsonAlpha,DMSO_0.02pct" "." NA
+"374" "rs117273566" "CHODL" "." "." NA
+"375" "rs117275849" "OSBPL1A" "." "." NA
+"376" "rs117294867" "RP11-114H23.1" "." "." NA
+"377" "rs117306270" "C18orf34" "." "." NA
+"378" "rs11731023" "RP11-292D4.3" "." "." NA
+"379" "rs117313862" "NTM" "." "." NA
+"380" "rs117321028" "MIR3144" "." "." NA
+"381" "rs11732231" "ARHGAP24" "." "." NA
+"382" "rs117325804" "IFITM2" "K562,STAT2,Stanford,IFNa6h;MCF-7,CTCF,UT-A,vehicle;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "Esophagus_Mucosa, Artery_Tibial, Esophagus_Muscularis" NA
+"383" "rs117334031" "MTMR3" "." "." NA
+"384" "rs117339398" "PRICKLE1" "." "." NA
+"385" "rs11734099" "KIAA0232" "." "." NA
+"386" "rs117342671" "RP11-90J7.3" "." "." NA
+"387" "rs117354323" "CCDC59" "." "." NA
+"388" "rs117361910" "RP3-495K2.1" "." "." NA
+"389" "rs117368538" "IZUMO3" "." "." NA
+"390" "rs117375959" "Y_RNA" "." "." NA
+"391" "rs117387149" "NTN4" "." "." NA
+"392" "rs117434279" "RP11-47G4.2" "." "." NA
+"393" "rs11743960" "ADAMTS6" "." "." NA
+"394" "rs117443940" "RRAS2" "." "." NA
+"395" "rs117451808" "AQP9" "." "." NA
+"396" "rs117476427" "MYO16" "." "." NA
+"397" "rs117487536" "RP11-760D2.5" "." "." NA
+"398" "rs117490930" "CNTN5" "." "." NA
+"399" "rs11749980" "MAST4" "." "." NA
+"400" "rs117501509" "RP11-161I6.2" "." "." NA
+"401" "rs11750360" "CDH6" "." "." NA
+"402" "rs117505015" "COL4A2" "." "." NA
+"403" "rs11751245" "RN5S225" "." "." NA
+"404" "rs11751389" "RP1-80B9.2" "." "." NA
+"405" "rs117548502" "CCBE1" "." "." NA
+"406" "rs11756438" "CEP85L" "." "Whole_Blood, Artery_Tibial, Lymphoblastoid_EUR_exonlevel" NA
+"407" "rs11757657" "MMS22L" "." "." NA
+"408" "rs11761064" "AC073094.4" "." "." NA
+"409" "rs117649905" "RP11-368L12.1" "." "." NA
+"410" "rs11766324" "CPED1" "." "Cells_Transformed_fibroblasts" NA
+"411" "rs117670693" "RNY3P4" "." "." NA
+"412" "rs117682550" "ELK3" "." "." NA
+"413" "rs117704633" "SDK1" "." "." "https://en.wikipedia.org/wiki/SDK1. The protein encoded by this gene is a member of the immunoglobulin (免疫球蛋白) superfamily."
+"414" "rs117723596" "CNTN5" "." "." NA
+"415" "rs11772631" "RP11-760D2.5" "." "." NA
+"416" "rs1177290" "KIAA1841" "." "Lymphoblastoid_EUR_exonlevel" NA
+"417" "rs117736926" "TRPM3" "." "." NA
+"418" "rs117758808" "TMEM132B" "." "." NA
+"419" "rs117760438" "RP11-103H7.1" "." "." NA
+"420" "rs117762159" "RGS6" "." "." NA
+"421" "rs117781676" "LRRC43" "." "." NA
+"422" "rs117785622" "SFSWAP" "." "." NA
+"423" "rs117806350" "SNORD36" "." "." NA
+"424" "rs117846090" "RP11-123B3.2" "." "." NA
+"425" "rs117854756" "U6" "." "." NA
+"426" "rs117921599" "LHFPL3" "." "." NA
+"427" "rs117923771" "RP11-400K9.4" "." "." NA
+"428" "rs117947815" "RP11-168K9.2" "." "." NA
+"429" "rs117949397" "RNU105C" "." "." NA
+"430" "rs117956062" "AP000946.2" "." "." NA
+"431" "rs117958593" "LARGE" "." "." NA
+"432" "rs117983060" "GALNT9" "." "." NA
+"433" "rs118013485" "SLC7A10" "." "." NA
+"434" "rs118017259" "FAM101A" "." "." NA
+"435" "rs118020390" "ZNF512B" "." "." NA
+"436" "rs118023697" "snoU13" "." "." NA
+"437" "rs118032446" "USP25" "." "." NA
+"438" "rs118034038" "DLG2" "." "." NA
+"439" "rs1180343" "RP11-69E11.4" "." "Whole_Blood, Esophagus_Muscularis" NA
+"440" "rs118045022" "RP11-78F17.1" "." "." NA
+"441" "rs118054125" "ASIC2" "." "." NA
+"442" "rs118071835" "PCSK2" "." "." NA
+"443" "rs118095410" "TRAV22" "." "." NA
+"444" "rs118097220" "SLC43A2" "." "." NA
+"445" "rs118117440" "RP11-20E24.1" "." "." NA
+"446" "rs118133732" "SGK3" "." "." NA
+"447" "rs118142812" "OSBPL8" "." "." NA
+"448" "rs118143558" "RP11-760D2.5" "." "." NA
+"449" "rs118144878" "KRT8P11" "." "." NA
+"450" "rs11814603" "KIAA1462" "." "Artery_Aorta" NA
+"451" "rs118149249" "RTEL1" "." "." NA
+"452" "rs118161048" "BRSK2" "MCF-7,CTCF,UT-A,vehicle" "." NA
+"453" "rs11818987" "RP11-710A11.2" "." "." NA
+"454" "rs11824734" "MS4A4A" "." "Whole_Blood" NA
+"455" "rs11887534" "ABCG8" "HepG2,POL2,Stanford,forskolin" "." NA
+"456" "rs11906768" "SIRPA" "." "Whole_Blood" NA
+"457" "rs11908189" "ZNF831" "." "." NA
+"458" "rs11930710" "CPLX1" "." "Esophagus_Muscularis, Lymphoblastoid_EUR_exonlevel" NA
+"459" "rs11955153" "FGF18" "MCF-7,CTCF,UT-A,vehicle" "." NA
+"460" "rs11957435" "CEP120" "." "Lymphoblastoid_EUR_exonlevel" NA
+"461" "rs11978958" "Metazoa_SRP" "." "Cells_Transformed_fibroblasts, Lung, Skin_Sun_Exposed_Lower_leg" NA
+"462" "rs11997157" "RP11-317N12.1" "." "." NA
+"463" "rs12034740" "GNB1" "." "Lymphoblastoid_EUR_exonlevel, Skin_Sun_Exposed_Lower_leg" NA
+"464" "rs12038657" "PRDM16" "." "." NA
+"465" "rs12042908" "FPGT-TNNI3K" "." "." NA
+"466" "rs12047069" "SKI" "." "Esophagus_Muscularis, Muscle_Skeletal, Nerve_Tibial" NA
+"467" "rs12052715" "LY75" "." "Cells_Transformed_fibroblasts, Whole_Blood" NA
+"468" "rs12082979" "GS1-204I12.2" "." "." NA
+"469" "rs1209731" "NME7" "." "." NA
+"470" "rs12100961" "RP5-1021I20.2" "." "Muscle_Skeletal, Lung, Whole_Blood" NA
+"471" "rs12117364" "FHAD1" "." "." NA
+"472" "rs12121068" "ASTN1" "." "." NA
+"473" "rs12121947" "FMOD" "." "." NA
+"474" "rs12133690" "SMYD3" "." "." NA
+"475" "rs12134966" "DBT" "." "Adipose_Visceral_Omentum, Artery_Tibial, Thyroid" NA
+"476" "rs12137525" "MIR4418" "A549,GR,HudsonAlpha,DEX_50nM;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct;T-47D,GATA3,HudsonAlpha,DMSO_0.02pct;T-47D,P300,HudsonAlpha,DMSO_0.02pct" "." NA
+"477" "rs12140418" "CHIT1" "." "." NA
+"478" "rs12147822" "RP11-662J14.2" "." "." NA
+"479" "rs12150045" "ALOX15" "." "." NA
+"480" "rs12187943" "CDH18" "." "." NA
+"481" "rs12208103" "BEND3" "." "." NA
+"482" "rs12208753" "RP1-104O17.2" "." "." NA
+"483" "rs12209223" "FILIP1" "." "." NA
+"484" "rs12215712" "PI16" "." "Nerve_Tibial, Skin_Sun_Exposed_Lower_leg, Skin_Not_Sun_Exposed_Suprapubic" NA
+"485" "rs12243817" "PFKP" "." "." NA
+"486" "rs12277928" "CBL" "." "Whole_Blood, Esophagus_Muscularis" NA
+"487" "rs12293302" "RP11-396O20.2" "." "." NA
+"488" "rs1229984" "ADH1B" "." "." "https://en.wikipedia.org/wiki/ADH1B. This SNP is associated with the risk for alcohol dependence, alcohol use disorders and alcohol consumption, with the atypical genotype having reduced risk of alcoholism."
+"489" "rs12324931" "CYLD" "." "Whole_Blood" NA
+"490" "rs12350739" "BNC2" "." "." NA
+"491" "rs12352830" "GNA14" "." "Artery_Tibial, Nerve_Tibial, Esophagus_Muscularis" NA
+"492" "rs12368284" "COL2A1" "." "Lymphoblastoid_EUR_exonlevel, Brain_aveALL, Muscle_Skeletal" NA
+"493" "rs12404787" "GS1-122H1.2" "." "." NA
+"494" "rs12408688" "EPB41" "." "Esophagus_Mucosa, Testis" NA
+"495" "rs12408825" "FAM46C" "." "Colon_Sigmoid, Whole_Blood" NA
+"496" "rs12413816" "FRMD4A" "." "Pancreas" NA
+"497" "rs12422460" "ANO2" "." "." NA
+"498" "rs12434023" "NFKBIA" "MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "." NA
+"499" "rs12445420" "RP11-467J12.4" "." "." NA
+"500" "rs12449284" "ADCY9" "." "." NA
+"501" "rs12449930" "UBE2O" "." "Whole_Blood" NA
+"502" "rs12456471" "RP11-945C19.4" "." "." NA
+"503" "rs12461028" "KANK2" "." "Artery_Tibial, Whole_Blood" NA
+"504" "rs12466865" "SERTAD2" "." "Nerve_Tibial, Artery_Tibial, Adipose_Subcutaneous" NA
+"505" "rs12469907" "SLC8A1" "." "." NA
+"506" "rs12480649" "RP5-1031J8.1" "." "." NA
+"507" "rs12483325" "BAGE4" "." "." NA
+"508" "rs12492363" "FOXP1" "." "." NA
+"509" "rs12496214" "IQSEC1" "." "." NA
+"510" "rs12498514" "TLL1" "." "Lung" NA
+"511" "rs12505616" "RP11-545H22.1" "." "." NA
+"512" "rs12505677" "FAM53A" "." "." NA
+"513" "rs12512883" "FBXL5" "." "Whole_Blood, Adipose_Subcutaneous, Skin_Sun_Exposed_Lower_leg" NA
+"514" "rs1252096" "SORCS1" "." "." NA
+"515" "rs12523094" "GPR98" "." "Esophagus_Mucosa" NA
+"516" "rs12524255" "FAM46A" "." "." NA
+"517" "rs12525914" "PHACTR1" "." "Whole_Blood" NA
+"518" "rs12528131" "LINC00577" "HepG2,POL2,Stanford,forskolin" "Brain_Putamen_basal_ganglia" NA
+"519" "rs12528918" "RNU7-66P" "." "." NA
+"520" "rs12539300" "ZNF282" "." "Whole_Blood, Thyroid, Adrenal_Gland" NA
+"521" "rs12539767" "ESYT2" "." "Testis, Lymphoblastoid_EUR_exonlevel" NA
+"522" "rs12550567" "DLGAP2" "." "." NA
+"523" "rs12550930" "FOCAD" "." "." NA
+"524" "rs12554621" "ZNF618" "." "." NA
+"525" "rs12567136" "CLCN6" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"526" "rs12575636" "RP11-338H14.1" "." "." NA
+"527" "rs12582286" "RP11-554D14.6" "." "." NA
+"528" "rs12586381" "RP11-111A21.1" "." "." NA
+"529" "rs12593950" "CHRNB4" "." "Muscle_Skeletal" NA
+"530" "rs1260326" "GCKR" "." "Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts, Whole_Blood" NA
+"531" "rs12607330" "LIPG" "." "." NA
+"532" "rs12623763" "RP11-111J6.2" "." "." NA
+"533" "rs12632711" "FHIT" "." "." NA
+"534" "rs12637163" "PXK" "." "Whole_Blood, Muscle_Skeletal" NA
+"535" "rs12637414" "CRYBG3" "." "." NA
+"536" "rs12662365" "BCKDHB" "." "Esophagus_Mucosa" NA
+"537" "rs12671345" "AC015987.1" "." "." NA
+"538" "rs12674939" "RP11-136O12.2" "." "." NA
+"539" "rs12684581" "RP11-145E17.2" "." "." NA
+"540" "rs12692250" "ATG16L1" "." "Nerve_Tibial, Skin_Sun_Exposed_Lower_leg, Adipose_Subcutaneous" NA
+"541" "rs12692340" "AC107057.1" "." "." NA
+"542" "rs12698051" "DNAJB6" "." "." NA
+"543" "rs12698916" "AUTS2" "." "." NA
+"544" "rs12702375" "HUS1" "." "." NA
+"545" "rs12704868" "SHFM1" "." "." NA
+"546" "rs12714592" "AC108696.1" "." "." NA
+"547" "rs12716977" "Y_RNA" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"548" "rs12722976" "COL11A1" "." "." NA
+"549" "rs12725171" "C1orf177" "." "Esophagus_Mucosa" NA
+"550" "rs12725758" "TRMT13" "." "." NA
+"551" "rs12726010" "CAMTA1" "." "." NA
+"552" "rs12727686" "Metazoa_SRP" "." "." NA
+"553" "rs12760222" "RP11-317P15.4" "HeLa-S3,STAT1,Stanford,IFNg30;MCF-7,CMYC,UT-A,vehicle;MCF10A-Er-Src,POL2,Stanford,EtOH_0.01pct;T-47D,GATA3,HudsonAlpha,DMSO_0.02pct" "." NA
+"554" "rs12778126" "OGDHL" "." "Nerve_Tibial, Testis" NA
+"555" "rs12781734" "RSU1" "." "Whole_Blood" NA
+"556" "rs12785905" "KDM2A" "." "Testis, Artery_Tibial, Esophagus_Muscularis" NA
+"557" "rs1279395" "RP11-318G21.3" "." "." NA
+"558" "rs12821256" "RP11-13A1.1" "MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "." NA
+"559" "rs12830406" "LINC00485" "." "Brain_Cerebellar_Hemisphere" NA
+"560" "rs12856221" "COL4A2" "." "." NA
+"561" "rs12880237" "RAD51B" "." "." NA
+"562" "rs12911265" "RP11-624L4.1" "." "." NA
+"563" "rs12922061" "RP11-297L17.1" "." "." NA
+"564" "rs12938273" "VMP1" "." "Lymphoblastoid_EUR_exonlevel" NA
+"565" "rs12963780" "MIR4318" "." "." NA
+"566" "rs12972898" "ZNF132" "." "Cells_Transformed_fibroblasts, Nerve_Tibial, Thyroid" NA
+"567" "rs13032786" "MBD5" "." "Heart_Left_Ventricle, Testis" NA
+"568" "rs13038647" "RP11-290F20.2" "." "Whole_Blood" NA
+"569" "rs13040787" "ACTR5" "." "." NA
+"570" "rs13046639" "COL6A2" "." "Artery_Tibial" NA
+"571" "rs13067349" "EIF4E3" "." "Brain_Hippocampus" NA
+"572" "rs13073255" "RARB" "." "." NA
+"573" "rs13077732" "RP11-398A8.3" "." "Whole_Blood" NA
+"574" "rs13104198" "PPP3CA" "." "." NA
+"575" "rs13119514" "MMRN1" "." "." NA
+"576" "rs13120371" "SLC7A11" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"577" "rs13121270" "ANKRD50" "." "." NA
+"578" "rs13176077" "CSNK1G3" "." "." NA
+"579" "rs13188740" "RAI14" "." "." NA
+"580" "rs1320257" "CLSTN2" "." "." NA
+"581" "rs13226583" "CCL24" "." "." NA
+"582" "rs1323919" "PCDH9" "." "." NA
+"583" "rs13256023" "CHD7" "." "." NA
+"584" "rs13267216" "RP11-653B10.1" "." "." NA
+"585" "rs13267464" "DEFA5" "." "." NA
+"586" "rs13277892" "LYPLA1" "." "." NA
+"587" "rs13278983" "SLC45A4" "." "Whole_Blood" NA
+"588" "rs13281634" "PTK2" "." "Brain_Caudate_basal_ganglia, Testis" NA
+"589" "rs13286210" "KLF9" "MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "Whole_Blood" NA
+"590" "rs13302270" "PCSK5" "." "Brain_aveALL" NA
+"591" "rs13322435" "RP11-6F2.4" "." "Artery_Tibial, Testis" NA
+"592" "rs13388346" "EPHA4" "." "." NA
+"593" "rs13420169" "THSD7B" "." "Thyroid" NA
+"594" "rs13424581" "DOCK10" "." "." NA
+"595" "rs13435717" "RNF150" "." "." NA
+"596" "rs1343676" "SYT10" "." "." NA
+"597" "rs13439826" "RP11-1049H7.1" "." "." NA
+"598" "rs134638" "KREMEN1" "." "Heart_Left_Ventricle, Whole_Blood, Adipose_Subcutaneous" NA
+"599" "rs1354127" "SLC45A2" "MCF-7,CTCF,UT-A,vehicle" "." NA
+"600" "rs1355603" "RP11-291L15.2" "." "." NA
+"601" "rs1367117" "APOB" "." "Adipose_Subcutaneous, Heart" NA
+"602" "rs1375493" "ITGA4" "." "Whole_Blood" NA
+"603" "rs137886491" "SNORD65" "." "." NA
+"604" "rs137891884" "TSPEAR" "." "." NA
+"605" "rs137915595" "SLC12A8" "." "." NA
+"606" "rs137985857" "CTD-2349B8.1" "." "." NA
+"607" "rs138028125" "PAN3" "A549,POL2,HudsonAlpha,EtOH_0.02pct" "." NA
+"608" "rs138039785" "ZMYND8" "." "." NA
+"609" "rs138040724" "RP11-701P16.4" "." "." NA
+"610" "rs138041988" "AC096649.3" "." "." NA
+"611" "rs138062434" "RP11-512M8.5" "." "." NA
+"612" "rs138066259" "APBB2" "." "." NA
+"613" "rs138127954" "RP13-977J11.2" "A549,GR,HudsonAlpha,DEX_100nM;A549,GR,HudsonAlpha,DEX_50nM;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"614" "rs138165400" "RP11-419J16.1" "." "." NA
+"615" "rs1381957" "MEPE" "." "." NA
+"616" "rs138199504" "PTCHD2" "." "." NA
+"617" "rs138327472" "CRAMP1L" "." "." NA
+"618" "rs138355990" "RP11-805I24.1" "." "." NA
+"619" "rs138376361" "Y_RNA" "MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "." NA
+"620" "rs138461868" "CTD-2165H16.4" "." "." NA
+"621" "rs1384660" "LRP1B" "." "." NA
+"622" "rs138554428" "C20orf78" "." "." NA
+"623" "rs138570401" "GNPTG" "." "Thyroid, Esophagus_Mucosa, Whole_Blood" NA
+"624" "rs138602365" "EXO1" "." "." NA
+"625" "rs138615215" "SV2C" "." "." NA
+"626" "rs138617387" "FAM69C" "." "." NA
+"627" "rs138663731" "LPL" "." "." NA
+"628" "rs1386776" "AC018359.1" "." "." NA
+"629" "rs138715366" "YKT6" "." "." NA
+"630" "rs138781102" "RP11-849N15.5" "." "." NA
+"631" "rs138847462" "SLC16A12" "." "." NA
+"632" "rs138866201" "SV2A" "." "." NA
+"633" "rs138880754" "CADPS2" "." "." NA
+"634" "rs138931287" "RP11-284F21.8" "A549,GR,HudsonAlpha,DEX_5nM;A549,POL2,HudsonAlpha,EtOH_0.02pct;K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;K562,IRF1,Stanford,IFNg6h;MCF-7,CMYC,UT-A,estrogen;MCF10A-Er-Src,POL2,Stanford,EtOH_0.01pct;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct;T-47D,P300,HudsonAlpha,DMSO_0.02pct" "." NA
+"635" "rs138931544" "HNRNPC" "." "." NA
+"636" "rs139008618" "INTS9" "." "." NA
+"637" "rs139060983" "RP11-888D10.3" "MCF-7,CTCF,UT-A,vehicle" "." NA
+"638" "rs139096844" "EIF2B5" "MCF-7,CMYC,UT-A,vehicle;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"639" "rs139128351" "AC133680.1" "." "." NA
+"640" "rs139145626" "FIP1L1" "." "." NA
+"641" "rs139193452" "IGSF9" "." "." NA
+"642" "rs139245752" "RP1-23E21.2" "." "." NA
+"643" "rs139300742" "C4orf37" "." "." NA
+"644" "rs139312411" "RP4-575N6.5" "." "." NA
+"645" "rs139315362" "AC010149.4" "." "." NA
+"646" "rs139318757" "APOBEC3B-AS1" "." "." NA
+"647" "rs139332799" "POU6F2" "." "." NA
+"648" "rs139375848" "RP11-174J11.1" "." "." NA
+"649" "rs139408118" "Metazoa_SRP" "." "." NA
+"650" "rs139425945" "CTD-2281M20.1" "." "." NA
+"651" "rs139443231" "C5orf42" "." "." NA
+"652" "rs139447221" "TIAM1" "." "." NA
+"653" "rs139508335" "RP11-229C3.2" "." "." NA
+"654" "rs139517191" "Metazoa_SRP" "." "." NA
+"655" "rs139519616" "RP11-31E23.1" "." "." NA
+"656" "rs1396193" "FBXO8" "." "Thyroid, Stomach, Nerve_Tibial" NA
+"657" "rs139645101" "DLGAP1" "." "." NA
+"658" "rs139768427" "RP11-476K15.1" "." "." NA
+"659" "rs139795374" "RP11-178F10.3" "." "." NA
+"660" "rs1397974" "LYN" "." "." NA
+"661" "rs139801347" "LINC00305" "." "." NA
+"662" "rs139821907" "FARP1" "." "." NA
+"663" "rs139838164" "MYO10" "." "." NA
+"664" "rs139893407" "AC093611.1" "." "." NA
+"665" "rs139931083" "7SK" "." "." NA
+"666" "rs139976300" "RP11-35N6.1" "." "." NA
+"667" "rs139997191" "UBE2D3" "." "." NA
+"668" "rs140008388" "MIR31HG" "." "." NA
+"669" "rs140011729" "RNU6-54" "." "." NA
+"670" "rs140048460" "RP1-177I10.1" "." "." NA
+"671" "rs140077333" "BRSK1" "." "." NA
+"672" "rs140203572" "CTC-454M9.1" "." "." NA
+"673" "rs140210080" "RP11-64B16.3" "." "." NA
+"674" "rs140221783" "AC009120.4" "." "." NA
+"675" "rs140289533" "CSMD1" "." "." NA
+"676" "rs140289556" "UGT2A3" "." "." NA
+"677" "rs140323343" "SRPK2" "." "." NA
+"678" "rs140352266" "RP11-445O3.3" "." "." NA
+"679" "rs140359981" "PTPN18" "." "." NA
+"680" "rs140384296" "NLRP12" "." "." NA
+"681" "rs140397680" "MORN1" "." "Artery_Tibial" NA
+"682" "rs140422731" "AL449083.1" "." "." NA
+"683" "rs140483471" "CTSC" "MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "." NA
+"684" "rs140517977" "FBXL7" "." "." NA
+"685" "rs140542965" "CTA-282F2.3" "." "." NA
+"686" "rs140576156" "WI2-81516E3.1" "." "." NA
+"687" "rs1405876" "GRM3" "." "." NA
+"688" "rs140608325" "RN5S454" "." "." NA
+"689" "rs140667428" "PLSCR4" "." "." NA
+"690" "rs140735088" "RP11-168G22.3" "." "." NA
+"691" "rs140740446" "RP4-663N10.1" "." "." NA
+"692" "rs140791551" "LAMA1" "." "." NA
+"693" "rs140800460" "RP11-804N13.1" "." "." NA
+"694" "rs140900921" "AC116553.1" "." "." NA
+"695" "rs140940742" "RASA2" "." "." NA
+"696" "rs140974112" "RP11-526P5.2" "." "." NA
+"697" "rs140995706" "OSBPL8" "." "." NA
+"698" "rs141086017" "PITPNM2" "A549,POL2,HudsonAlpha,DEX_100nM;A549,POL2,HudsonAlpha,EtOH_0.02pct" "." NA
+"699" "rs141138229" "RN5S270" "." "." NA
+"700" "rs141149205" "TRPC4" "." "." NA
+"701" "rs141156232" "PJA2" "." "." NA
+"702" "rs141202135" "ZDHHC17" "." "." "https://en.wikipedia.org/wiki/ZDHHC17. ZDHHC17 has been shown to interact with Huntingtin (与亨廷顿病有关的蛋白)."
+"703" "rs1412234" "LINGO2" "." "." NA
+"704" "rs141334361" "PITPNM2" "." "." NA
+"705" "rs141353503" "USH2A" "." "." NA
+"706" "rs141360726" "RALYL" "." "." NA
+"707" "rs141373173" "FAM149A" "." "." NA
+"708" "rs141390096" "BCL2" "." "." "https://en.wikipedia.org/wiki/Bcl-2. It has clinical significance in lymphoma."
+"709" "rs141396583" "RALB" "K562,CJUN,Stanford,IFNg30;K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h" "." NA
+"710" "rs141415242" "AC008410.1" "." "." NA
+"711" "rs141416647" "LMBRD1" "." "." NA
+"712" "rs141446542" "RP11-446J8.1" "." "." NA
+"713" "rs1414660" "FMN2" "." "Artery_Tibial, Cells_Transformed_fibroblasts" NA
+"714" "rs141498464" "ERC2" "." "." NA
+"715" "rs141503969" "SDK1" "." "." "https://en.wikipedia.org/wiki/SDK1. The protein encoded by this gene is a member of the immunoglobulin (免疫球蛋白) superfamily."
+"716" "rs141520758" "TMX1" "." "." NA
+"717" "rs141539410" "snoU13" "." "." NA
+"718" "rs141617726" "CAMK2D" "." "." NA
+"719" "rs141625737" "ITPR1" "." "." NA
+"720" "rs141703487" "AC051649.16" "." "." NA
+"721" "rs141705054" "PGM2" "." "." NA
+"722" "rs141769798" "RN5S161" "." "." NA
+"723" "rs141884334" "Metazoa_SRP" "." "." NA
+"724" "rs141887299" "HERC2" "." "." "https://en.wikipedia.org/wiki/E3_ubiquitin_ligase_HERC2. SNPs of HERC2 are strongly associated with iris colour variability in humans. In particular, the rs916977 and rs12913832 SNPs have been reported as good predictors of this trait, and the latter is also significantly associated with skin and hair colour."
+"725" "rs141888952" "CTSZ" "GM12878,NFKB,Stanford,TNFa" "." NA
+"726" "rs141904717" "RP11-705O3.1" "." "." NA
+"727" "rs141931802" "PTPRF" "." "." NA
+"728" "rs141954133" "CSMD1" "." "." NA
+"729" "rs141966412" "PLEKHB2" "." "." NA
+"730" "rs141981217" "RP11-386M24.6" "." "." NA
+"731" "rs142052338" "CTD-2354A18.1" "." "." NA
+"732" "rs142074439" "ZNF718" "." "." NA
+"733" "rs142080216" "SMYD3" "." "." NA
+"734" "rs1421085" "FTO" "." "." "https://en.wikipedia.org/wiki/FTO_gene. Certain alleles of the FTO gene appear to be correlated with obesity in humans."
+"735" "rs142109324" "RP11-116N8.1" "." "." NA
+"736" "rs142118720" "AC068491.1" "." "." NA
+"737" "rs142133414" "RP11-123G5.1" "." "." NA
+"738" "rs142153307" "U6" "." "." NA
+"739" "rs142231732" "CTC-454M9.1" "." "." NA
+"740" "rs142236719" "RN5S231" "." "." NA
+"741" "rs142530481" "SLC14A2" "." "." NA
+"742" "rs142599545" "ID4" "." "." "https://en.wikipedia.org/wiki/ID4. This is inclusive of embryonic cellular growth, senescence, cellular differentiation, apoptosis, and as an oncogene in angiogenesis (胚胎细胞生长、衰老、细胞分化、细胞凋亡，以及作为血管生成中的致癌基因)."
+"743" "rs142657083" "NT5C3" "." "Thyroid" NA
+"744" "rs142666318" "FCRL4" "." "." NA
+"745" "rs142770295" "FREM2" "." "." NA
+"746" "rs142848030" "SIK3" "." "." NA
+"747" "rs142849987" "RP4-550H1.6" "." "." NA
+"748" "rs142885368" "ZNF644" "." "." NA
+"749" "rs142915099" "KIF22" "." "Esophagus_Mucosa, Skin_Sun_Exposed_Lower_leg" NA
+"750" "rs142952565" "RP11-654C22.2" "." "." NA
+"751" "rs142976219" "MIR551B" "." "." NA
+"752" "rs142998294" "MECOM" "." "." NA
+"753" "rs143000631" "GPR12" "." "." NA
+"754" "rs143033211" "SNORA7B" "." "." NA
+"755" "rs143036477" "AC102953.4" "." "." NA
+"756" "rs143040182" "PRDM10" "T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"757" "rs143061593" "GRIA4" "." "." NA
+"758" "rs143068319" "RP11-669M2.1" "." "." NA
+"759" "rs143120694" "Y_RNA" "." "." NA
+"760" "rs143376494" "RP5-945F2.3" "." "." NA
+"761" "rs143479231" "ATP13A4" "." "." NA
+"762" "rs143539750" "GFRAL" "." "." NA
+"763" "rs143551113" "SUGP1" "." "." NA
+"764" "rs143568246" "RP11-347L18.1" "." "." NA
+"765" "rs143586812" "AP001063.1" "." "." NA
+"766" "rs143683391" "AC007064.24" "." "." NA
+"767" "rs143739466" "AL589947.1" "." "." NA
+"768" "rs143749430" "OR4F6" "." "." NA
+"769" "rs143771361" "RP11-368L12.1" "." "." NA
+"770" "rs143787183" "PHYHIPL" "." "." NA
+"771" "rs143837938" "DBNDD1" "." "." NA
+"772" "rs143853528" "ZNF486" "." "." NA
+"773" "rs143858253" "RP11-834C11.3" "." "Muscle_Skeletal, Skin_Sun_Exposed_Lower_leg, Adipose_Subcutaneous" NA
+"774" "rs143859879" "CELF4" "." "." NA
+"775" "rs1438673" "WDR36" "." "Testis, Artery_Tibial" NA
+"776" "rs143874402" "RP11-204C23.1" "." "." NA
+"777" "rs144037699" "C6orf57" "." "." NA
+"778" "rs144075040" "RP11-125K10.4" "." "." NA
+"779" "rs144165285" "AL512640.1" "." "." NA
+"780" "rs144265705" "DNAH5" "." "." NA
+"781" "rs144290814" "PROKR2" "." "." NA
+"782" "rs144304102" "AL391417.1" "." "." NA
+"783" "rs144312944" "PDE8A" "." "." NA
+"784" "rs144330193" "CDH18" "." "." NA
+"785" "rs144351163" "DTNA" "." "." NA
+"786" "rs1444147" "RP1-149C7.1" "." "." NA
+"787" "rs144442616" "SGMS1" "." "." NA
+"788" "rs144593692" "NAALADL2" "." "." NA
+"789" "rs144611927" "RP11-538C21.1" "." "." NA
+"790" "rs144749950" "GK2" "." "." NA
+"791" "rs144763277" "KATNAL1" "." "." NA
+"792" "rs144800467" "LINC00200" "." "." NA
+"793" "rs144822019" "RP11-257A22.1" "." "." NA
+"794" "rs144825939" "NTSR1" "." "." NA
+"795" "rs144829224" "RP11-20E24.1" "." "." NA
+"796" "rs1449717" "RP11-566K8.2" "." "." NA
+"797" "rs144975211" "RP11-431K24.4" "." "." NA
+"798" "rs144985179" "RP5-1177M21.1" "." "." NA
+"799" "rs145003836" "RP11-439C8.1" "." "." NA
+"800" "rs145040363" "AC068858.1" "." "." NA
+"801" "rs145064354" "DET1" "." "." NA
+"802" "rs145087566" "RN5S181" "." "." NA
+"803" "rs145123864" "PCDH7" "." "." NA
+"804" "rs145144670" "RP5-988G17.1" "." "." NA
+"805" "rs145153924" "ERVMER61-1" "." "." NA
+"806" "rs145164351" "FXYD6" "." "." NA
+"807" "rs1451868" "CYP7B1" "." "." NA
+"808" "rs145264430" "SRFBP1" "." "." NA
+"809" "rs145304496" "RP11-531P20.1" "." "." NA
+"810" "rs145310101" "RN5S318" "." "." NA
+"811" "rs145311398" "U6" "." "." NA
+"812" "rs145315818" "SNORA75" "." "." NA
+"813" "rs145472755" "RP11-863P13.1" "MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr" "." NA
+"814" "rs145479105" "PLD5" "." "." NA
+"815" "rs145479249" "GIPC2" "." "." NA
+"816" "rs145498558" "FOLR3" "." "." NA
+"817" "rs145502992" "RP11-35O7.1" "." "." NA
+"818" "rs145542878" "HTATIP2" "." "." NA
+"819" "rs145544404" "RP11-44K6.3" "." "." NA
+"820" "rs145611933" "AKR1C2" "." "Colon_Transverse, Whole_Blood, Testis" NA
+"821" "rs145646764" "GJD4" "." "." NA
+"822" "rs145678603" "ABHD2" "." "." NA
+"823" "rs145707640" "NADSYN1" "." "." NA
+"824" "rs145765958" "RP11-124N3.3" "." "." NA
+"825" "rs145817867" "ZBTB8B" "." "." NA
+"826" "rs145870849" "LPO" "." "." "https://en.wikipedia.org/wiki/Lactoperoxidase#Function. The lactoperoxidase system plays an important role in the innate immune system."
+"827" "rs145902807" "SHB" "." "." NA
+"828" "rs145966756" "RP11-250B2.5" "." "." NA
+"829" "rs146033197" "RP11-240A16.1" "." "." NA
+"830" "rs146068055" "C7" "." "." NA
+"831" "rs146086833" "U6" "." "." NA
+"832" "rs146089378" "CTD-2165H16.4" "." "." NA
+"833" "rs1461107" "RP11-572M11.4" "." "Esophagus_Muscularis, Thyroid, Artery_Tibial" NA
+"834" "rs146127255" "RP11-21J7.1" "." "." NA
+"835" "rs146170334" "SCN11A" "." "." NA
+"836" "rs146219384" "GABRG3" "." "." NA
+"837" "rs146254219" "IMMP2L" "." "." NA
+"838" "rs146295193" "RP1-116K23.1" "." "." NA
+"839" "rs146301657" "AC079412.1" "." "." NA
+"840" "rs146353618" "NT5DC1" "." "Cells_Transformed_fibroblasts" NA
+"841" "rs146493434" "RP11-25I15.2" "." "." NA
+"842" "rs146495731" "U6" "." "." NA
+"843" "rs146497825" "RP11-3L23.2" "." "." NA
+"844" "rs146513559" "INPP4A" "." "." NA
+"845" "rs146643212" "RP11-93L9.1" "." "." NA
+"846" "rs146652741" "GPR12" "." "." NA
+"847" "rs146720328" "U6" "." "." NA
+"848" "rs146738493" "RN5S281" "." "." NA
+"849" "rs146746003" "RP11-12K22.1" "." "." NA
+"850" "rs146823191" "RP11-398A8.3" "." "." NA
+"851" "rs146845842" "PXDN" "." "." "https://en.wikipedia.org/wiki/PXDN. Mutations in PXDN are associated with microphthalmia (小眼症)."
+"852" "rs146870349" "TMEM120B" "." "." NA
+"853" "rs146899597" "STC1" "MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr" "." NA
+"854" "rs146980606" "SETX" "." "." NA
+"855" "rs1470296" "RP11-60A24.3" "." "." NA
+"856" "rs147052545" "STK32B" "." "." NA
+"857" "rs147053713" "RP11-21B23.1" "." "." NA
+"858" "rs147069896" "ADAMTS6" "." "." NA
+"859" "rs147217952" "SEC14L1" "." "." NA
+"860" "rs147233090" "U6" "." "Thyroid, Cells_Transformed_fibroblasts, Artery_Tibial" NA
+"861" "rs147247211" "STEAP3" "." "." NA
+"862" "rs147269509" "ODZ3" "." "." NA
+"863" "rs147300911" "ZFP42" "." "." NA
+"864" "rs147327669" "ABCA12" "." "." NA
+"865" "rs1473527" "TGFB2" "." "." NA
+"866" "rs147352878" "Metazoa_SRP" "." "." NA
+"867" "rs147370776" "OR5AK2" "." "." NA
+"868" "rs147399770" "RP11-258J10.1" "." "." NA
+"869" "rs147433313" "CTD-2316B1.2" "." "." NA
+"870" "rs1475587" "LTN1" "." "Heart_Left_Ventricle" NA
+"871" "rs147566133" "LRRTM4" "." "." NA
+"872" "rs147570330" "RAB40C" "K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct" "." NA
+"873" "rs147603896" "RP11-430H10.2" "." "." NA
+"874" "rs147630550" "7SK" "." "." NA
+"875" "rs147639397" "NTM" "." "." NA
+"876" "rs147646078" "LINC00276" "." "." NA
+"877" "rs147693836" "SLC19A1" "." "." NA
+"878" "rs147696309" "ZMYM1" "." "." NA
+"879" "rs147735338" "RP11-308K2.1" "." "." NA
+"880" "rs147760081" "RFX4" "." "." NA
+"881" "rs147784308" "WARS2" "." "." NA
+"882" "rs147845224" "SPOCK3" "." "." NA
+"883" "rs147909970" "TRPM2" "." "." NA
+"884" "rs147982520" "PCDH9" "." "." NA
+"885" "rs148061462" "AC009035.1" "." "." NA
+"886" "rs148123101" "RP11-389E17.1" "T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"887" "rs148129305" "RP1-90L14.1" "." "." NA
+"888" "rs148158958" "GMDS" "." "." NA
+"889" "rs148266735" "PRPF8" "." "." NA
+"890" "rs148284924" "WWC2" "." "." NA
+"891" "rs148407451" "MTTP" "." "." NA
+"892" "rs148416702" "NDUFAF4" "." "." NA
+"893" "rs148444866" "ZNF45" "." "." NA
+"894" "rs148499504" "U1" "." "." NA
+"895" "rs148512052" "C3orf33" "." "." NA
+"896" "rs148542315" "RP11-6F2.7" "." "Thyroid, Lymphoblastoid_EUR_genelevel, Esophagus_Mucosa" NA
+"897" "rs148587071" "USH2A" "." "." NA
+"898" "rs148634498" "HMGA2" "." "." NA
+"899" "rs148675406" "RP11-754N21.1" "." "." NA
+"900" "rs148683230" "PHF21A" "." "." NA
+"901" "rs148700991" "ZNF804A" "." "." NA
+"902" "rs148713124" "CD3G" "." "." NA
+"903" "rs148739346" "ST14" "." "." NA
+"904" "rs148751693" "MUC4" "." "." NA
+"905" "rs148796483" "CACNA1H" "." "." NA
+"906" "rs148806124" "TMC1" "." "." NA
+"907" "rs148830070" "AP000459.7" "." "." NA
+"908" "rs148861676" "TPBG" "." "." NA
+"909" "rs148898221" "RP11-17A1.2" "." "." NA
+"910" "rs148983831" "RP11-325B23.2" "." "." NA
+"911" "rs149002648" "TPBG" "." "." NA
+"912" "rs149023713" "SNX29P2" "." "." NA
+"913" "rs149031170" "TBX20" "." "." NA
+"914" "rs149045082" "CNTNAP3" "." "." NA
+"915" "rs149045173" "SFRP1" "." "." NA
+"916" "rs149066016" "ALK" "." "." NA
+"917" "rs149102640" "IGFL3" "." "." NA
+"918" "rs149175792" "CUL4A" "." "." NA
+"919" "rs149194664" "snosnR60_Z15" "." "." NA
+"920" "rs149219316" "DAB2" "." "." NA
+"921" "rs149267702" "CHL1-AS1" "." "." NA
+"922" "rs149332452" "UGT2B7" "." "." NA
+"923" "rs149341445" "RP11-122C5.1" "." "." NA
+"924" "rs149345807" "CHIT1" "." "." NA
+"925" "rs149357521" "VWC2" "." "." NA
+"926" "rs149368705" "GCFC2" "." "." NA
+"927" "rs149412961" "NSUN3" "." "." NA
+"928" "rs149463560" "SPRED1" "." "." NA
+"929" "rs149558721" "CTD-2066L21.3" "." "." NA
+"930" "rs149583679" "LHFPL3" "." "." NA
+"931" "rs149641962" "CSMD1" "." "." NA
+"932" "rs149705921" "SOX17" "." "." NA
+"933" "rs149710938" "PALLD" "." "." NA
+"934" "rs149716998" "U6" "." "." NA
+"935" "rs149720940" "SYNE2" "." "." NA
+"936" "rs149733282" "AP000472.2" "." "." NA
+"937" "rs149791865" "MAP2K3" "." "." NA
+"938" "rs149824840" "DPYD" "." "." NA
+"939" "rs149827063" "RP5-1027O15.1" "." "." NA
+"940" "rs149833176" "GALNT14" "." "." NA
+"941" "rs149849188" "U6" "." "." NA
+"942" "rs149877964" "GINS4" "." "." NA
+"943" "rs149942876" "RP11-412H9.2" "." "." NA
+"944" "rs149963264" "RP11-369E15.1" "." "." NA
+"945" "rs149972304" "ANKH" "." "." NA
+"946" "rs149994562" "RP11-701P16.4" "." "." NA
+"947" "rs150028104" "RP11-57J16.1" "." "." NA
+"948" "rs150070111" "AC134698.1" "." "." NA
+"949" "rs1500895" "KB-1047C11.2" "." "." NA
+"950" "rs150206406" "MIR4318" "." "." NA
+"951" "rs150241886" "FRAS1" "." "." NA
+"952" "rs150287782" "C20orf26" "." "." NA
+"953" "rs150329333" "XXbac-B461K10.4" "." "." NA
+"954" "rs150356992" "RP11-375F2.2" "." "." NA
+"955" "rs150358738" "ANHX" "." "Testis, Lymphoblastoid_EUR_exonlevel, Nerve_Tibial" NA
+"956" "rs150373016" "CTC-321K16.1" "." "." NA
+"957" "rs150479127" "ANKRD44" "." "." NA
+"958" "rs1504797" "RP11-586K2.1" "." "Thyroid, Cells_Transformed_fibroblasts, Adipose_Subcutaneous" NA
+"959" "rs150519022" "SALL1" "." "." NA
+"960" "rs150521015" "CTD-2540C19.1" "." "." NA
+"961" "rs150544891" "TRPS1" "." "." NA
+"962" "rs150596901" "ASB7" "." "." NA
+"963" "rs150626039" "MPO" "." "." NA
+"964" "rs150638501" "MORC1" "." "." NA
+"965" "rs150649461" "GFI1" "." "." "https://en.wikipedia.org/wiki/GFI1. It is important normal hematopoiesis (造血)."
+"966" "rs1506636" "WASL" "." "Skin_Sun_Exposed_Lower_leg, Thyroid" NA
+"967" "rs150667309" "AC012363.13" "." "." NA
+"968" "rs150784473" "Metazoa_SRP" "." "." NA
+"969" "rs150784967" "NOL6" "." "." NA
+"970" "rs150828861" "ARHGEF4" "." "." NA
+"971" "rs150853265" "Y_RNA" "." "." NA
+"972" "rs150878155" "AC004014.3" "." "." NA
+"973" "rs150887486" "C6orf118" "." "." NA
+"974" "rs150908167" "AC116562.2" "." "." NA
+"975" "rs150942000" "CEACAM16" "." "." NA
+"976" "rs150965870" "ZCCHC6" "." "." NA
+"977" "rs151016605" "KLHL3" "." "." NA
+"978" "rs151060914" "CTD-2316B1.2" "." "." NA
+"979" "rs151117033" "AC073479.1" "." "." NA
+"980" "rs151118046" "PDE6B" "." "." NA
+"981" "rs151127134" "RP11-686D16.1" "." "." NA
+"982" "rs151128711" "CLIP1" "." "." NA
+"983" "rs151159876" "ZNF516" "." "." NA
+"984" "rs151212196" "AY269186.2" "." "." NA
+"985" "rs151234" "CLN3" "." "Adipose_Visceral_Omentum, Whole_Blood, Lung" NA
+"986" "rs151262985" "RP11-118N24.3" "." "." NA
+"987" "rs151317916" "AP001476.3" "." "." NA
+"988" "rs151453" "TH1L" "." "." NA
+"989" "rs1531133" "CRIPT" "A549,POL2,HudsonAlpha,EtOH_0.02pct" "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"990" "rs1533710" "RP11-338E21.1" "." "." NA
+"991" "rs1537061" "LMO4" "." "." NA
+"992" "rs1537828" "FZD8" "." "." NA
+"993" "rs1540061" "CCBE1" "." "Brain_Cortex, Lung" NA
+"994" "rs1540310" "KCNS1" "." "Adrenal_Gland, Cells_Transformed_fibroblasts" NA
+"995" "rs1554821" "ELAVL2" "." "." NA
+"996" "rs1556659" "RP11-442O18.1" "." "." NA
+"997" "rs1561076" "THRB-IT1" "." "." NA
+"998" "rs1561102" "C4orf32" "." "Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts" NA
+"999" "rs1569419" "PRDM16" "." "." NA
+"1000" "rs157198" "RP1-212P9.3" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;K562,CMYC,Stanford,IFNa30;K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle;T-47D,CTCF,HudsonAlpha,DMSO_0.02pct" "." NA
+"1001" "rs157577" "P4HA2" "A549,POL2,HudsonAlpha,DEX_100nM;A549,POL2,HudsonAlpha,EtOH_0.02pct;HepG2,POL2,Stanford,forskolin;K562,IRF1,Stanford,IFNg6h;K562,POL2,Stanford,IFNa30;K562,POL2,Stanford,IFNa6h;K562,POL2,Stanford,IFNg30;K562,POL2,Stanford,IFNg6h;MCF10A-Er-Src,POL2,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,POL2,Stanford,EtOH_0.01pct" "Skin_Sun_Exposed_Lower_leg, Muscle_Skeletal" NA
+"1002" "rs1584425" "RP11-818C3.1" "." "." NA
+"1003" "rs1613299" "ZMIZ1" "." "." NA
+"1004" "rs1614123" "PDE4B" "." "." NA
+"1005" "rs16827243" "TXNIP" "MCF10A-Er-Src,POL2,Stanford,EtOH_0.01pct" "Colon_Sigmoid" NA
+"1006" "rs16830292" "MIR4425" "." "." NA
+"1007" "rs16831488" "ATP1A4" "." "." NA
+"1008" "rs16846831" "KCNH7" "." "." NA
+"1009" "rs1684973" "TBC1D9B" "." "Muscle_Skeletal, Nerve_Tibial, Esophagus_Mucosa" NA
+"1010" "rs16850073" "CXCL6" "." "Nerve_Tibial, Pancreas" NA
+"1011" "rs16850907" "KAZN" "." "." NA
+"1012" "rs16855567" "U1" "." "Whole_Blood" NA
+"1013" "rs16858510" "KYNU" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"1014" "rs16870433" "AL589947.1" "." "." NA
+"1015" "rs16874051" "RP11-380P13.1" "." "Lung" NA
+"1016" "rs16880694" "RP11-123O22.1" "." "." NA
+"1017" "rs16881074" "KB-1299A7.2" "." "." NA
+"1018" "rs16885591" "RP11-665I14.1" "." "." NA
+"1019" "rs16888425" "RAB28" "." "." NA
+"1020" "rs16892328" "RP11-250B2.5" "." "." NA
+"1021" "rs16956531" "NXN" "." "." NA
+"1022" "rs16965414" "TSHZ3" "." "Whole_Blood" NA
+"1023" "rs17008015" "EXOC6B" "." "Whole_Blood" NA
+"1024" "rs17027632" "RP11-724M22.1" "." "." NA
+"1025" "rs17031468" "AC074391.2" "." "." NA
+"1026" "rs1703368" "ARL15" "." "." NA
+"1027" "rs17035120" "GLT8D2" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1028" "rs17036072" "SUMF1" "." "." NA
+"1029" "rs17037834" "IQSEC1" "." "." NA
+"1030" "rs17042144" "RP11-777N19.1" "." "." NA
+"1031" "rs17057334" "ARHGEF3" "." "." NA
+"1032" "rs1708558" "AC002485.1" "." "." NA
+"1033" "rs17086242" "FLT3" "." "." "https://en.wikipedia.org/wiki/CD135. Signalling of FLT3 is important for the normal development of haematopoietic stem cells and progenitor cells. The FLT3 gene is one of the most frequently mutated genes in acute myeloid leukemia (AML 急性髓系白血病). High levels of wild-type FLT3 have been reported for blast cells of some AML patients without FLT3 mutations."
+"1034" "rs17096850" "RP11-355F22.1" "." "." NA
+"1035" "rs17099613" "RP11-566J3.2" "." "Whole_Blood" NA
+"1036" "rs17108489" "NRXN3" "." "." "https://en.wikipedia.org/wiki/NRXN3; Neurexins are a family of proteins that function in the vertebrate nervous system as cell adhesion molecules and receptors. NRXN3 is thought to be involved in synaptic plasticity, and polymorphisms in NRXN3 have been linked to genetic predisposition towards a number of conditions such as alcohol or drug addiction, or obesity."
+"1037" "rs17148569" "FTMT" "." "." NA
+"1038" "rs17176295" "CACNA2D1" "." "." NA
+"1039" "rs17183079" "FAM190A" "." "." NA
+"1040" "rs17184689" "ADCY4" "." "Whole_Blood, Testis" NA
+"1041" "rs1718709" "AC009499.1" "." "." NA
+"1042" "rs1719263" "AC069368.3" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel, Artery_Tibial" NA
+"1043" "rs17194489" "GALNT13" "." "." NA
+"1044" "rs17196752" "RP11-290F20.3" "." "Whole_Blood, Adipose_Subcutaneous, Cells_Transformed_fibroblasts" NA
+"1045" "rs17197114" "CHD8" "." "Whole_Blood" NA
+"1046" "rs17198981" "C14orf119" "." "Whole_Blood" NA
+"1047" "rs17210418" "CNTN6" "." "." NA
+"1048" "rs17232348" "UFM1" "." "." NA
+"1049" "rs17237668" "RORA" "." "." NA
+"1050" "rs17248720" "LDLR" "." "." NA
+"1051" "rs17326790" "LINC00333" "." "." NA
+"1052" "rs17354680" "ATRNL1" "." "." NA
+"1053" "rs17376355" "Y_RNA" "." "." NA
+"1054" "rs17391320" "CSMD1" "." "." NA
+"1055" "rs17391470" "DCC" "." "." NA
+"1056" "rs17396536" "GALK2" "." "Thyroid, Lung, Whole_Blood" NA
+"1057" "rs17404017" "RP11-413P11.1" "." "." NA
+"1058" "rs17410058" "snR65" "." "." NA
+"1059" "rs17441542" "RP11-545P6.2" "." "." NA
+"1060" "rs17446795" "LRRC8D" "." "." NA
+"1061" "rs17448395" "CDH2" "." "." NA
+"1062" "rs174559" "RP11-467L20.7" "." "Whole_Blood, Esophagus_Muscularis, Cells_Transformed_fibroblasts" NA
+"1063" "rs17462893" "RHOBTB3" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1064" "rs17469778" "RP5-1027O11.1" "." "." NA
+"1065" "rs17513177" "RBM47" "." "." NA
+"1066" "rs17521080" "FNDC3B" "." "." NA
+"1067" "rs17531740" "AC105252.1" "." "." NA
+"1068" "rs175705" "BATF" "." "." NA
+"1069" "rs17641347" "7SK" "." "." NA
+"1070" "rs17656204" "PDGFRB" "A549,CTCF,HudsonAlpha,EtOH_0.02pct;HepG2,HNF4A,Stanford,forskolin" "Whole_Blood" NA
+"1071" "rs1768584" "TMCC2" "MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "Adipose_Subcutaneous, Artery_Tibial, Lymphoblastoid_EUR_exonlevel" NA
+"1072" "rs17689912" "YAP1" "." "." NA
+"1073" "rs17721193" "Y_RNA" "." "Lung, Nerve_Tibial" NA
+"1074" "rs17739167" "EHD4" "." "Muscle_Skeletal, Nerve_Tibial, Heart_Atrial_Appendage" NA
+"1075" "rs17743415" "ZNF638" "." "Artery_Aorta, Thyroid, Artery_Tibial" NA
+"1076" "rs17747388" "ERBB4" "." "." NA
+"1077" "rs17753641" "CTD-2049J23.2" "." "." NA
+"1078" "rs17758695" "BCL2" "." "." "https://en.wikipedia.org/wiki/Bcl-2. It has clinical significance in lymphoma."
+"1079" "rs17803229" "DLGAP1" "." "." NA
+"1080" "rs17806634" "GAB4" "." "." NA
+"1081" "rs17828806" "PDGFC" "." "." NA
+"1082" "rs17867634" "GTPBP10" "." "Thyroid, Skin_Sun_Exposed_Lower_leg, Esophagus_Muscularis" NA
+"1083" "rs1799025" "MAGI2" "." "." NA
+"1084" "rs1800973" "LYZ" "." "Brain_PUTM, Brain_CRBL" NA
+"1085" "rs1801253" "ADRB1" "." "Testis" NA
+"1086" "rs180163" "AC002539.1" "." "." NA
+"1087" "rs1804193" "PMP22" "." "." NA
+"1088" "rs180681439" "U3" "." "." NA
+"1089" "rs180897639" "SNX29P2" "." "Lung" NA
+"1090" "rs180906734" "MYO7A" "." "." NA
+"1091" "rs181349760" "EMCN" "." "." NA
+"1092" "rs181401710" "CACNA2D3" "." "." NA
+"1093" "rs181776192" "LINC00464" "." "." NA
+"1094" "rs181926896" "U6" "." "." NA
+"1095" "rs182143176" "RNU7-2P" "." "." NA
+"1096" "rs182163509" "RP11-698F20.3" "." "." NA
+"1097" "rs182230533" "GS1-204I12.2" "." "." NA
+"1098" "rs1822534" "PPARG" "." "." NA
+"1099" "rs182486971" "AC091172.1" "." "." NA
+"1100" "rs182804464" "COL6A1" "." "." NA
+"1101" "rs182953656" "FABP6" "." "." NA
+"1102" "rs183152571" "CCNJL" "." "." NA
+"1103" "rs183244598" "RP5-968D22.3" "." "." NA
+"1104" "rs183322894" "PRMT6" "." "." NA
+"1105" "rs183342783" "RP11-580I1.1" "." "." NA
+"1106" "rs183346366" "AC109351.1" "." "." NA
+"1107" "rs183572109" "U6" "." "." NA
+"1108" "rs183644811" "ADCY10" "." "." NA
+"1109" "rs183722338" "MIR1269A" "." "." NA
+"1110" "rs183779335" "CDH11" "." "." NA
+"1111" "rs183843320" "MAP2K2" "." "." NA
+"1112" "rs183892629" "AC109642.1" "." "." NA
+"1113" "rs184138125" "PCDH20" "." "." NA
+"1114" "rs1844468" "IQCJ-SCHIP1" "." "." NA
+"1115" "rs184818898" "ANKLE2" "." "." NA
+"1116" "rs184842837" "AGAP1" "." "." NA
+"1117" "rs184909742" "SOX6" "." "." NA
+"1118" "rs184924404" "RP11-145O15.3" "." "." NA
+"1119" "rs184979650" "RP11-275I4.1" "." "." NA
+"1120" "rs185212652" "HTR4" "." "." NA
+"1121" "rs185239546" "RP11-22D3.2" "." "." NA
+"1122" "rs185458664" "snoU13" "." "." NA
+"1123" "rs185481756" "FABP2" "." "Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts" NA
+"1124" "rs185568001" "AC104802.1" "." "." NA
+"1125" "rs185959983" "U6" "." "Artery_Tibial, Muscle_Skeletal, Thyroid" NA
+"1126" "rs185979209" "PROM2" "." "Breast_Mammary_Tissue" NA
+"1127" "rs185988713" "TPTE2" "." "." NA
+"1128" "rs186058931" "PSMC1" "." "." NA
+"1129" "rs186210992" "ZFP28" "." "." NA
+"1130" "rs186314808" "RP11-324C10.1" "." "." NA
+"1131" "rs186369578" "SNTA1" "K562,IRF1,Stanford,IFNg6h" "." NA
+"1132" "rs186378280" "RP11-707A18.1" "." "." NA
+"1133" "rs186602978" "PHIP" "." "." NA
+"1134" "rs187156289" "NID2" "." "." NA
+"1135" "rs187289617" "SFRP1" "." "." NA
+"1136" "rs1873164" "CCDC141" "." "Muscle_Skeletal, Whole_Blood" NA
+"1137" "rs187373564" "ADARB2" "." "." NA
+"1138" "rs187479646" "RP11-366H4.1" "." "." NA
+"1139" "rs187554965" "MC4R" "." "." NA
+"1140" "rs187638731" "LAMA5" "." "Esophagus_Mucosa, Esophagus_Muscularis, Artery_Tibial" NA
+"1141" "rs187646333" "P2RX6" "." "." NA
+"1142" "rs187786389" "C2orf55" "." "." NA
+"1143" "rs187976911" "ALKBH1" "." "." NA
+"1144" "rs1879943" "AC068138.1" "." "." NA
+"1145" "rs188175496" "FLT3" "." "." NA
+"1146" "rs188385683" "CNTN5" "." "." NA
+"1147" "rs188423699" "CCNA1" "." "." NA
+"1148" "rs188454820" "SLIT2" "." "." NA
+"1149" "rs188561431" "MUC5B" "." "." NA
+"1150" "rs1886654" "RP5-940F7.2" "HepG2,CEBPB,Stanford,forskolin;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr" "Cells_Transformed_fibroblasts, Skin_Not_Sun_Exposed_Suprapubic" NA
+"1151" "rs189028619" "CLSTN2" "." "." NA
+"1152" "rs189031310" "NTSR1" "." "." NA
+"1153" "rs189063339" "PCSK6" "." "." NA
+"1154" "rs1892548" "RN7SKP2" "." "." NA
+"1155" "rs189261416" "AC018359.1" "." "." NA
+"1156" "rs189314821" "AC046143.7" "." "." NA
+"1157" "rs189594788" "JAM3" "." "." NA
+"1158" "rs189710982" "RP11-113D6.6" "." "." NA
+"1159" "rs189727784" "SNRPN" "." "." NA
+"1160" "rs189867078" "TPT1-AS1" "." "." NA
+"1161" "rs189893622" "HERC2" "." "." "https://en.wikipedia.org/wiki/E3_ubiquitin_ligase_HERC2. SNPs of HERC2 are strongly associated with iris colour variability in humans. In particular, the rs916977 and rs12913832 SNPs have been reported as good predictors of this trait, and the latter is also significantly associated with skin and hair colour."
+"1162" "rs189902748" "PVR" "." "." NA
+"1163" "rs190062396" "CSMD1" "." "." NA
+"1164" "rs190301488" "SYT11" "." "." NA
+"1165" "rs190523863" "SACS" "." "." "https://en.wikipedia.org/wiki/Sacsin. Autosomal recessive spastic ataxia of Charlevoix-Saguenay (ARSACS) is a very rare neurodegenerative genetic disorder that results from mutations in the gene that produces Sacsin. Afflicted persons suffer from loss of balance, loss of muscle control and spasticit."
+"1166" "rs190869001" "SLITRK1" "." "." NA
+"1167" "rs190966199" "AP000289.6" "." "." NA
+"1168" "rs191149784" "SRFBP1" "." "." NA
+"1169" "rs191152488" "AC104076.3" "." "." NA
+"1170" "rs191407912" "RP11-138E9.2" "." "." NA
+"1171" "rs191516478" "RALGAPA2" "." "." NA
+"1172" "rs191591509" "KNTC1" "." "." NA
+"1173" "rs191927996" "U1" "." "." NA
+"1174" "rs192036" "SPTB" "." "Nerve_Tibial, Whole_Blood" NA
+"1175" "rs192183222" "RP11-201A3.1" "." "." NA
+"1176" "rs192450572" "CTD-3007L5.1" "." "." NA
+"1177" "rs192779279" "C12orf71" "." "." NA
+"1178" "rs1936806" "RSPO3" "." "Whole_Blood" NA
+"1179" "rs1938495" "LEPR" "." "." NA
+"1180" "rs1945103" "RP11-65M17.3" "." "." NA
+"1181" "rs1958078" "SMOC1" "A549,GR,HudsonAlpha,DEX_50nM;A549,GR,HudsonAlpha,DEX_5nM;HepG2,CEBPB,Stanford,forskolin;HepG2,HNF4A,Stanford,forskolin" "." NA
+"1182" "rs1962035" "KLF4" "." "." NA
+"1183" "rs1963252" "DIRC3" "." "." NA
+"1184" "rs1980532" "DDO" "." "." NA
+"1185" "rs1983332" "ACAN" "." "." NA
+"1186" "rs1983788" "RP1-230L10.1" "." "." NA
+"1187" "rs1984119" "RP11-332M4.1" "." "." NA
+"1188" "rs1985437" "DUS2L" "." "Artery_Tibial, Esophagus_Muscularis, Whole_Blood" NA
+"1189" "rs1986195" "RP11-150O12.3" "." "." NA
+"1190" "rs1991565" "SUSD1" "." "." NA
+"1191" "rs1992686" "RP11-240A16.1" "." "." NA
+"1192" "rs1994209" "TP53I11" "." "." NA
+"1193" "rs1994670" "RP1-34H18.1" "." "." NA
+"1194" "rs1998547" "SLC44A5" "." "." NA
+"1195" "rs2006122" "CSHL1" "." "Artery_Tibial, Adipose_Subcutaneous, Lymphoblastoid_EUR_genelevel" NA
+"1196" "rs2007701" "CTD-2081C10.1" "." "Whole_Blood" NA
+"1197" "rs2014511" "KIAA0922" "." "." NA
+"1198" "rs2015599" "RP11-996F15.2" "." "Lung" NA
+"1199" "rs2015738" "CUBN" "." "." NA
+"1200" "rs2019229" "RP11-322I2.1" "." "." NA
+"1201" "rs2020038" "GLYATL1" "." "." NA
+"1202" "rs2025563" "RP11-355F22.1" "." "." NA
+"1203" "rs2029466" "ARHGEF3" "." "Whole_Blood, Thyroid, Brain_Cerebellum" NA
+"1204" "rs2035901" "RP11-291L15.2" "." "." NA
+"1205" "rs2038479" "DNM3" "." "." NA
+"1206" "rs2039221" "LINC00256B" "." "Testis, Whole_Blood" NA
+"1207" "rs2051270" "LINC00478" "." "." NA
+"1208" "rs2058091" "RP1-240K6.3" "." "Whole_Blood, Heart_Atrial_Appendage, Lymphoblastoid_EUR_exonlevel" NA
+"1209" "rs2058983" "AC010091.1" "." "." NA
+"1210" "rs2060501" "U6" "." "." NA
+"1211" "rs2066361" "IL33" "." "Brain_Cortex" NA
+"1212" "rs2072860" "TMPRSS6" "." "." NA
+"1213" "rs2075672" "TFR2" "K562,IRF1,Stanford,IFNg6h;K562,POL2,Stanford,IFNa30;K562,POL2,Stanford,IFNa6h;K562,POL2,Stanford,IFNg30;K562,POL2,Stanford,IFNg6h" "Whole_Blood, Skin_Sun_Exposed_Lower_leg" NA
+"1214" "rs2086086" "RNY5" "." "." NA
+"1215" "rs2104074" "DSTN" "." "." NA
+"1216" "rs2108612" "U7" "." "." NA
+"1217" "rs2118319" "RP11-120I21.2" "." "." NA
+"1218" "rs2126474" "snoU13" "." "." NA
+"1219" "rs2137082" "PDIA5" "." "." NA
+"1220" "rs2150052" "RP11-202G18.1" "." "Whole_Blood" NA
+"1221" "rs2157770" "BRD3" "MCF-7,CMYC,UT-A,vehicle" "Whole_Blood, Testis, Nerve_Tibial" NA
+"1222" "rs2158799" "JAZF1-AS1" "." "Whole_Blood" NA
+"1223" "rs2166160" "ABCB10" "." "Artery_Tibial, Adipose_Subcutaneous, Lymphoblastoid_EUR_exonlevel" NA
+"1224" "rs2168711" "U4" "." "." NA
+"1225" "rs2171955" "HAUS6" "." "Cells_Transformed_fibroblasts, Adipose_Subcutaneous, Artery_Tibial" NA
+"1226" "rs218228" "LTBP1" "." "." NA
+"1227" "rs218264" "AC006552.1" "K562,CJUN,Stanford,IFNg30;K562,CJUN,Stanford,IFNg6h;K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30" "." NA
+"1228" "rs219762" "AP000695.6" "." "." NA
+"1229" "rs2199420" "SNORA31" "." "." NA
+"1230" "rs2201142" "AC079630.4" "." "Whole_Blood, Esophagus_Mucosa" NA
+"1231" "rs2228292" "CLCN2" "." "Nerve_Tibial" NA
+"1232" "rs2228467" "CYP8B1" "." "." "https://en.wikipedia.org/wiki/CYP8B1. The cytochrome P450 proteins are monooxygenases which catalyze many reactions involved in drug metabolism and synthesis of cholesterol, steroids and other lipids."
+"1233" "rs2235895" "RIN2" "." "Whole_Blood" NA
+"1234" "rs2236406" "PTCH1" "." "Artery_Tibial" NA
+"1235" "rs2238368" "NPRL3" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1236" "rs2238783" "ARVCF" "." "Thyroid, Artery_Aorta, Artery_Tibial" NA
+"1237" "rs2242398" "AURKAIP1" "A549,POL2,HudsonAlpha,EtOH_0.02pct;A549,USF1,HudsonAlpha,DEX_100nM;A549,USF1,HudsonAlpha,EtOH_0.02pct;ECC-1,ERALPHA_A,HudsonAlpha,Genistein_100nM;K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30;K562,IRF1,Stanford,IFNg6h;K562,POL2,Stanford,IFNa30;K562,THAP1,HudsonAl" "Esophagus_Muscularis, Adipose_Visceral_Omentum, Colon_Sigmoid" NA
+"1238" "rs2252335" "ATRN" "." "." NA
+"1239" "rs2254614" "IPO9" "." "Adipose_Subcutaneous, Esophagus_Muscularis" NA
+"1240" "rs2269615" "C1orf105" "." "Testis, Whole_Blood" NA
+"1241" "rs2269984" "KIAA1147" "." "Skin_Sun_Exposed_Lower_leg, Nerve_Tibial, Adipose_Subcutaneous" NA
+"1242" "rs2273215" "RP5-894D12.3" "." "Adipose_Subcutaneous, Artery_Tibial, Breast_Mammary_Tissue" NA
+"1243" "rs2282376" "KIF26A" "." "." NA
+"1244" "rs2291175" "FARP1" "." "." NA
+"1245" "rs2301841" "ZFR2" "." "Testis, Whole_Blood" NA
+"1246" "rs2320969" "LINC00424" "." "." NA
+"1247" "rs2325724" "ITGAE" "." "." NA
+"1248" "rs2326643" "FARS2" "." "." NA
+"1249" "rs2340583" "NDUFAF6" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1250" "rs2347393" "U6" "." "." NA
+"1251" "rs235702" "BMP2" "." "." NA
+"1252" "rs2361710" "EIF4A3" "." "Whole_Blood" NA
+"1253" "rs2364481" "LTBR" "A549,POL2,HudsonAlpha,EtOH_0.02pct" "Artery_Tibial, Muscle_Skeletal, Adipose_Subcutaneous" NA
+"1254" "rs2366211" "KANK4" "." "Lung" NA
+"1255" "rs2373345" "CNTNAP2" "." "." NA
+"1256" "rs2381297" "AC016706.1" "." "." NA
+"1257" "rs2381783" "HMP19" "." "." NA
+"1258" "rs2395906" "CCDC26" "." "." NA
+"1259" "rs2396243" "RP1-302G2.5" "." "Artery_Tibial, Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"1260" "rs2402528" "KCND2" "GM12878,NFKB,Stanford,TNFa;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "Lymphoblastoid_EUR_exonlevel" NA
+"1261" "rs2412771" "REST" "." "Whole_Blood, Cells_Transformed_fibroblasts" NA
+"1262" "rs2415359" "SLC25A21" "." "." NA
+"1263" "rs2417836" "RP11-405A12.2" "." "Artery_Aorta" NA
+"1264" "rs2424154" "ZNF133" "." "." NA
+"1265" "rs242625" "CDH20" "." "." NA
+"1266" "rs2445304" "OR51L1" "." "." NA
+"1267" "rs2445610" "RP11-255B23.4" "GM12878,NFKB,Stanford,TNFa" "." NA
+"1268" "rs244711" "ZNF346" "." "Esophagus_Mucosa, Nerve_Tibial" NA
+"1269" "rs2449515" "MTDH" "." "Whole_Blood" NA
+"1270" "rs2472297" "CYP1A1" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1271" "rs247264" "DIMT1" "." "Whole_Blood, Testis, Lymphoblastoid_EUR_exonlevel" NA
+"1272" "rs2486635" "RP11-351M16.3" "." "Cells_Transformed_fibroblasts, Nerve_Tibial, Artery_Tibial" NA
+"1273" "rs2488331" "ITGB1" "." "Whole_Blood, Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg" NA
+"1274" "rs2509902" "ACVR1C" "." "Testis" NA
+"1275" "rs2533443" "AUTS2" "." "." NA
+"1276" "rs2540917" "AC007381.2" "." "." NA
+"1277" "rs2559627" "TAOK1" "." "Nerve_Tibial, Testis, Whole_Blood" NA
+"1278" "rs2569862" "GMDS" "." "Whole_Blood" NA
+"1279" "rs2579501" "RP11-363D14.1" "." "Whole_Blood, Thyroid, Testis" NA
+"1280" "rs2589998" "snoU13" "." "Skin_Sun_Exposed_Lower_leg" NA
+"1281" "rs2599711" "NDUFAF6" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"1282" "rs2603205" "RP11-260O18.1" "." "." NA
+"1283" "rs2608849" "SH3RF1" "." "." NA
+"1284" "rs2610986" "LCORL" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1285" "rs2613996" "PTDSS2" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"1286" "rs2622235" "DPP6" "." "." NA
+"1287" "rs2635482" "SNX16" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1288" "rs2639962" "ZADH2" "." "Esophagus_Muscularis" NA
+"1289" "rs2643826" "U1" "A549,USF1,HudsonAlpha,EtOH_0.02pct" "Cells_Transformed_fibroblasts" NA
+"1290" "rs2648725" "PCGF5" "." "." NA
+"1291" "rs2653349" "HCRTR2" "." "Muscle_Skeletal" NA
+"1292" "rs266248" "AC096669.2" "." "." NA
+"1293" "rs2671427" "IRF4" "." "." NA
+"1294" "rs26835" "CASKIN1" "." "Lymphoblastoid_EUR_exonlevel, Heart_Left_Ventricle" NA
+"1295" "rs269736" "RN5S73" "." "." NA
+"1296" "rs270023" "THEMIS" "." "." NA
+"1297" "rs2715135" "GRB10" "." "Whole_Blood" NA
+"1298" "rs2717695" "ZSCAN10" "." "Whole_Blood, Muscle_Skeletal" NA
+"1299" "rs2721926" "TRPS1" "." "." NA
+"1300" "rs2724616" "ETV6" "." "." NA
+"1301" "rs27323" "CTD-2366F13.1" "." "." NA
+"1302" "rs2733168" "HDAC11" "." "." NA
+"1303" "rs2734798" "AC073094.4" "." "." NA
+"1304" "rs2735162" "TRGV8" "." "Whole_Blood" NA
+"1305" "rs2737273" "TLN1" "." "Brain_Cerebellum, Lymphoblastoid_EUR_exonlevel, Brain_Cerebellar_Hemisphere" NA
+"1306" "rs273750" "Metazoa_SRP" "." "." NA
+"1307" "rs2748424" "TMC6" "A549,USF1,HudsonAlpha,DEX_100nM;A549,USF1,HudsonAlpha,EtOH_0.02pct;K562,CMYC,Stanford,IFNg30;K562,POL2,Stanford,IFNa30;K562,POL2,Stanford,IFNg30" "Heart_Atrial_Appendage, Heart_Left_Ventricle" NA
+"1308" "rs2763263" "SMOC2" "." "Thyroid" NA
+"1309" "rs2767409" "RP11-408N14.1" "." "." NA
+"1310" "rs2778027" "U3" "." "." NA
+"1311" "rs2784524" "AL163953.3" "." "Testis" NA
+"1312" "rs2785152" "PDHX" "." "Artery_Tibial" NA
+"1313" "rs2804570" "LYZL1" "." "." NA
+"1314" "rs2808615" "EGLN1" "." "Cells_Transformed_fibroblasts, Testis, Lymphoblastoid_EUR_exonlevel" NA
+"1315" "rs281285" "CTD-2050N2.1" "." "Cells_Transformed_fibroblasts" NA
+"1316" "rs2815377" "SLC35D1" "." "Testis" NA
+"1317" "rs2816621" "BRF1" "." "Artery_Tibial, Thyroid, Esophagus_Muscularis" NA
+"1318" "rs2816668" "JAG2" "." "." NA
+"1319" "rs2820443" "RP11-95P13.2" "MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"1320" "rs2823139" "AF127577.12" "ECC-1,ERALPHA_A,HudsonAlpha,Estradiol_10nM;HeLa-S3,STAT1,Stanford,IFNg30" "." NA
+"1321" "rs2823270" "AJ006998.2" "." "Testis" NA
+"1322" "rs283352" "AC011366.3" "." "." NA
+"1323" "rs2834259" "AP000304.12" "." "Whole_Blood" NA
+"1324" "rs2834734" "RUNX1" "." "." NA
+"1325" "rs28357162" "HOTTIP" "." "." NA
+"1326" "rs28366064" "DIDO1" "." "Cells_Transformed_fibroblasts, Esophagus_Muscularis" NA
+"1327" "rs28378165" "AC090825.2" "." "Lung, Adipose_Subcutaneous, Nerve_Tibial" NA
+"1328" "rs28381448" "PAPD7" "." "Thyroid, Whole_Blood" NA
+"1329" "rs28451064" "AP000318.2" "." "." NA
+"1330" "rs2846700" "KCNJ5" "." "." NA
+"1331" "rs28477076" "RN5S52" "." "." NA
+"1332" "rs28498283" "AC093609.1" "." "." NA
+"1333" "rs28498859" "DENND4A" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1334" "rs28526568" "SCARA5" "." "." NA
+"1335" "rs28535858" "NFIC" "HeLa-S3,STAT1,Stanford,IFNg30;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr" "." NA
+"1336" "rs28548275" "EXOC2" "." "Heart_Atrial_Appendage" NA
+"1337" "rs28564494" "ALX4" "." "." NA
+"1338" "rs28620931" "RP11-25L3.3" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle;T-47D,CTCF,HudsonAlpha,DMSO_0.02pct" "." NA
+"1339" "rs28625045" "BANK1" "." "." NA
+"1340" "rs28628791" "C1orf63" "." "Muscle_Skeletal, Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg" NA
+"1341" "rs28664852" "RP11-617D20.1" "." "Adipose_Subcutaneous, Skin_Sun_Exposed_Lower_leg" NA
+"1342" "rs28676696" "TRPM1" "." "." NA
+"1343" "rs28683780" "NFATC1" "." "." NA
+"1344" "rs2871865" "IGF1R" "HeLa-S3,STAT1,Stanford,IFNg30" "." NA
+"1345" "rs2871960" "ZBTB38" "." "Lymphoblastoid_EUR_exonlevel, Adipose_Subcutaneous, Whole_Blood" NA
+"1346" "rs2881064" "AC018717.1" "." "." NA
+"1347" "rs2883067" "RP11-46C24.5" "." "Brain_Frontal_Cortex_BA9" NA
+"1348" "rs2887012" "RMND5A" "." "Thyroid, Whole_Blood" NA
+"1349" "rs2888604" "DRAM1" "A549,USF1,HudsonAlpha,DEX_100nM;A549,USF1,HudsonAlpha,EtOH_0.02pct" "." NA
+"1350" "rs2897913" "SERPINE3" "." "." NA
+"1351" "rs2903386" "TET2" "." "Adipose_Subcutaneous, Cells_Transformed_fibroblasts, Esophagus_Mucosa" NA
+"1352" "rs2922348" "ATG7" "." "." NA
+"1353" "rs2926352" "LINC00326" "." "." NA
+"1354" "rs2938761" "SLIT3" "." "." NA
+"1355" "rs2941896" "GPR98" "." "." NA
+"1356" "rs2948097" "KAT2B" "." "Whole_Blood, Nerve_Tibial" NA
+"1357" "rs2950387" "BAZ2A" "." "Testis, Lymphoblastoid_EUR_exonlevel" NA
+"1358" "rs295114" "SPATS2L" "." "Testis" NA
+"1359" "rs2956534" "RAP1B" "." "." NA
+"1360" "rs2978086" "Y_RNA" "." "Esophagus_Muscularis, Nerve_Tibial" NA
+"1361" "rs2982573" "ESR1" "." "." NA
+"1362" "rs2982685" "ESR1" "." "." NA
+"1363" "rs3010292" "RP11-12A2.3" "." "." NA
+"1364" "rs301043" "METAP2" "." "." NA
+"1365" "rs30228" "RP11-65J21.3" "MCF-7,CTCF,UT-A,vehicle" "Thyroid" NA
+"1366" "rs3024664" "IL4R" "." "." NA
+"1367" "rs3098551" "RP11-30G8.2" "." "." NA
+"1368" "rs3099112" "TMEM206" "." "Whole_Blood, Esophagus_Mucosa, Lymphoblastoid_EUR_exonlevel" NA
+"1369" "rs3104513" "RP11-30G8.1" "." "." NA
+"1370" "rs3108885" "ANO3" "." "." NA
+"1371" "rs3131603" "USP50" "." "Artery_Tibial, Muscle_Skeletal" NA
+"1372" "rs3134942" "NOTCH4" "." "Heart_Left_Ventricle, Nerve_Tibial, Thyroid" NA
+"1373" "rs3136559" "CD69" "K562,CMYC,Stanford,IFNg30" "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1374" "rs315869" "BMPER" "." "Brain_Frontal_Cortex_BA9" NA
+"1375" "rs3177609" "ZNF516" "." "." NA
+"1376" "rs3184504" "SH2B3" "." "Skin_Sun_Exposed_Lower_leg, Whole_Blood" NA
+"1377" "rs3197999" "MST1" "." "Whole_Blood, Muscle_Skeletal" NA
+"1378" "rs325" "LPL" "." "Whole_Blood" NA
+"1379" "rs330675" "CSNK1G3" "." "." NA
+"1380" "rs34116321" "NOTUM" "." "Thyroid, Muscle_Skeletal" NA
+"1381" "rs34158728" "RASGRP4" "." "." NA
+"1382" "rs342210" "CTB-111H14.1" "." "." NA
+"1383" "rs34232196" "BSND" "." "Nerve_Tibial, Whole_Blood, Lung" NA
+"1384" "rs34237618" "RP11-701P16.5" "." "Testis" NA
+"1385" "rs34295201" "ITGB8" "." "." NA
+"1386" "rs34298551" "GDF5" "." "Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts, Thyroid" NA
+"1387" "rs34339670" "RP5-945F2.3" "." "." NA
+"1388" "rs34418810" "COL19A1" "." "." NA
+"1389" "rs34506912" "RP11-395P13.6" "." "." NA
+"1390" "rs34517439" "DNAJB4" "." "Artery_Tibial, Skin_Sun_Exposed_Lower_leg, Esophagus_Mucosa" NA
+"1391" "rs34592828" "CTD-2384B11.2" "." "." NA
+"1392" "rs34600528" "PDE8B" "." "." NA
+"1393" "rs346532" "SMG9" "." "Whole_Blood, Cells_Transformed_fibroblasts, Lymphoblastoid_EUR_exonlevel" NA
+"1394" "rs34653266" "RP11-96G10.1" "." "." NA
+"1395" "rs346835" "LINC00299" "." "." NA
+"1396" "rs34712979" "NPNT" "." "Artery_Aorta, Artery_Tibial, Skin_Sun_Exposed_Lower_leg" NA
+"1397" "rs34767042" "D2HGDH" "." "Thyroid, Nerve_Tibial, Skin_Sun_Exposed_Lower_leg" NA
+"1398" "rs34834842" "MICALL1" "." "Testis, Whole_Blood" NA
+"1399" "rs34848742" "NUDT6" "K562,IRF1,Stanford,IFNg6h;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr" "Breast_Mammary_Tissue, Muscle_Skeletal" NA
+"1400" "rs34863791" "RP3-422G23.4" "." "Cells_Transformed_fibroblasts, Lymphoblastoid_YRI_genelevel, Muscle_Skeletal" NA
+"1401" "rs34980052" "RP11-503G7.2" "K562,CMYC,Stanford,IFNg6h" "Whole_Blood, Spleen, Skin_Sun_Exposed_Lower_leg" NA
+"1402" "rs35074264" "UQCRB" "." "." NA
+"1403" "rs35158985" "CDH1" "." "Nerve_Tibial, Whole_Blood" NA
+"1404" "rs35188965" "SLC12A7" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1405" "rs35192867" "BTBD2" "." "." NA
+"1406" "rs351955" "CTD-2288O8.1" "." "Whole_Blood" NA
+"1407" "rs351978" "PTBP1" "." "." NA
+"1408" "rs35198068" "TCF7L2" "." "." NA
+"1409" "rs35268676" "AP000868.1" "." "." NA
+"1410" "rs35307904" "PCSK5" "." "." NA
+"1411" "rs35350109" "CTC-504A5.1" "." "." NA
+"1412" "rs35360637" "HHLA2" "." "Colon_Transverse, Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1413" "rs35396318" "RP1-34H18.1" "." "." NA
+"1414" "rs35399421" "PLOD2" "." "Cells_Transformed_fibroblasts, Muscle_Skeletal, Nerve_Tibial" NA
+"1415" "rs35443108" "CTNNA3" "." "." NA
+"1416" "rs35445397" "CTC-525D6.1" "." "." NA
+"1417" "rs35487120" "U6" "." "." NA
+"1418" "rs35506085" "IGF2" "." "." NA
+"1419" "rs35524387" "FERMT3" "." "Muscle_Skeletal, Esophagus_Mucosa, Lymphoblastoid_EUR_exonlevel" NA
+"1420" "rs35539500" "GLI2" "." "." NA
+"1421" "rs35551525" "SLC38A9" "." "Lymphoblastoid_EUR_exonlevel, Brain_Cerebellum, Brain_Nucleus_accumbens_basal_ganglia" NA
+"1422" "rs35559811" "RN5S30" "." "." NA
+"1423" "rs35571432" "ZZEF1" "." "." NA
+"1424" "rs35585318" "AC004854.4" "." "Testis, Thyroid" NA
+"1425" "rs35592432" "FOXP1" "." "." NA
+"1426" "rs35615447" "COL21A1" "." "." NA
+"1427" "rs35617057" "SLC24A4" "." "." NA
+"1428" "rs35617898" "SMARCA2" "." "." NA
+"1429" "rs35622628" "NCOR1" "." "Muscle_Skeletal, Thyroid" NA
+"1430" "rs35632255" "RP11-111A21.1" "." "." NA
+"1431" "rs35680304" "MKLN1" "." "Thyroid" NA
+"1432" "rs35681800" "RP11-125O18.1" "." "." NA
+"1433" "rs35779193" "PDCD6" "." "Testis, Cells_Transformed_fibroblasts" NA
+"1434" "rs357870" "RP11-15F12.1" "." "." NA
+"1435" "rs35788208" "MIR1303" "." "Artery_Tibial, Adipose_Subcutaneous" NA
+"1436" "rs35871163" "U95743.1" "." "." NA
+"1437" "rs35981402" "CTC-454M9.1" "." "." NA
+"1438" "rs36070298" "MEF2A" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1439" "rs36070348" "GNB1L" "." "." NA
+"1440" "rs36084354" "HMHA1" "." "Artery_Tibial, Skin_Sun_Exposed_Lower_leg, Esophagus_Muscularis" NA
+"1441" "rs36089182" "OR4D1" "." "Testis" NA
+"1442" "rs36120854" "SMAD6" "." "." NA
+"1443" "rs36126044" "AC005358.1" "." "." NA
+"1444" "rs361725" "ODF3B" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1445" "rs36225559" "ANKRD49" "." "." NA
+"1446" "rs365990" "MYH6" "." "." NA
+"1447" "rs3735491" "CCM2" "." "Whole_Blood" NA
+"1448" "rs3740481" "FAM178A" "." "." NA
+"1449" "rs3741156" "P2RY2" "." "." NA
+"1450" "rs3747564" "RP11-328C8.5" "." "." NA
+"1451" "rs3748136" "RP11-10A14.4" "K562,CJUN,Stanford,IFNg30;K562,CJUN,Stanford,IFNg6h;K562,POL2,Stanford,IFNa30" "Whole_Blood, Spleen" NA
+"1452" "rs3748927" "AFF3" "." "Artery_Aorta" NA
+"1453" "rs3760091" "SULT1A1" "." "Whole_Blood, Artery_Tibial" NA
+"1454" "rs3772109" "TCTEX1D2" "." "Lymphoblastoid_EUR_exonlevel, Muscle_Skeletal" NA
+"1455" "rs3774036" "PLD1" "." "Spleen, Adipose_Subcutaneous, Lung" NA
+"1456" "rs3779381" "WNT16" "." "Whole_Blood" "https://en.wikipedia.org/wiki/WNT16. It has been proposed that stimulation of WNT16 expression in nearby normal cells is responsible for the development of chemotherapy-resistance in cancer cells."
+"1457" "rs3787603" "NCAM2" "." "." NA
+"1458" "rs3788448" "FBXO7" "." "Skin_Sun_Exposed_Lower_leg, Skin_Not_Sun_Exposed_Suprapubic, Whole_Blood" NA
+"1459" "rs3802847" "NCAM1" "." "." NA
+"1460" "rs3806680" "IL5RA" "." "." NA
+"1461" "rs3808580" "BNIP3L" "." "Whole_Blood" NA
+"1462" "rs3809835" "PITPNM3" "." "." NA
+"1463" "rs3811444" "TRIM58" "." "Whole_Blood" NA
+"1464" "rs3812847" "TBC1D4" "." "." NA
+"1465" "rs381500" "RP1-155D22.2" "." "." NA
+"1466" "rs3815813" "MLYCD" "." "Whole_Blood" NA
+"1467" "rs3815829" "CYFIP2" "." "Artery_Tibial, Nerve_Tibial" NA
+"1468" "rs3816235" "AC079610.1" "." "Esophagus_Mucosa, Thyroid" NA
+"1469" "rs3822742" "CXXC5" "." "Lymphoblastoid_EUR_exonlevel, Muscle_Skeletal, Whole_Blood" NA
+"1470" "rs3824949" "TRIM5" "." "Whole_Blood, Artery_Tibial" NA
+"1471" "rs3826007" "BCL2A1" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1472" "rs3843481" "CTD-2235C13.2" "." "Lymphoblastoid_EUR_exonlevel, Nerve_Tibial" NA
+"1473" "rs3850625" "CACNA1S" "." "Whole_Blood" NA
+"1474" "rs3858637" "BIN2" "." "Skin_Sun_Exposed_Lower_leg" NA
+"1475" "rs385893" "AK3" "." "Whole_Blood" NA
+"1476" "rs3861000" "PAX5" "." "." "https://en.wikipedia.org/wiki/PAX5. The PAX proteins are important regulators in early development, and alterations in the expression of their genes are thought to contribute to neoplastic (肿瘤) transformation."
+"1477" "rs38859" "MET" "." "Brain_Caudate_basal_ganglia, Artery_Aorta, Brain_Putamen_basal_ganglia" NA
+"1478" "rs391236" "C5orf30" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1479" "rs3917932" "CSF3R" "." "." NA
+"1480" "rs3918226" "NOS3" "." "." NA
+"1481" "rs3922853" "AC107057.2" "." "." NA
+"1482" "rs3925002" "HMGCLL1" "." "." NA
+"1483" "rs3935627" "SPG7" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1484" "rs3937015" "CD226" "." "." NA
+"1485" "rs3962111" "TACC2" "A549,POL2,HudsonAlpha,DEX_100nM;A549,POL2,HudsonAlpha,EtOH_0.02pct" "." NA
+"1486" "rs396912" "KRTAP10-4" "MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "." NA
+"1487" "rs40071" "FBXL17" "." "." NA
+"1488" "rs40133" "RXFP3" "." "." NA
+"1489" "rs4014074" "SMARCA2" "." "." NA
+"1490" "rs4021229" "CTDP1" "." "Liver, Whole_Blood" NA
+"1491" "rs4074425" "PTPN14" "." "." NA
+"1492" "rs4075220" "NSMCE1" "." "Cells_Transformed_fibroblasts, Esophagus_Mucosa, Nerve_Tibial" NA
+"1493" "rs410867" "KLF2" "K562,CMYC,Stanford,IFNg30;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr" "Whole_Blood" NA
+"1494" "rs41271159" "RP11-321L2.1" "." "." NA
+"1495" "rs41276442" "RBBP9" "." "." NA
+"1496" "rs41276789" "RNF183" "." "." NA
+"1497" "rs41278274" "CRB2" "." "." NA
+"1498" "rs41282872" "PTPRE" "." "." NA
+"1499" "rs41283518" "DCLRE1B" "." "." NA
+"1500" "rs41299579" "NUDT17" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;A549,POL2,HudsonAlpha,DEX_100nM;A549,POL2,HudsonAlpha,EtOH_0.02pct;K562,CMYC,Stanford,IFNg30;MCF-7,CMYC,UT-A,vehicle;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle;T-47D,CTCF,HudsonAlpha,DMSO_0.02pct;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"1501" "rs41307023" "SLC14A2" "." "." NA
+"1502" "rs4131312" "AC104654.2" "." "Heart_Left_Ventricle" NA
+"1503" "rs4134932" "AP4M1" "." "Thyroid, Esophagus_Muscularis" NA
+"1504" "rs41381344" "ENG" "T-47D,GATA3,HudsonAlpha,DMSO_0.02pct" "Skin_Sun_Exposed_Lower_leg" NA
+"1505" "rs415064" "TUBB1" "." "." NA
+"1506" "rs417183" "RP11-372H2.1" "." "Whole_Blood" NA
+"1507" "rs42039" "CDK6" "." "Cells_Transformed_fibroblasts, Testis" NA
+"1508" "rs42111" "HIBADH" "." "Lymphoblastoid_EUR_genelevel, Lymphoblastoid_EUR_exonlevel" NA
+"1509" "rs4235011" "PCDH7" "." "." NA
+"1510" "rs4239615" "CYP4F8" "." "Brain_Nucleus_accumbens_basal_ganglia, Whole_Blood, Brain_Caudate_basal_ganglia" NA
+"1511" "rs4239767" "RP11-199O14.1" "." "." NA
+"1512" "rs4253399" "F11" "HepG2,POL2,Stanford,forskolin" "Whole_Blood" NA
+"1513" "rs4270228" "DHRS7B" "." "Adipose_Subcutaneous, Esophagus_Muscularis, Thyroid" NA
+"1514" "rs4273467" "LINC00504" "." "." NA
+"1515" "rs4280857" "HTR4" "." "." NA
+"1516" "rs4288380" "LOXL2" "." "Esophagus_Muscularis, Whole_Blood" NA
+"1517" "rs429358" "APOE" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1518" "rs4332760" "RBFOX1" "." "." NA
+"1519" "rs4362932" "CSF1R" "." "Whole_Blood" NA
+"1520" "rs4369779" "CABLES1" "." "Whole_Blood" NA
+"1521" "rs4388979" "USP30" "." "Heart_Left_Ventricle, Cells_EBV-transformed_lymphocytes, Whole_Blood" NA
+"1522" "rs4390668" "ZNF521" "." "." NA
+"1523" "rs4410607" "ELOVL7" "." "Thyroid" NA
+"1524" "rs4410790" "AC003075.4" "." "Whole_Blood" NA
+"1525" "rs4422380" "MARCH1" "." "Thyroid" NA
+"1526" "rs4435924" "AL590558.1" "." "." NA
+"1527" "rs4438032" "GRM5" "." "." NA
+"1528" "rs4447106" "HIF1AN" "." "Whole_Blood, Skin_Sun_Exposed_Lower_leg" NA
+"1529" "rs4461788" "AGMO" "." "Liver" NA
+"1530" "rs4473150" "ADAMTSL3" "." "Adipose_Subcutaneous, Testis" NA
+"1531" "rs4476672" "WFS1" "." "Brain_Cerebellum, Skin_Sun_Exposed_Lower_leg" NA
+"1532" "rs448203" "SEPT9" "." "Whole_Blood" NA
+"1533" "rs4505759" "FGFRL1" "." "Whole_Blood, Thyroid" NA
+"1534" "rs4536025" "SNX7" "." "." NA
+"1535" "rs45455302" "EHMT1" "." "." NA
+"1536" "rs45523434" "ZBTB1" "." "." NA
+"1537" "rs4597943" "RP11-428C6.1" "." "Whole_Blood" NA
+"1538" "rs4605230" "NOG" "." "Whole_Blood" NA
+"1539" "rs4656746" "RP11-297H3.3" "." "." NA
+"1540" "rs4675792" "AGXT" "." "Esophagus_Mucosa, Skin_Not_Sun_Exposed_Suprapubic, Skin_Sun_Exposed_Lower_leg" NA
+"1541" "rs4678938" "LRRFIP2" "." "Thyroid, Muscle_Skeletal, Esophagus_Mucosa" NA
+"1542" "rs4682103" "CD200" "." "." NA
+"1543" "rs4698348" "RP11-665G4.1" "." "." NA
+"1544" "rs4707826" "RP3-463P15.1" "." "." NA
+"1545" "rs4711889" "CD2AP" "." "Esophagus_Mucosa, Brain_Cerebellum, Thyroid" NA
+"1546" "rs4716437" "RNF32" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood, Adipose_Subcutaneous" NA
+"1547" "rs4726088" "PRKAG2" "." "." NA
+"1548" "rs4726135" "MRPS33" "." "." NA
+"1549" "rs4728335" "AC009276.4" "." "." NA
+"1550" "rs4733582" "PVT1" "." "." NA
+"1551" "rs4735766" "AC105242.1" "." "." NA
+"1552" "rs4737010" "ANK1" "K562,CMYC,Stanford,IFNg30" "." NA
+"1553" "rs4738139" "RP11-1102P16.1" "." "." NA
+"1554" "rs4744011" "SYK" "." "Nerve_Tibial, Skin_Not_Sun_Exposed_Suprapubic, Testis" NA
+"1555" "rs4749127" "APBB1IP" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1556" "rs4757774" "RP11-428C19.4" "." "Stomach" NA
+"1557" "rs4757918" "HTATIP2" "." "." NA
+"1558" "rs4775449" "VPS13C" "." "Nerve_Tibial, Lymphoblastoid_EUR_exonlevel, Adrenal_Gland" NA
+"1559" "rs4805555" "ZNF536" "." "." NA
+"1560" "rs4808238" "NOTCH3" "." "." NA
+"1561" "rs4808304" "ZNF333" "A549,POL2,HudsonAlpha,DEX_100nM;A549,POL2,HudsonAlpha,EtOH_0.02pct;HepG2,POL2,Stanford,forskolin;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;K562,POL2,Stanford,IFNa30;MCF-7,CMYC,UT-A,vehicle;MCF10A-Er-Src,POL2,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,POL2,Stanford,EtOH_0.01pct" "Lymphoblastoid_EUR_exonlevel, Thyroid, Whole_Blood" NA
+"1562" "rs4808798" "AC008397.1" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1563" "rs4821896" "TAB1" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;MCF-7,CTCF,UT-A,estrogen" "Nerve_Tibial, Heart_Atrial_Appendage, Skin_Sun_Exposed_Lower_leg" NA
+"1564" "rs482258" "TMEM135" "." "." NA
+"1565" "rs4823560" "CELSR1" "." "." NA
+"1566" "rs4824112" "ZBED4" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1567" "rs4832059" "SNORD112" "." "." NA
+"1568" "rs4842451" "SYT1" "." "." NA
+"1569" "rs486153" "NOSTRIN" "." "Lung, Skin_Sun_Exposed_Lower_leg, Testis" NA
+"1570" "rs4869745" "CCDC170" "." "Thyroid" NA
+"1571" "rs4881076" "PFKP" "." "." NA
+"1572" "rs4881601" "RP11-291L22.4" "." "." NA
+"1573" "rs4904871" "SLC24A4" "." "." NA
+"1574" "rs4906322" "MARK3" "." "Whole_Blood, Artery_Aorta, Thyroid" NA
+"1575" "rs4911102" "RP11-410N8.1" "." "." NA
+"1576" "rs4916514" "AC023797.1" "." "Whole_Blood, Artery_Tibial" NA
+"1577" "rs492350" "GRM5-AS1" "." "." NA
+"1578" "rs4926930" "ZYG11B" "." "Whole_Blood" NA
+"1579" "rs4928200" "RP11-779P15.2" "." "." NA
+"1580" "rs493063" "LINC00336" "." "Cells_Transformed_fibroblasts, Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1581" "rs4946896" "OSTM1" "." "." NA
+"1582" "rs4947994" "EGFR" "." "." NA
+"1583" "rs4948721" "FXYD4" "." "." NA
+"1584" "rs4953318" "PRKCE" "." "." NA
+"1585" "rs4957982" "NREP" "." "." NA
+"1586" "rs4958244" "AC005355.2" "A549,GR,HudsonAlpha,DEX_50nM;A549,GR,HudsonAlpha,DEX_5nM;ECC-1,GR,HudsonAlpha,DEX_100nM" "Thyroid, Lymphoblastoid_EUR_exonlevel" NA
+"1587" "rs4964764" "DAO" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1588" "rs4965594" "ADAMTS17" "." "." NA
+"1589" "rs4970966" "ENSA" "A549,GR,HudsonAlpha,DEX_100nM;A549,GR,HudsonAlpha,DEX_50nM;A549,GR,HudsonAlpha,DEX_5nM;GM12878,NFKB,Stanford,TNFa;HepG2,CEBPB,Stanford,forskolin;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "Whole_Blood" NA
+"1590" "rs4980067" "ZCCHC24" "." "Cells_Transformed_fibroblasts, Liver" NA
+"1591" "rs4982541" "TRAV19" "." "." NA
+"1592" "rs4985445" "WWP2" "." "." NA
+"1593" "rs499368" "SLC6A12" "." "Pancreas, Whole_Blood, Colon_Transverse" NA
+"1594" "rs5019496" "Y_RNA" "." "Lymphoblastoid_EUR_exonlevel" "https://en.wikipedia.org/wiki/Y_RNA"
+"1595" "rs505350" "OPCML" "." "." NA
+"1596" "rs536109" "UCK2" "." "." NA
+"1597" "rs543874" "RP4-798P15.2" "." "." NA
+"1598" "rs544096" "AP002954.4" "." "Whole_Blood, Cells_Transformed_fibroblasts, Adipose_Subcutaneous" NA
+"1599" "rs550057" "ABO" "." "Adrenal_Gland, Whole_Blood" NA
+"1600" "rs55641206" "RP11-6N13.1" "." "." NA
+"1601" "rs55727637" "NTAN1" "." "Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts" NA
+"1602" "rs55758006" "AC092017.1" "." "Muscle_Skeletal, Testis" NA
+"1603" "rs55770381" "AP002806.1" "." "." NA
+"1604" "rs55771023" "RP11-387H17.6" "." "Nerve_Tibial, Artery_Tibial, Adipose_Subcutaneous" NA
+"1605" "rs55796038" "IPMK" "." "." NA
+"1606" "rs55798859" "RRAGD" "." "." NA
+"1607" "rs55804196" "AC011998.1" "." "." NA
+"1608" "rs55844084" "RELL1" "." "." NA
+"1609" "rs55897037" "DOCK10" "." "Whole_Blood" NA
+"1610" "rs55915934" "RP11-20B7.1" "." "." NA
+"1611" "rs55923152" "RP11-202P11.1" "HepG2,GRP20,Stanford,forskolin;K562,CJUN,Stanford,IFNg30;K562,CMYC,Stanford,IFNa30;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;K562,IRF1,Stanford,IFNg6h;K562,POL2,Stanford,IFNa30;K562,POL2,Stanford,IFNa6h;T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct;T-47D,P300,HudsonAlpha,DMSO_0.02pct" "." NA
+"1612" "rs55965619" "PHACTR1" "." "." NA
+"1613" "rs55982441" "PACS1" "." "." NA
+"1614" "rs55989871" "RTN4RL2" "." "." NA
+"1615" "rs55991835" "MGAT5B" "." "." NA
+"1616" "rs55996881" "SBF1" "." "." NA
+"1617" "rs56009602" "ADAMTS8" "." "." NA
+"1618" "rs56020497" "PIGU" "." "Whole_Blood, Nerve_Tibial, Heart_Atrial_Appendage" "https://en.wikipedia.org/wiki/PIGU. The protein encoded by this gene shares similarity with Saccharomyces cerevisiae Cdc91, a predicted integral membrane protein that may function in cell division (细胞分裂) control."
+"1619" "rs56036538" "U7" "MCF10A-Er-Src,POL2,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,POL2,Stanford,EtOH_0.01pct" "." NA
+"1620" "rs56081748" "LRRK1" "." "." NA
+"1621" "rs56108522" "FAM110A" "." "." NA
+"1622" "rs56139009" "SLC25A16" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1623" "rs56164181" "MDGA2" "." "." NA
+"1624" "rs56177407" "RP11-264J4.9" "." "." NA
+"1625" "rs56180641" "AGBL1" "." "." NA
+"1626" "rs56200621" "RP11-7O14.1" "." "." NA
+"1627" "rs56216401" "XXbac-B476C20.13" "." "." NA
+"1628" "rs56235766" "RP11-324D17.2" "." "." NA
+"1629" "rs56272407" "RIN3" "." "." NA
+"1630" "rs56329057" "GUCY1A3" "." "Nerve_Tibial" NA
+"1631" "rs56347235" "RP1-15D23.2" "." "." NA
+"1632" "rs56368116" "RIMBP2" "." "." NA
+"1633" "rs56388170" "CREB5" "." "Whole_Blood" NA
+"1634" "rs56394376" "IGFBP4" "." "Whole_Blood" NA
+"1635" "rs56400411" "CELF1" "." "Skin_Sun_Exposed_Lower_leg, Adipose_Subcutaneous, Lung" NA
+"1636" "rs56665506" "RP4-781K5.8" "." "." NA
+"1637" "rs56728321" "SIPA1L2" "." "." NA
+"1638" "rs56891156" "Y_RNA" "." "." NA
+"1639" "rs56982287" "ATXN7L1" "." "." NA
+"1640" "rs57287736" "RP11-59J16.1" "." "Whole_Blood" NA
+"1641" "rs573370" "EBF3" "." "." NA
+"1642" "rs5743604" "TLR1" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1643" "rs574446" "TAB2" "." "." NA
+"1644" "rs57525174" "RXFP3" "." "." NA
+"1645" "rs5753852" "SLC5A1" "." "Whole_Blood" NA
+"1646" "rs5754422" "UBE2L3" "." "Nerve_Tibial, Artery_Tibial, Lymphoblastoid_EUR_exonlevel" NA
+"1647" "rs5762398" "PITPNB" "." "." NA
+"1648" "rs5763842" "HORMAD2" "." "Testis, Lymphoblastoid_EUR_exonlevel, Skin_Sun_Exposed_Lower_leg" NA
+"1649" "rs57731889" "PEAR1" "." "." NA
+"1650" "rs57748895" "RP4-663N10.1" "." "." NA
+"1651" "rs58038961" "CTC-426B10.1" "." "." NA
+"1652" "rs58141407" "XPO7" "." "Adipose_Subcutaneous, Artery_Aorta, Nerve_Tibial" NA
+"1653" "rs58233215" "IGHV2-5" "." "." NA
+"1654" "rs583306" "RP11-692N5.1" "." "Adipose_Subcutaneous, Skin_Sun_Exposed_Lower_leg, Nerve_Tibial" NA
+"1655" "rs58357299" "CBLN2" "." "." NA
+"1656" "rs58394792" "AC009264.1" "." "Colon_Sigmoid, Colon_Transverse, Heart_Atrial_Appendage" NA
+"1657" "rs58416198" "AC079779.7" "." "Esophagus_Mucosa, Lymphoblastoid_EUR_exonlevel, Skin_Sun_Exposed_Lower_leg" NA
+"1658" "rs58673511" "RP11-77K12.7" "." "." NA
+"1659" "rs58689237" "snoU2_19" "." "." NA
+"1660" "rs58897555" "BRD9" "MCF-7,CMYC,UT-A,vehicle" "." NA
+"1661" "rs589593" "HSF2" "." "." NA
+"1662" "rs59150700" "LRRC43" "." "." NA
+"1663" "rs59188898" "BCL9" "." "." NA
+"1664" "rs59235751" "PLOD1" "." "Testis, Whole_Blood, Esophagus_Mucosa" NA
+"1665" "rs59355118" "GTSF1L" "." "." NA
+"1666" "rs59582960" "ZBTB40" "." "." NA
+"1667" "rs59642042" "DIAPH3" "." "." NA
+"1668" "rs59665939" "AHNAK" "T-47D,GATA3,HudsonAlpha,DMSO_0.02pct" "Brain_aveALL" NA
+"1669" "rs59688742" "LINC00159" "." "." NA
+"1670" "rs597691" "snoU13" "T-47D,GATA3,HudsonAlpha,DMSO_0.02pct" "." NA
+"1671" "rs59985551" "EFEMP1" "." "Thyroid" NA
+"1672" "rs60003685" "AL391117.1" "." "." NA
+"1673" "rs6006959" "KIAA0930" "." "." NA
+"1674" "rs60143889" "RP11-776A13.1" "." "." NA
+"1675" "rs6014993" "RBM38" "." "." NA
+"1676" "rs6019202" "RP5-991B18.1" "." "." NA
+"1677" "rs603424" "PKD2L1" "." "Whole_Blood, Adipose_Visceral_Omentum" NA
+"1678" "rs6035276" "SLC24A3" "." "." NA
+"1679" "rs604723" "ARHGAP42" "." "Artery_Tibial, Artery_Aorta" NA
+"1680" "rs6047591" "RP11-128M1.1" "." "Skin_Sun_Exposed_Lower_leg, Testis" NA
+"1681" "rs6054734" "SLC52A3" "." "." NA
+"1682" "rs6060912" "TPX2" "." "Whole_Blood" NA
+"1683" "rs6073966" "PCIF1" "." "Muscle_Skeletal, Nerve_Tibial, Lymphoblastoid_EUR_exonlevel" NA
+"1684" "rs6075270" "SNX5" "T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"1685" "rs60786522" "SLC25A52" "." "." NA
+"1686" "rs6080930" "OVOL2" "." "." NA
+"1687" "rs608648" "CTNND1" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1688" "rs608736" "RP11-12A2.3" "." "." NA
+"1689" "rs6092091" "KIAA1755" "." "Adipose_Subcutaneous, Thyroid, Whole_Blood" NA
+"1690" "rs60981825" "LINC00494" "." "." NA
+"1691" "rs61052365" "TMEM212-AS1" "." "." NA
+"1692" "rs6108011" "Metazoa_SRP" "." "." NA
+"1693" "rs61216544" "PTGR1" "." "." NA
+"1694" "rs61264548" "XRCC2" "." "." NA
+"1695" "rs61551145" "RP11-281H11.1" "." "." NA
+"1696" "rs61594459" "COLEC10" "." "." NA
+"1697" "rs61732719" "TNIK" "T-47D,FOXA1,HudsonAlpha,DMSO_0.02pct" "." NA
+"1698" "rs61735998" "FHOD3" "." "." NA
+"1699" "rs61748187" "FBXL7" "." "." NA
+"1700" "rs61781358" "CAP1" "." "Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts" NA
+"1701" "rs61797806" "GPR156" "." "Esophagus_Muscularis, Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1702" "rs61806975" "RP11-418J17.1" "." "." NA
+"1703" "rs61811931" "Y_RNA" "." "." NA
+"1704" "rs61825724" "SOX13" "." "." NA
+"1705" "rs61833066" "CTD-2090I13.1" "." "." NA
+"1706" "rs61839660" "IL2RA" "GM12878,NFKB,Stanford,TNFa" "." NA
+"1707" "rs61840192" "RP11-428L9.2" "." "Cells_Transformed_fibroblasts" NA
+"1708" "rs61855170" "LIPA" "K562,IRF1,Stanford,IFNa30;K562,POL2,Stanford,IFNg6h;K562,STAT1,Stanford,IFNa30;K562,STAT1,Stanford,IFNa6h;K562,STAT2,Stanford,IFNa30;K562,STAT2,Stanford,IFNa6h" "." NA
+"1709" "rs61860664" "NRG3" "." "." NA
+"1710" "rs61871744" "ARMS2" "." "Testis, Nerve_Tibial, Skin_Sun_Exposed_Lower_leg" NA
+"1711" "rs61878615" "LRRC4C" "." "." NA
+"1712" "rs61910771" "RP11-469N6.3" "." "." NA
+"1713" "rs61916675" "NINJ2" "." "Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg, Muscle_Skeletal" NA
+"1714" "rs61922869" "RP11-776A13.1" "." "." NA
+"1715" "rs61925789" "RP11-114G22.1" "." "." NA
+"1716" "rs61929511" "TMTC2" "." "." NA
+"1717" "rs61961761" "RP11-545P6.2" "." "." NA
+"1718" "rs61962361" "RP11-471M2.2" "." "." NA
+"1719" "rs61978721" "TSHR" "." "." NA
+"1720" "rs61980087" "CTD-2128A3.2" "." "Nerve_Tibial, Artery_Tibial, Artery_Coronary" NA
+"1721" "rs61989532" "SLC25A21" "." "Cells_Transformed_fibroblasts, Adipose_Subcutaneous, Colon_Transverse" NA
+"1722" "rs61990158" "C14orf159" "." "." NA
+"1723" "rs62002415" "U3" "." "Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg" NA
+"1724" "rs62018985" "PCSK6" "." "." NA
+"1725" "rs62023486" "ONECUT1" "." "." NA
+"1726" "rs62025124" "DUOXA1" "." "." NA
+"1727" "rs62026377" "CLEC16A" "." "Thyroid" NA
+"1728" "rs62050163" "TRAPPC2L" "." "." NA
+"1729" "rs62081383" "KCNJ2" "A549,GR,HudsonAlpha,DEX_50nM;A549,GR,HudsonAlpha,DEX_5nM;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "." NA
+"1730" "rs62106258" "AC105393.1" "." "." NA
+"1731" "rs62117206" "BCL3" "." "." NA
+"1732" "rs62125871" "ATAD2B" "." "." NA
+"1733" "rs62132775" "CLIP4" "." "." NA
+"1734" "rs62134093" "SNORA75" "." "." NA
+"1735" "rs62159869" "EN1" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "." NA
+"1736" "rs62160935" "CXCR4" "." "." NA
+"1737" "rs62172472" "AC007319.1" "." "Artery_Tibial, Artery_Aorta, Nerve_Tibial" NA
+"1738" "rs62180439" "TMEFF2" "." "." NA
+"1739" "rs62191340" "ING5" "." "Thyroid, Lung" NA
+"1740" "rs62226560" "MIR3201" "." "." NA
+"1741" "rs62236826" "AC090044.1" "." "." NA
+"1742" "rs62258028" "RP11-761N21.1" "HepG2,CEBPB,Stanford,forskolin" "." NA
+"1743" "rs62275094" "RP11-529G21.2" "." "." NA
+"1744" "rs62283224" "FNDC3B" "." "." NA
+"1745" "rs62289953" "RP11-323F5.2" "." "." NA
+"1746" "rs62313566" "RP11-404I7.2" "." "." NA
+"1747" "rs62319078" "UNC5C" "." "." NA
+"1748" "rs62323028" "RP11-501E14.1" "." "." NA
+"1749" "rs62335894" "TMEM144" "." "." NA
+"1750" "rs62336003" "CTD-2587M23.1" "." "." NA
+"1751" "rs62351669" "7SK" "." "." NA
+"1752" "rs62361676" "C5orf51" "." "." NA
+"1753" "rs62363880" "RP11-138J23.1" "." "." NA
+"1754" "rs62378328" "CTC-254B4.1" "." "." NA
+"1755" "rs62378437" "LHFPL2" "." "." NA
+"1756" "rs62390369" "EXOC2" "." "." NA
+"1757" "rs62432214" "HEATR2" "." "Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg, Esophagus_Muscularis" NA
+"1758" "rs62456621" "SEPT14" "." "." NA
+"1759" "rs62465047" "Y_RNA" "." "Adipose_Subcutaneous, Skin_Sun_Exposed_Lower_leg, Whole_Blood" NA
+"1760" "rs62466118" "SAMD9" "." "." NA
+"1761" "rs62501195" "RP11-203E8.1" "." "." NA
+"1762" "rs62512207" "AC104417.1" "." "." NA
+"1763" "rs62516313" "KB-1448A5.1" "." "." NA
+"1764" "rs62527030" "TRAPPC9" "." "." NA
+"1765" "rs62573184" "LPAR1" "." "." NA
+"1766" "rs62580492" "CDK5RAP2" "." "." NA
+"1767" "rs62581399" "TMEM141" "." "Adipose_Subcutaneous, Skin_Sun_Exposed_Lower_leg, Thyroid" NA
+"1768" "rs626277" "DACH1" "." "." NA
+"1769" "rs626787" "USP1" "." "Lung, Lymphoblastoid_EUR_exonlevel" NA
+"1770" "rs634493" "ZNF516" "." "." NA
+"1771" "rs640068" "EIF3E" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1772" "rs642197" "FGF9" "." "." NA
+"1773" "rs6432335" "TRIB2" "." "Nerve_Tibial" NA
+"1774" "rs6432615" "RBMS1" "." "." NA
+"1775" "rs6436128" "TUBA4A" "." "Testis" NA
+"1776" "rs6437056" "DIS3L2" "." "." NA
+"1777" "rs6440088" "ATR" "." "Adipose_Subcutaneous, Nerve_Tibial" NA
+"1778" "rs6450922" "NPR3" "." "." NA
+"1779" "rs6456154" "FGFR1OP" "." "Whole_Blood, Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg" NA
+"1780" "rs6464165" "PRKAG2" "." "." NA
+"1781" "rs6469610" "LINC00536" "." "." NA
+"1782" "rs6476433" "UBAP2" "." "Muscle_Skeletal, Esophagus_Muscularis, Whole_Blood" NA
+"1783" "rs647912" "SYTL2" "." "Whole_Blood, Muscle_Skeletal" NA
+"1784" "rs6480402" "HK1" "." "." NA
+"1785" "rs6484289" "CCDC34" "." "." NA
+"1786" "rs6484516" "ELP4" "." "Testis" NA
+"1787" "rs6486059" "TEAD1" "MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr" "." NA
+"1788" "rs6491443" "SLC15A1" "." "." NA
+"1789" "rs6492711" "TGDS" "." "Esophagus_Muscularis, Brain_Cerebellum, Artery_Tibial" NA
+"1790" "rs6497279" "HERC2" "." "." "https://en.wikipedia.org/wiki/E3_ubiquitin_ligase_HERC2. SNPs of HERC2 are strongly associated with iris colour variability in humans. In particular, the rs916977 and rs12913832 SNPs have been reported as good predictors of this trait, and the latter is also significantly associated with skin and hair colour."
+"1791" "rs6497339" "SYT17" "." "Lung, Whole_Blood" NA
+"1792" "rs6510823" "CDC34" "." "Brain_Cerebellum, Whole_Blood" NA
+"1793" "rs6538218" "RP11-654D12.2" "." "." NA
+"1794" "rs6545405" "SPTBN1" "." "." NA
+"1795" "rs6545753" "AC007131.2" "." "." NA
+"1796" "rs6546698" "DYSF" "." "." NA
+"1797" "rs6548237" "AC093326.3" "." "." NA
+"1798" "rs6549255" "MITF" "." "." NA
+"1799" "rs655029" "EHD3" "." "Esophagus_Mucosa" NA
+"1800" "rs6554654" "CTNND2" "." "." NA
+"1801" "rs6556405" "RNF145" "A549,POL2,HudsonAlpha,EtOH_0.02pct;HeLa-S3,STAT1,Stanford,IFNg30;HepG2,POL2,Stanford,forskolin;K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30" "." NA
+"1802" "rs6557615" "RP11-875O11.2" "." "Whole_Blood, Adrenal_Gland" NA
+"1803" "rs6558407" "PLEC" "." "Cells_Transformed_fibroblasts, Whole_Blood, Nerve_Tibial" NA
+"1804" "rs6559933" "U2" "." "." NA
+"1805" "rs656116" "SOGA2" "." "." NA
+"1806" "rs6574950" "NOVA1" "." "." NA
+"1807" "rs6581627" "MSRB3" "." "Nerve_Tibial, Whole_Blood" NA
+"1808" "rs6592965" "IKZF1" "K562,CMYC,Stanford,IFNg30" "Thyroid, Lung, Esophagus_Mucosa" NA
+"1809" "rs6599542" "ZNF16" "." "Whole_Blood" NA
+"1810" "rs6601233" "RP11-1259L22.1" "." "." NA
+"1811" "rs660879" "ANKS1B" "." "." NA
+"1812" "rs66508877" "RNU6-55" "." "." NA
+"1813" "rs66536673" "AKAP1" "." "." NA
+"1814" "rs66593272" "ANK1" "." "." "https://en.wikipedia.org/wiki/ANK1. Mutations in erythrocytic ankyrin 1 have been associated in approximately half of all patients with hereditary spherocytosis."
+"1815" "rs6664992" "SSBP3" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1816" "rs66682451" "RP11-819C21.1" "." "Brain_Nucleus_accumbens_basal_ganglia, Lung, Nerve_Tibial" NA
+"1817" "rs66715735" "RASA3" "." "." NA
+"1818" "rs6672758" "GALNT2" "." "." NA
+"1819" "rs6673973" "RP5-1027O11.1" "." "." NA
+"1820" "rs6679677" "RSBN1" "." "Whole_Blood" NA
+"1821" "rs66935528" "BAZ1A" "." "Lymphoblastoid_EUR_exonlevel, Testis" NA
+"1822" "rs6695898" "TAL1" "." "Whole_Blood, Artery_Aorta, Esophagus_Muscularis" NA
+"1823" "rs6698662" "PTPN14" "." "Skin_Sun_Exposed_Lower_leg" NA
+"1824" "rs67034637" "IGFBPL1" "." "." NA
+"1825" "rs6704663" "RP11-89K21.1" "." "." NA
+"1826" "rs67056848" "UCMA" "." "." NA
+"1827" "rs6713348" "FMNL2" "." "." NA
+"1828" "rs6730558" "AC011747.6" "K562,CMYC,Stanford,IFNa30;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h;K562,STAT2,Stanford,IFNa30" "." NA
+"1829" "rs6734367" "ARHGAP15" "." "Whole_Blood" NA
+"1830" "rs67372909" "RP11-202P11.1" "." "." NA
+"1831" "rs6738433" "DNAJC27" "." "Whole_Blood" NA
+"1832" "rs6739037" "FIGN" "." "." NA
+"1833" "rs6749308" "NCKAP5" "." "." NA
+"1834" "rs6753211" "OSR1" "." "." NA
+"1835" "rs67584463" "CADM2" "." "Lung, Heart_Left_Ventricle, Adipose_Subcutaneous" NA
+"1836" "rs67625472" "KDM4B" "A549,POL2,HudsonAlpha,DEX_100nM;ECC-1,POL2,HudsonAlpha,DMSO_0.02pct" "Adipose_Subcutaneous" NA
+"1837" "rs67641332" "RP11-293N14.1" "." "." NA
+"1838" "rs6782812" "RPN1" "." "." NA
+"1839" "rs67878484" "Y_RNA" "." "." NA
+"1840" "rs6796" "DAGLB" "." "Lung, Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"1841" "rs6798428" "CNTN6" "." "." NA
+"1842" "rs6801041" "AC133680.1" "." "." NA
+"1843" "rs6801761" "CCR2" "." "Skin_Sun_Exposed_Lower_leg" NA
+"1844" "rs68055131" "KALRN" "." "Muscle_Skeletal" NA
+"1845" "rs6811206" "MMRN1" "." "." NA
+"1846" "rs6821293" "RP11-171N4.4" "." "." NA
+"1847" "rs6824748" "LCORL" "." "Artery_Tibial, Thyroid, Lymphoblastoid_EUR_exonlevel" NA
+"1848" "rs6826638" "RP11-600L4.1" "." "." NA
+"1849" "rs6832070" "ENPP6" "." "." NA
+"1850" "rs6845901" "EXOSC9" "." "Lymphoblastoid_EUR_exonlevel, Cells_Transformed_fibroblasts" NA
+"1851" "rs685091" "FBN1" "ECC-1,GR,HudsonAlpha,DEX_100nM" "Cells_Transformed_fibroblasts, Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1852" "rs6851443" "RASGEF1B" "." "Nerve_Tibial" NA
+"1853" "rs6871604" "RASGEF1C" "." "Artery_Tibial" NA
+"1854" "rs6886695" "HAPLN1" "." "Artery_Tibial, Lung" NA
+"1855" "rs6888037" "CTC-228N24.3" "." "Muscle_Skeletal, Adipose_Subcutaneous, Cells_Transformed_fibroblasts" NA
+"1856" "rs6897592" "CTD-2037L6.2" "." "." NA
+"1857" "rs689801" "SOGA2" "." "." NA
+"1858" "rs6899460" "BMP5" "." "." NA
+"1859" "rs6912991" "SYNE1" "." "Brain_aveALL" NA
+"1860" "rs6924070" "CAP2" "." "." NA
+"1861" "rs6932959" "NKAIN2" "." "." NA
+"1862" "rs6933491" "GMPR" "." "Artery_Aorta, Whole_Blood" NA
+"1863" "rs6937398" "U6" "." "." NA
+"1864" "rs6947116" "RP5-921G16.1" "." "." NA
+"1865" "rs6952100" "CCDC132" "." "Whole_Blood, Cells_Transformed_fibroblasts, Artery_Tibial" NA
+"1866" "rs6971710" "AC024028.1" "." "." NA
+"1867" "rs6976031" "CALCR" "." "." NA
+"1868" "rs6988985" "CYP11B2" "." "Whole_Blood, Pancreas" NA
+"1869" "rs6993770" "ZFPM2" "." "." NA
+"1870" "rs6996" "DNAJA4" "." "Artery_Tibial, Whole_Blood" NA
+"1871" "rs7028062" "GLIS3" "." "." NA
+"1872" "rs7034780" "LHX2" "." "." NA
+"1873" "rs706038" "BZW2" "." "Whole_Blood" NA
+"1874" "rs7072965" "RP11-139J15.5" "." "." NA
+"1875" "rs7082825" "ABI1" "." "." NA
+"1876" "rs7090111" "JMJD1C" "." "Esophagus_Mucosa, Brain_Cortex, Brain_Caudate_basal_ganglia" NA
+"1877" "rs7090445" "ARID5B" "GM12878,NFKB,Stanford,TNFa" "." NA
+"1878" "rs7093768" "RP11-12J10.3" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1879" "rs7098619" "MGMT" "." "Thyroid, Artery_Tibial, Adipose_Subcutaneous" NA
+"1880" "rs710215" "RP5-848E13.3" "." "." NA
+"1881" "rs71325459" "STMN3" "." "." NA
+"1882" "rs71355367" "DYM" "." "." NA
+"1883" "rs71375797" "RP11-879D6.1" "." "." NA
+"1884" "rs71459288" "NELL2" "." "." NA
+"1885" "rs7149439" "STXBP6" "." "." NA
+"1886" "rs7160448" "MYH7" "." "Skin_Sun_Exposed_Lower_leg, Lymphoblastoid_EUR_exonlevel" NA
+"1887" "rs71641976" "RASA1" "." "." NA
+"1888" "rs718515" "C18orf25" "." "Whole_Blood" NA
+"1889" "rs7203405" "PLCG2" "." "." NA
+"1890" "rs7226064" "ASIC2" "." "." NA
+"1891" "rs7238279" "U7" "." "." NA
+"1892" "rs7249415" "CLC" "." "." NA
+"1893" "rs7258898" "C19orf12" "." "Skin_Not_Sun_Exposed_Suprapubic, Skin_Sun_Exposed_Lower_leg" NA
+"1894" "rs72614450" "ARHGEF4" "." "." NA
+"1895" "rs72617771" "CAMK2D" "." "." NA
+"1896" "rs726260" "ZNF749" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"1897" "rs72634913" "RP11-525J21.1" "." "." NA
+"1898" "rs72635657" "GPC6" "." "." NA
+"1899" "rs72638318" "RP11-584P21.2" "." "." NA
+"1900" "rs72642707" "SFRP1" "." "." NA
+"1901" "rs72655714" "RP11-742B18.1" "." "." NA
+"1902" "rs72656010" "PLAG1" "." "Heart_Left_Ventricle, Nerve_Tibial, Lymphoblastoid_EUR_exonlevel" NA
+"1903" "rs72659281" "PREX2" "." "." NA
+"1904" "rs72693676" "TRAPPC11" "." "." NA
+"1905" "rs72696011" "TRIM33" "." "Muscle_Skeletal" NA
+"1906" "rs72697708" "SNHG14" "." "." NA
+"1907" "rs72698954" "GALNTL6" "." "." NA
+"1908" "rs72703425" "POGK" "." "." NA
+"1909" "rs72706050" "U6" "." "." NA
+"1910" "rs72714495" "ADCY8" "." "." NA
+"1911" "rs72720099" "WDR67" "." "." NA
+"1912" "rs7273292" "NKX2-2" "." "." NA
+"1913" "rs72741427" "ESRRG" "." "." NA
+"1914" "rs72751119" "TMEM9" "." "." NA
+"1915" "rs72752534" "CTD-2288O8.1" "." "." NA
+"1916" "rs72757570" "PTPDC1" "." "." NA
+"1917" "rs72761071" "snoU13" "." "." NA
+"1918" "rs72763685" "HBA1" "." "Nerve_Tibial, Lung, Artery_Aorta" NA
+"1919" "rs72770063" "TMEM161B" "." "." NA
+"1920" "rs72774901" "SLC25A46" "." "Nerve_Tibial" NA
+"1921" "rs72775778" "C9orf163" "." "Thyroid, Whole_Blood, Pancreas" NA
+"1922" "rs72778520" "RP11-118K6.2" "." "." NA
+"1923" "rs72784277" "ARHGAP21" "." "." NA
+"1924" "rs72800992" "PPM1B" "." "." NA
+"1925" "rs72801832" "RBL2" "." "Skin_Sun_Exposed_Lower_leg, Thyroid, Lung" NA
+"1926" "rs72804597" "CTD-2015G9.2" "." "." NA
+"1927" "rs72820679" "CTNNA2" "." "." NA
+"1928" "rs72827335" "NRG3" "." "." NA
+"1929" "rs72827724" "AC109826.2" "." "." NA
+"1930" "rs72828881" "ARHGAP25" "." "." NA
+"1931" "rs72829044" "SPINK5" "." "." NA
+"1932" "rs72831766" "AC073987.1" "." "." NA
+"1933" "rs72833470" "RP11-6N17.2" "." "Lymphoblastoid_EUR_exonlevel, Thyroid, Testis" NA
+"1934" "rs72836000" "Y_RNA" "." "." NA
+"1935" "rs72838948" "AC010744.1" "." "." NA
+"1936" "rs72842009" "ATOH8" "HepG2,HNF4A,Stanford,forskolin" "." NA
+"1937" "rs7284306" "SMC1B" "." "Whole_Blood, Lymphoblastoid_EUR_genelevel, Lymphoblastoid_EUR_exonlevel" NA
+"1938" "rs72844408" "PAX2" "." "." NA
+"1939" "rs72859123" "AMPD3" "." "." NA
+"1940" "rs72867558" "CUL9" "." "." NA
+"1941" "rs72872005" "RP11-879D6.1" "." "." NA
+"1942" "rs72887854" "RP11-449D8.5" "." "." NA
+"1943" "rs72888508" "FHIT" "." "." NA
+"1944" "rs72889747" "LAMA1" "." "." NA
+"1945" "rs72907418" "U6" "." "." NA
+"1946" "rs72909350" "C2orf88" "." "." NA
+"1947" "rs72917317" "TPCN2" "." "Esophagus_Muscularis, Artery_Aorta, Artery_Tibial" NA
+"1948" "rs72918098" "EPHA7" "." "." NA
+"1949" "rs72925063" "GNLY" "A549,USF1,HudsonAlpha,DEX_100nM;A549,USF1,HudsonAlpha,EtOH_0.02pct" "." NA
+"1950" "rs72929920" "MTX2" "." "." NA
+"1951" "rs72940628" "LACE1" "." "." NA
+"1952" "rs72942795" "AC005042.4" "." "Lymphoblastoid_EUR_exonlevel" NA
+"1953" "rs72943298" "AC012671.3" "." "." NA
+"1954" "rs72957584" "RP11-138E9.2" "." "." NA
+"1955" "rs72959368" "CCDC141" "." "." NA
+"1956" "rs72973198" "snoU13" "." "." NA
+"1957" "rs72981885" "RP11-322J23.1" "MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "." NA
+"1958" "rs72992151" "SLC9A9" "." "." NA
+"1959" "rs72993033" "ASB1" "." "Adipose_Subcutaneous, Testis" NA
+"1960" "rs73026544" "CTC-459F4.2" "." "." NA
+"1961" "rs73030244" "RP11-252P19.3" "." "." NA
+"1962" "rs73036509" "VWF" "A549,CTCF,HudsonAlpha,DEX_100nM" "." NA
+"1963" "rs73043942" "ACAD8" "." "." NA
+"1964" "rs73050576" "UBE2E1" "." "." NA
+"1965" "rs73058593" "CX3CR1" "." "." NA
+"1966" "rs73066086" "SNORD81" "." "." NA
+"1967" "rs73076965" "SIRPD" "." "." NA
+"1968" "rs73085861" "RP11-843B15.2" "." "." NA
+"1969" "rs73089965" "FHIT" "." "." NA
+"1970" "rs73095510" "PHF20" "." "." NA
+"1971" "rs73121143" "DZANK1" "." "." NA
+"1972" "rs73129014" "SNORA19" "." "." NA
+"1973" "rs73136572" "DNAJC5" "." "." NA
+"1974" "rs73145650" "GAB4" "." "." NA
+"1975" "rs73147969" "NAV3" "." "." NA
+"1976" "rs73157750" "HSPA13" "." "." NA
+"1977" "rs73167972" "MECOM" "." "." NA
+"1978" "rs7316926" "EPSTI1" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"1979" "rs73175572" "IGF2BP2" "." "." NA
+"1980" "rs73186233" "RP5-884M6.1" "MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,STAT3,Stanford,EtOH_0.01pct_12hr" "." NA
+"1981" "rs73192380" "LINC00448" "." "." NA
+"1982" "rs73193781" "KALRN" "." "." NA
+"1983" "rs73204240" "IFT122" "." "." NA
+"1984" "rs73225645" "RP11-707A18.1" "." "." NA
+"1985" "rs73226977" "CLSTN2" "." "." NA
+"1986" "rs73229934" "RP11-347I19.3" "A549,POL2,HudsonAlpha,EtOH_0.02pct" "." NA
+"1987" "rs73235600" "ATP8A1" "." "." NA
+"1988" "rs73237859" "RP11-3J1.1" "." "." NA
+"1989" "rs73237885" "RNU6-67" "." "." NA
+"1990" "rs73238121" "LINC00316" "." "." NA
+"1991" "rs73245383" "RP11-141E13.1" "." "." NA
+"1992" "rs7324952" "MIR17HG" "." "Lung" NA
+"1993" "rs73252420" "SLIT2" "." "." NA
+"1994" "rs7325555" "AL450423.1" "." "." NA
+"1995" "rs732716" "SH3GL1" "." "Muscle_Skeletal, Artery_Tibial, Skin_Sun_Exposed_Lower_leg" NA
+"1996" "rs73431801" "FAM19A5" "." "." NA
+"1997" "rs73433554" "RP11-570K4.1" "." "." NA
+"1998" "rs73443612" "CCBE1" "." "." NA
+"1999" "rs73471120" "CYP39A1" "." "Adipose_Subcutaneous, Skin_Sun_Exposed_Lower_leg" NA
+"2000" "rs734810" "RP11-31K23.2" "." "." NA
+"2001" "rs73512631" "SHISA9" "." "." NA
+"2002" "rs735540" "RP11-2N5.1" "." "." NA
+"2003" "rs73554552" "GFI1B" "." "." NA
+"2004" "rs73574101" "EDDM3A" "." "." NA
+"2005" "rs73601548" "RP11-109I13.2" "." "." NA
+"2006" "rs736141" "RGR" "." "Brain_Cortex, Brain_Hippocampus, Brain_Frontal_Cortex_BA9" NA
+"2007" "rs736142" "AC007563.5" "." "." NA
+"2008" "rs73624533" "NLRP13" "." "." NA
+"2009" "rs73644379" "AL590726.1" "." "." NA
+"2010" "rs73650028" "RORB" "." "." NA
+"2011" "rs73789307" "CTC-203F4.1" "." "." NA
+"2012" "rs73810841" "APBB2" "." "." NA
+"2013" "rs7385730" "AC020743.4" "." "." NA
+"2014" "rs73871214" "RN5S144" "." "." NA
+"2015" "rs73900386" "AP000304.12" "." "." NA
+"2016" "rs73908952" "SLC13A3" "." "." NA
+"2017" "rs73940225" "DLGAP1" "." "." NA
+"2018" "rs73942831" "RP11-720L2.4" "." "." NA
+"2019" "rs73960257" "NCKAP5" "." "." NA
+"2020" "rs73965248" "snoU13" "." "." NA
+"2021" "rs74025961" "AC106736.1" "." "." NA
+"2022" "rs7404958" "KIAA0182" "." "." NA
+"2023" "rs7405453" "NPLOC4" "." "Cells_Transformed_fibroblasts, Brain_Cerebellum, Brain_Cerebellar_Hemisphere" NA
+"2024" "rs7405472" "ACBD4" "." "Esophagus_Mucosa, Thyroid, Colon_Transverse" NA
+"2025" "rs740567" "AC005550.4" "." "Adipose_Subcutaneous, Brain_Nucleus_accumbens_basal_ganglia" NA
+"2026" "rs74057888" "WNT5B" "." "." NA
+"2027" "rs742356" "WNT4" "." "Whole_Blood" NA
+"2028" "rs74284552" "PVRL3" "." "." NA
+"2029" "rs74357299" "CBFA2T2" "." "." NA
+"2030" "rs74377791" "RP11-531A24.3" "." "Esophagus_Mucosa" NA
+"2031" "rs74398649" "AC002485.1" "." "." NA
+"2032" "rs74412266" "CTB-7E3.1" "." "." NA
+"2033" "rs74416970" "RP4-544H6.2" "." "." NA
+"2034" "rs74438722" "MIR4318" "." "." NA
+"2035" "rs74446092" "FAM149A" "." "." NA
+"2036" "rs7445724" "C5orf38" "." "." NA
+"2037" "rs744618" "RP11-24D15.1" "." "Testis" NA
+"2038" "rs74464194" "RP11-93L9.1" "." "." NA
+"2039" "rs74474703" "U6" "." "." NA
+"2040" "rs74487097" "AL035045.1" "." "." NA
+"2041" "rs74529975" "RP11-67H2.1" "." "." NA
+"2042" "rs74534309" "RPTOR" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2043" "rs74572060" "SLC20A2" "." "." NA
+"2044" "rs74573316" "RP11-366L20.4" "GM12878,NFKB,Stanford,TNFa;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr" "." NA
+"2045" "rs74580622" "RP11-129I19.2" "." "." NA
+"2046" "rs74598165" "AC091320.2" "." "." NA
+"2047" "rs74622166" "KDM4C" "." "." NA
+"2048" "rs74635960" "MAPRE2" "." "." NA
+"2049" "rs74643989" "U8" "." "." NA
+"2050" "rs74683090" "EXOC5" "." "." NA
+"2051" "rs7468585" "RP11-315I14.2" "." "." NA
+"2052" "rs74687123" "N4BP1" "." "." NA
+"2053" "rs74705351" "SYT11" "." "." NA
+"2054" "rs7476071" "JAKMIP3" "." "Whole_Blood, Lung, Cells_Transformed_fibroblasts" NA
+"2055" "rs74764079" "BMP3" "." "." NA
+"2056" "rs74772208" "MED30" "." "." NA
+"2057" "rs74834359" "PXDNL" "." "." NA
+"2058" "rs74836603" "Metazoa_SRP" "." "." NA
+"2059" "rs74837564" "IBTK" "HeLa-S3,STAT1,Stanford,IFNg30" "." NA
+"2060" "rs74837649" "ZNF423" "." "." NA
+"2061" "rs74853457" "AC062020.1" "." "." NA
+"2062" "rs74909856" "C20orf78" "." "." NA
+"2063" "rs74915550" "CTIF" "." "." NA
+"2064" "rs74923291" "CNST" "." "." NA
+"2065" "rs74937142" "RP11-168J19.2" "." "." NA
+"2066" "rs74977659" "C20orf196" "." "." NA
+"2067" "rs74982963" "RAPGEF4" "." "." NA
+"2068" "rs74991206" "RP11-204C23.1" "." "." NA
+"2069" "rs74999012" "AC016751.3" "." "." NA
+"2070" "rs750090" "RN5S169" "." "Testis" NA
+"2071" "rs7503602" "METRNL" "." "." NA
+"2072" "rs75134351" "RP11-4K16.2" "." "." NA
+"2073" "rs75135753" "PIP5K1B" "." "." NA
+"2074" "rs75140996" "CCDC48" "MCF-7,CMYC,UT-A,vehicle" "." NA
+"2075" "rs75185976" "GBP6" "." "." NA
+"2076" "rs75193800" "AC006227.1" "." "." NA
+"2077" "rs75203621" "RNF115" "." "." NA
+"2078" "rs75204739" "DIP2C" "." "." NA
+"2079" "rs7522233" "CD34" "." "." NA
+"2080" "rs75242057" "VPS4B" "." "." NA
+"2081" "rs75280581" "RP5-1022P6.6" "." "." NA
+"2082" "rs75290883" "RP11-476B1.1" "." "." NA
+"2083" "rs75297559" "RP11-123O10.3" "." "." NA
+"2084" "rs75319806" "Metazoa_SRP" "." "." NA
+"2085" "rs7534091" "RN5S56" "." "." NA
+"2086" "rs75344916" "RP11-221J22.1" "GM12878,NFKB,Stanford,TNFa" "." NA
+"2087" "rs75359347" "ADARB1" "." "." NA
+"2088" "rs75387179" "RP11-281P23.1" "." "." NA
+"2089" "rs75425507" "AC092162.1" "." "." NA
+"2090" "rs75447783" "ST6GALNAC5" "." "." NA
+"2091" "rs75462460" "PCSK5" "." "." NA
+"2092" "rs7547493" "AK5" "." "." NA
+"2093" "rs75495843" "PLCD1" "." "." NA
+"2094" "rs75517306" "RP11-115J23.1" "." "." NA
+"2095" "rs75521448" "RP11-87N24.3" "." "." NA
+"2096" "rs75531597" "DNM3" "." "." NA
+"2097" "rs75578694" "RIN3" "." "." NA
+"2098" "rs75587412" "DCAF5" "." "." NA
+"2099" "rs75622376" "CUX2" "." "." NA
+"2100" "rs7562559" "AC012370.3" "MCF-7,CMYC,UT-A,estrogen;MCF-7,CMYC,UT-A,vehicle;T-47D,GATA3,HudsonAlpha,DMSO_0.02pct" "Thyroid" NA
+"2101" "rs75675638" "CNTN4" "." "." NA
+"2102" "rs75692857" "U6" "." "." NA
+"2103" "rs75706682" "RP11-97O12.2" "." "." NA
+"2104" "rs75722872" "RP11-324C10.1" "." "." NA
+"2105" "rs7572297" "AGAP1" "." "." NA
+"2106" "rs7573897" "AC010983.1" "." "." NA
+"2107" "rs7574841" "PSMD1" "." "." NA
+"2108" "rs75759695" "AC010105.1" "." "." NA
+"2109" "rs75761779" "TSGA10" "." "." NA
+"2110" "rs75818707" "FRAS1" "." "." NA
+"2111" "rs7585866" "SDPR" "." "." NA
+"2112" "rs75859716" "MCF2L2" "." "." NA
+"2113" "rs7592412" "COBLL1" "." "Muscle_Skeletal" NA
+"2114" "rs75943856" "PALLD" "." "." NA
+"2115" "rs75945965" "TBC1D4" "." "Artery_Tibial, Nerve_Tibial, Lymphoblastoid_EUR_exonlevel" NA
+"2116" "rs75948445" "RP11-166A12.1" "." "." NA
+"2117" "rs759570" "RP11-541G9.1" "." "." NA
+"2118" "rs75974265" "KERA" "." "." NA
+"2119" "rs7598655" "CYS1" "." "." NA
+"2120" "rs76009125" "SNX13" "." "." NA
+"2121" "rs76009253" "PCSK5" "." "." NA
+"2122" "rs76020651" "BMPR2" "." "." NA
+"2123" "rs76033022" "OCA2" "." "." NA
+"2124" "rs76035168" "ZCCHC7" "." "." NA
+"2125" "rs76040172" "ADARB1" "." "." NA
+"2126" "rs76053219" "SSR1" "MCF-7,CMYC,UT-A,estrogen" "." NA
+"2127" "rs76085530" "AC104417.1" "." "." NA
+"2128" "rs76100656" "RP4-544H6.2" "." "." NA
+"2129" "rs76141309" "SAV1" "." "." NA
+"2130" "rs76152035" "TRIM9" "." "." NA
+"2131" "rs76155423" "NME1" "." "." NA
+"2132" "rs76238793" "RP11-454P21.1" "." "." NA
+"2133" "rs76243894" "FLG-AS1" "." "." NA
+"2134" "rs7624918" "ARHGEF3" "." "." NA
+"2135" "rs76260141" "AC103588.1" "." "." NA
+"2136" "rs762643" "BMP4" "HepG2,POL2,Stanford,forskolin" "Brain_CRBL" NA
+"2137" "rs7627964" "TNFSF10" "." "." NA
+"2138" "rs76309818" "BCAS3" "." "." NA
+"2139" "rs76330912" "RP11-674C21.9" "." "." NA
+"2140" "rs76348377" "RP11-321M21.3" "." "." NA
+"2141" "rs7635832" "FNDC3B" "." "." NA
+"2142" "rs76406525" "RP11-275I4.2" "." "." NA
+"2143" "rs76425891" "TSSK3" "." "." NA
+"2144" "rs76428106" "FLT3" "." "." NA
+"2145" "rs7644053" "RPL35A" "MCF-7,CMYC,UT-A,estrogen;MCF-7,CMYC,UT-A,vehicle" "Whole_Blood" NA
+"2146" "rs76469337" "RN5S144" "." "." NA
+"2147" "rs7648782" "CNTN6" "." "." NA
+"2148" "rs76517415" "RP11-350F4.2" "." "." NA
+"2149" "rs76533333" "RP11-144L2.1" "." "." NA
+"2150" "rs76548348" "RP11-246K15.1" "." "." NA
+"2151" "rs76549445" "ZWILCH" "." "Testis, Lymphoblastoid_EUR_exonlevel" NA
+"2152" "rs76551823" "RP11-65D17.1" "." "." NA
+"2153" "rs76563195" "RP11-775B15.2" "." "Colon_Transverse, Lung, Esophagus_Muscularis" NA
+"2154" "rs76600824" "RP11-211C9.1" "." "." NA
+"2155" "rs76604417" "TBX15" "." "." NA
+"2156" "rs766146" "STRN3" "." "Whole_Blood" NA
+"2157" "rs76633908" "PCDH20" "." "." NA
+"2158" "rs7666296" "RP11-673E1.4" "." "Testis, Skin_Sun_Exposed_Lower_leg, Adipose_Subcutaneous" NA
+"2159" "rs76751530" "RP11-720L8.1" "." "." NA
+"2160" "rs7677243" "FAM190A" "." "." NA
+"2161" "rs76792230" "INPP5A" "." "." NA
+"2162" "rs76836571" "RP1-122P22.2" "." "." NA
+"2163" "rs76845075" "TMEM120B" "." "Skin_Sun_Exposed_Lower_leg" NA
+"2164" "rs76891606" "CNTN5" "." "." NA
+"2165" "rs76906605" "SLC16A12" "." "." NA
+"2166" "rs76913818" "AC002485.1" "." "." NA
+"2167" "rs76925859" "HERC2" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" "https://en.wikipedia.org/wiki/E3_ubiquitin_ligase_HERC2. SNPs of HERC2 are strongly associated with iris colour variability in humans. In particular, the rs916977 and rs12913832 SNPs have been reported as good predictors of this trait, and the latter is also significantly associated with skin and hair colour."
+"2168" "rs769658" "MAML3" "." "." NA
+"2169" "rs7699288" "EGF" "." "Brain_Cortex, Colon_Transverse, Whole_Blood" NA
+"2170" "rs77015322" "RP11-736P16.1" "." "." NA
+"2171" "rs77025093" "WBSCR17" "." "." NA
+"2172" "rs77071436" "EXOC3L4" "." "Lung, Colon_Transverse, Spleen" NA
+"2173" "rs77077734" "CNTN5" "." "." NA
+"2174" "rs77081117" "CUEDC1" "ECC-1,ERALPHA_A,HudsonAlpha,Estradiol_10nM" "." NA
+"2175" "rs77083684" "WHSC1L1" "." "." NA
+"2176" "rs77104436" "ARHGEF4" "." "." NA
+"2177" "rs77135689" "TRAPPC11" "." "." NA
+"2178" "rs77179000" "AVPR1A" "." "." NA
+"2179" "rs77197035" "AC074112.1" "." "." NA
+"2180" "rs77220498" "HEMGN" "." "." NA
+"2181" "rs77220528" "DLG2" "." "." NA
+"2182" "rs7722711" "IQGAP2" "." "." NA
+"2183" "rs77230184" "HAO1" "." "." NA
+"2184" "rs77245118" "RP11-364B6.1" "." "." NA
+"2185" "rs77256390" "ST7" "." "." NA
+"2186" "rs7726159" "TERT" "." "." NA
+"2187" "rs77279961" "FAM201A" "." "." NA
+"2188" "rs77303550" "TXNL4B" "." "Skin_Sun_Exposed_Lower_leg" NA
+"2189" "rs77320953" "TARSL2" "." "." NA
+"2190" "rs77321867" "7SK" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle;T-47D,CTCF,HudsonAlpha,DMSO_0.02pct" "." NA
+"2191" "rs77358382" "CTD-2134P3.1" "." "." NA
+"2192" "rs77360066" "AL590867.1" "." "." NA
+"2193" "rs77380431" "RBPJ" "." "." NA
+"2194" "rs77427278" "Metazoa_SRP" "." "." NA
+"2195" "rs77435946" "PDZK1" "K562,IRF1,Stanford,IFNa30" "." NA
+"2196" "rs7744813" "KCNQ5" "." "." NA
+"2197" "rs7744814" "AL133269.1" "." "." NA
+"2198" "rs77492431" "RP11-613M10.9" "." "." NA
+"2199" "rs77522746" "RP11-29B2.4" "." "." NA
+"2200" "rs77542162" "ABCA6" "MCF-7,CMYC,UT-A,estrogen;MCF-7,CMYC,UT-A,vehicle;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "." NA
+"2201" "rs7754243" "NKAIN2" "." "." NA
+"2202" "rs7755" "CD36" "." "Heart, Whole_Blood" NA
+"2203" "rs77573186" "AC108057.1" "." "." NA
+"2204" "rs77584330" "LINC00348" "." "." NA
+"2205" "rs77611704" "SH3RF3" "." "." NA
+"2206" "rs7766332" "RP3-495K2.3" "." "Testis" NA
+"2207" "rs77669095" "RAP2A" "." "." NA
+"2208" "rs77707322" "RP11-65F13.2" "." "." NA
+"2209" "rs77746906" "SLIT2" "." "." NA
+"2210" "rs777605" "TRPS1" "." "." NA
+"2211" "rs77760686" "APBA2" "." "." NA
+"2212" "rs77770606" "DPP4" "." "." NA
+"2213" "rs77774261" "ZBTB20" "." "." NA
+"2214" "rs77790222" "AC133785.1" "." "." NA
+"2215" "rs77793877" "FTMT" "." "." NA
+"2216" "rs77836456" "VGLL3" "." "." NA
+"2217" "rs77838616" "RP11-669M2.1" "." "." NA
+"2218" "rs778387" "RP1-158P9.1" "." "." NA
+"2219" "rs7784066" "GNA12" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2220" "rs77850497" "RP11-114H21.2" "." "." NA
+"2221" "rs7789412" "HDAC9" "." "Whole_Blood" NA
+"2222" "rs77899611" "RP11-739N10.1" "." "." NA
+"2223" "rs77912329" "PLEKHG1" "." "." NA
+"2224" "rs7794934" "DPP6" "." "." NA
+"2225" "rs77957422" "CNTN6" "." "." NA
+"2226" "rs77969075" "CNKSR3" "." "." NA
+"2227" "rs77972614" "UQCRFS1" "." "." NA
+"2228" "rs77978038" "SDR16C5" "." "." NA
+"2229" "rs7798256" "C7orf73" "." "Colon_Transverse" NA
+"2230" "rs77986087" "7SK" "." "Esophagus_Muscularis" NA
+"2231" "rs77996959" "GRAMD1C" "." "." NA
+"2232" "rs77999046" "NKX2-5" "." "Artery_Tibial" NA
+"2233" "rs78068700" "AC080094.1" "." "." NA
+"2234" "rs78069918" "RP11-548M13.1" "." "." NA
+"2235" "rs78088643" "FGF2" "." "." NA
+"2236" "rs7809993" "CTTNBP2" "." "Adipose_Subcutaneous, Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg" NA
+"2237" "rs78122974" "AC062020.2" "." "." NA
+"2238" "rs7812995" "STAU2" "." "." NA
+"2239" "rs78144477" "AL589947.1" "." "." NA
+"2240" "rs78159679" "NRSN1" "." "." NA
+"2241" "rs78186261" "TTC5" "." "." NA
+"2242" "rs78194495" "KAZN" "." "." NA
+"2243" "rs78202153" "LINC00371" "." "." NA
+"2244" "rs7826487" "DEFA3" "." "." NA
+"2245" "rs78273613" "SLC17A3" "." "Cells_Transformed_fibroblasts, Adipose_Subcutaneous, Artery_Aorta" "https://en.wikipedia.org/wiki/SLC17A3. The protein encoded by this gene is a voltage-driven transporter that excretes intracellular urate and organic anions from the blood into renal tubule cells. Two transcript variants encoding different isoforms have been found for this gene. The longer isoform is a plasma membrane protein with transporter activity while the shorter isoform localizes to the endoplasmic reticulum."
+"2246" "rs78301299" "ACA59" "." "." NA
+"2247" "rs78312734" "SNORA33" "." "." NA
+"2248" "rs78322295" "ASIC2" "." "." NA
+"2249" "rs78329212" "RP11-222N13.1" "." "." NA
+"2250" "rs78330687" "RP11-3J1.1" "." "." NA
+"2251" "rs783622" "HIVEP3" "." "Whole_Blood" NA
+"2252" "rs78395994" "METTL8" "." "." NA
+"2253" "rs78444862" "RGS20" "." "." NA
+"2254" "rs7844787" "NDRG1" "." "." NA
+"2255" "rs7845512" "MIR4472-1" "." "." NA
+"2256" "rs78459977" "RP11-669M2.1" "." "." NA
+"2257" "rs78490004" "TIMM21" "." "." NA
+"2258" "rs78529941" "OBSCN" "." "Nerve_Tibial, Whole_Blood" NA
+"2259" "rs78550589" "ANGPT1" "." "." NA
+"2260" "rs7855272" "AL161908.1" "." "." NA
+"2261" "rs78565404" "THPO" "." "." NA
+"2262" "rs78598147" "RP11-540E16.2" "." "." NA
+"2263" "rs78616260" "AC062020.2" "." "." NA
+"2264" "rs7862256" "PAPPA" "." "." NA
+"2265" "rs78683412" "SNORA70" "." "Cells_Transformed_fibroblasts" NA
+"2266" "rs7869988" "EPB41L4B" "." "Thyroid, Nerve_Tibial, Esophagus_Muscularis" NA
+"2267" "rs78701168" "RASGRP1" "." "." NA
+"2268" "rs7870381" "AL158147.1" "GM12878,NFKB,Stanford,TNFa" "Whole_Blood" NA
+"2269" "rs78713112" "AP000569.8" "." "." NA
+"2270" "rs7872878" "TNFSF8" "." "Whole_Blood" NA
+"2271" "rs78729756" "RP11-129I19.2" "." "." NA
+"2272" "rs787363" "U6" "." "." NA
+"2273" "rs78744187" "CEBPA" "." "." NA
+"2274" "rs78744949" "CTPS1" "." "." NA
+"2275" "rs78755140" "ACA59" "." "." NA
+"2276" "rs78765994" "FHIT" "." "." NA
+"2277" "rs787685" "MYOF" "." "Whole_Blood" NA
+"2278" "rs78811372" "AMY2B" "." "." NA
+"2279" "rs78812352" "FHIT" "." "." NA
+"2280" "rs78840594" "AC016907.3" "." "." NA
+"2281" "rs78850849" "RP11-491F9.8" "." "." NA
+"2282" "rs78909033" "RNPEPL1" "." "." NA
+"2283" "rs78924091" "GRHPR" "." "." NA
+"2284" "rs78925940" "RP11-534L6.2" "." "." NA
+"2285" "rs78934846" "KATNB1" "." "." "https://en.wikipedia.org/wiki/KATNB1. KATNB1 is associated with microlissencephaly."
+"2286" "rs78948711" "RP11-10L7.1" "K562,POL2,Stanford,IFNa6h;K562,STAT1,Stanford,IFNa6h" "." NA
+"2287" "rs7896608" "PRTFDC1" "." "Cells_Transformed_fibroblasts" NA
+"2288" "rs78977632" "CHN2" "." "." NA
+"2289" "rs7899999" "RP11-464F9.19" "." "." NA
+"2290" "rs79005951" "CNOT4" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2291" "rs79011706" "AL449083.1" "." "." NA
+"2292" "rs7901348" "ARID5B" "." "." NA
+"2293" "rs79028187" "ANKRD26" "." "." NA
+"2294" "rs79029793" "DEF8" "." "Whole_Blood, Cells_Transformed_fibroblasts, Muscle_Skeletal" NA
+"2295" "rs7904955" "SUFU" "." "Lymphoblastoid_EUR_exonlevel, Liver, Esophagus_Muscularis" NA
+"2296" "rs7905898" "7SK" "." "." NA
+"2297" "rs790729" "SORCS3" "." "." NA
+"2298" "rs790912" "OPRM1" "." "." NA
+"2299" "rs79119658" "MTUS2" "." "." NA
+"2300" "rs791279" "GJA5" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2301" "rs7913343" "TBC1D12" "." "Nerve_Tibial, Adipose_Subcutaneous, Brain_Cerebellum" NA
+"2302" "rs791362" "CTB-43E15.4" "." "Whole_Blood" NA
+"2303" "rs79138573" "Metazoa_SRP" "." "." NA
+"2304" "rs7914030" "PLEKHS1" "." "Nerve_Tibial, Brain_Frontal_Cortex_BA9, Artery_Coronary" NA
+"2305" "rs7916821" "MYPN" "." "Testis, Lymphoblastoid_EUR_exonlevel" NA
+"2306" "rs79192210" "ZSCAN1" "." "." NA
+"2307" "rs79192813" "LEF1" "." "." NA
+"2308" "rs79194361" "U3" "." "." NA
+"2309" "rs7919498" "RP11-14C22.6" "." "." NA
+"2310" "rs7919753" "RP11-556E13.1" "." "." NA
+"2311" "rs79214748" "RP11-347L18.1" "." "." NA
+"2312" "rs79241687" "ZMYND11" "." "." NA
+"2313" "rs79279589" "HTR4" "." "." NA
+"2314" "rs79294845" "CCDC90A" "." "." NA
+"2315" "rs7932972" "NPAT" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2316" "rs7936296" "CNTN5" "." "." NA
+"2317" "rs7936323" "C11orf30" "." "." NA
+"2318" "rs79406336" "AC108697.1" "." "." NA
+"2319" "rs7940880" "POLD3" "." "." NA
+"2320" "rs79411269" "MYO10" "." "." NA
+"2321" "rs794373" "Y_RNA" "." "Lymphoblastoid_EUR_exonlevel, Skin_Sun_Exposed_Lower_leg, Adipose_Subcutaneous" NA
+"2322" "rs79456881" "CCDC167" "." "." NA
+"2323" "rs7948183" "ACCS" "." "Artery_Tibial, Esophagus_Muscularis, Whole_Blood" NA
+"2324" "rs79483826" "C9orf62" "." "." NA
+"2325" "rs7949566" "ST3GAL4" "." "." NA
+"2326" "rs79509762" "CYFIP1" "." "." NA
+"2327" "rs79532156" "snoU13" "." "." NA
+"2328" "rs7953774" "SLC38A1" "HeLa-S3,STAT1,Stanford,IFNg30;K562,CJUN,Stanford,IFNa6h;K562,CJUN,Stanford,IFNg30;K562,CMYC,Stanford,IFNg30;K562,CMYC,Stanford,IFNg6h" "." NA
+"2329" "rs79551600" "CD5L" "." "." NA
+"2330" "rs79589545" "ZNF423" "." "." NA
+"2331" "rs79612190" "AL163953.3" "." "." NA
+"2332" "rs79629370" "RP11-29G8.3" "." "." NA
+"2333" "rs7963972" "CCDC59" "." "." NA
+"2334" "rs79640700" "SETD9" "." "." NA
+"2335" "rs79685412" "RP11-398J10.1" "." "." NA
+"2336" "rs79691295" "RP11-343J18.2" "." "." NA
+"2337" "rs79701847" "GTDC2" "." "Nerve_Tibial" NA
+"2338" "rs79720161" "RP11-302L19.1" "." "." NA
+"2339" "rs79722375" "CTD-2269F5.1" "." "." NA
+"2340" "rs7973956" "RP5-1057I20.2" "." "Esophagus_Mucosa" NA
+"2341" "rs79745433" "RN5S428" "." "." NA
+"2342" "rs7974597" "TUBA1C" "." "Thyroid" NA
+"2343" "rs7974649" "LLPH" "." "." NA
+"2344" "rs7977614" "7SK" "." "Whole_Blood" NA
+"2345" "rs79788159" "TRIM45" "." "." NA
+"2346" "rs79808025" "RP11-305L7.6" "." "." NA
+"2347" "rs79824073" "DICER1" "." "." NA
+"2348" "rs79850917" "NDOR1" "." "Lung" NA
+"2349" "rs79870157" "KCNN3" "." "Whole_Blood" NA
+"2350" "rs79875752" "SPATA18" "." "." NA
+"2351" "rs79885074" "TIPARP-AS1" "." "." NA
+"2352" "rs7988627" "RP11-521J24.1" "." "." NA
+"2353" "rs7989823" "COL4A2" "A549,POL2,HudsonAlpha,EtOH_0.02pct;MCF10A-Er-Src,POL2,Harvard(Weissman),TAM_1uM_36hr;MCF10A-Er-Src,POL2,Stanford,EtOH_0.01pct" "." NA
+"2354" "rs79911470" "Metazoa_SRP" "." "." NA
+"2355" "rs799160" "MLXIPL" "." "Lung" NA
+"2356" "rs79955866" "RPN1" "." "." NA
+"2357" "rs79969381" "PDS5B" "." "." NA
+"2358" "rs80016599" "AC012317.1" "." "." NA
+"2359" "rs80029678" "TRIO" "." "." NA
+"2360" "rs80081717" "SOX5" "." "." NA
+"2361" "rs8010455" "RCOR1" "." "Esophagus_Mucosa, Whole_Blood" NA
+"2362" "rs80121626" "ADH7" "." "." NA
+"2363" "rs80131270" "RP11-484P15.2" "." "." NA
+"2364" "rs80150273" "AC105252.1" "." "." NA
+"2365" "rs80153252" "PXDNL" "." "." NA
+"2366" "rs8017620" "RP11-298I3.5" "." "Whole_Blood" NA
+"2367" "rs80182273" "RP11-634B7.4" "." "Testis" NA
+"2368" "rs80223002" "AC020743.4" "." "." NA
+"2369" "rs80223553" "ISM2" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2370" "rs80233695" "ANAPC1" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2371" "rs80238719" "ARHGAP24" "." "." NA
+"2372" "rs8028409" "RCCD1" "." "Skin_Sun_Exposed_Lower_leg, Testis, Adipose_Subcutaneous" NA
+"2373" "rs80293268" "RP11-431K24.1" "." "." NA
+"2374" "rs80303855" "RP11-12K22.1" "." "." NA
+"2375" "rs80351982" "KAZN" "." "." NA
+"2376" "rs8039718" "TLE3" "." "." NA
+"2377" "rs8044595" "MYH11" "." "." NA
+"2378" "rs8061042" "XYLT1" "." "." NA
+"2379" "rs8064111" "IRF8" "." "." NA
+"2380" "rs8072532" "SMG6" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"2381" "rs8073060" "SLFN14" "." "Lymphoblastoid_EUR_exonlevel, Muscle_Skeletal" NA
+"2382" "rs8075623" "B3GNTL1" "." "." NA
+"2383" "rs807671" "AC004463.6" "HeLa-S3,STAT1,Stanford,IFNg30" "." NA
+"2384" "rs8080936" "SHMT1" "." "Lymphoblastoid_EUR_exonlevel, Artery_Tibial" NA
+"2385" "rs808224" "SLC35F4" "." "." NA
+"2386" "rs8099412" "CD226" "." "Testis, Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"2387" "rs8106706" "ZIM2" "." "." NA
+"2388" "rs8132841" "PTTG1IP" "K562,CMYC,Stanford,IFNg30" "." NA
+"2389" "rs8141347" "BCL2L13" "." "Cells_Transformed_fibroblasts, Whole_Blood" NA
+"2390" "rs8178860" "APOH" "." "." NA
+"2391" "rs833806" "RP5-1120P11.1" "." "." NA
+"2392" "rs837334" "PCCA" "." "Adipose_Subcutaneous, Testis" NA
+"2393" "rs837582" "LEPREL1" "." "." NA
+"2394" "rs846972" "SOBP" "." "." NA
+"2395" "rs857693" "OR10X1" "." "." NA
+"2396" "rs862041" "LTBP2" "." "." NA
+"2397" "rs869785" "THRB" "." "." NA
+"2398" "rs873786" "GAK" "." "Skin_Sun_Exposed_Lower_leg, Thyroid" NA
+"2399" "rs875742" "CPEB4" "K562,CMYC,Stanford,IFNg30;K562,STAT1,Stanford,IFNg6h" "Whole_Blood" NA
+"2400" "rs888762" "ADAMTS2" "." "." NA
+"2401" "rs888926" "GFPT2" "." "." NA
+"2402" "rs892090" "GP6" "K562,POL2,Stanford,IFNa30;K562,POL2,Stanford,IFNa6h;K562,POL2,Stanford,IFNg6h" "Whole_Blood, Skin_Sun_Exposed_Lower_leg" NA
+"2403" "rs900567" "ZC2HC1A" "." "Whole_Blood, Lymphoblastoid_EUR_genelevel" NA
+"2404" "rs905670" "BACH2" "." "." NA
+"2405" "rs907507" "FIP1L1" "." "." NA
+"2406" "rs910954" "SMOX" "A549,POL2,HudsonAlpha,EtOH_0.02pct" "Colon_Transverse" NA
+"2407" "rs911585" "C11orf41" "." "." NA
+"2408" "rs9131" "CXCL2" "." "." NA
+"2409" "rs921614" "PTPRN2" "." "." NA
+"2410" "rs922888" "RP13-487K5.1" "." "." NA
+"2411" "rs926144" "SERPINA6" "." "Whole_Blood" NA
+"2412" "rs9293306" "ZNF366" "." "." NA
+"2413" "rs9294754" "SNORD65" "." "." NA
+"2414" "rs930108" "IRS1" "." "Lymphoblastoid_EUR_exonlevel, Lymphoblastoid_EUR_genelevel" NA
+"2415" "rs9304665" "ZC3H4" "." "Whole_Blood" NA
+"2416" "rs9313497" "LCP2" "." "." NA
+"2417" "rs9320841" "U2" "." "." NA
+"2418" "rs9328172" "SLC22A23" "T-47D,GATA3,HudsonAlpha,DMSO_0.02pct" "Whole_Blood" NA
+"2419" "rs9330813" "WNT7B" "." "." "https://en.wikipedia.org/wiki/WNT7B. Wnt7b is a signaling protein that plays a crucial role for many developmental processes including placental (胎盘), lung, eye, dendrite (树突), and bone formation along with kidney development."
+"2420" "rs934178" "CD82" "." "Esophagus_Mucosa, Adipose_Visceral_Omentum" NA
+"2421" "rs9358912" "HIST1H4E" "." "Esophagus_Mucosa" NA
+"2422" "rs936432" "SEC11C" "." "." NA
+"2423" "rs9376060" "RP1-287H17.1" "." "Nerve_Tibial" NA
+"2424" "rs9381093" "PRICKLE4" "ECC-1,POL2,HudsonAlpha,DMSO_0.02pct;K562,POL2,Stanford,IFNa30;K562,POL2,Stanford,IFNa6h;K562,POL2,Stanford,IFNg6h" "Cells_Transformed_fibroblasts, Artery_Aorta, Skin_Sun_Exposed_Lower_leg" NA
+"2425" "rs9385002" "VGLL2" "." "." NA
+"2426" "rs939666" "SFRP4" "A549,CTCF,HudsonAlpha,DEX_100nM;A549,CTCF,HudsonAlpha,EtOH_0.02pct;MCF-7,CTCF,UT-A,estrogen;MCF-7,CTCF,UT-A,vehicle" "Whole_Blood" NA
+"2427" "rs9399136" "HBS1L" "." "Muscle_Skeletal, Nerve_Tibial, Artery_Tibial" "https://en.wikipedia.org/wiki/HBS1_like_translational_GTPase. The intergenic region of this gene and the MYB gene has been identified to be a quantitative trait locus (QTL) controlling fetal hemoglobin (血红蛋白) level, and this region influences erythrocyte (红细胞), platelet, and monocyte counts as well as erythrocyte volume and hemoglobin content. DNA polymorphisms at this region associate with fetal hemoglobin levels and pain crises in sickle cell disease."
+"2428" "rs9405481" "Metazoa_SRP" "." "." NA
+"2429" "rs9429088" "MAST2" "." "Artery_Tibial, Cells_Transformed_fibroblasts, Lymphoblastoid_EUR_exonlevel" NA
+"2430" "rs943261" "ACSL5" "." "Esophagus_Mucosa, Skin_Sun_Exposed_Lower_leg" NA
+"2431" "rs943283" "RCBTB2" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2432" "rs9442370" "C1orf159" "A549,GR,HudsonAlpha,DEX_100nM;ECC-1,POL2,HudsonAlpha,DMSO_0.02pct;MCF-7,CMYC,UT-A,vehicle" "Artery_Aorta, Thyroid, Esophagus_Mucosa" NA
+"2433" "rs9464759" "AL050335.1" "." "." NA
+"2434" "rs9468976" "HLA-B" "." "Lymphoblastoid_EUR_exonlevel, Muscle_Skeletal" NA
+"2435" "rs9471708" "CCND3" "." "Cells_Transformed_fibroblasts, Skin_Sun_Exposed_Lower_leg, Nerve_Tibial" "https://en.wikipedia.org/wiki/Cyclin_D3. This protein has been shown to interact with and be involved in the phosphorylation of tumor suppressor protein Rb."
+"2436" "rs9486725" "FHL5" "." "Artery_Tibial" NA
+"2437" "rs9487023" "C6orf183" "." "Testis, Skin_Not_Sun_Exposed_Suprapubic, Skin_Sun_Exposed_Lower_leg" NA
+"2438" "rs9494867" "Y_RNA" "." "." NA
+"2439" "rs9503977" "EXOC2" "." "Whole_Blood" NA
+"2440" "rs9507862" "RP11-428O18.4" "." "." NA
+"2441" "rs9508712" "LINC00426" "." "." NA
+"2442" "rs950891" "RP11-65D24.2" "." "." NA
+"2443" "rs9513614" "AL583784.1" "." "." NA
+"2444" "rs9525298" "CDC16" "." "Whole_Blood" NA
+"2445" "rs9532580" "FOXO1" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA
+"2446" "rs9533099" "AKAP11" "." "." NA
+"2447" "rs9534458" "LRCH1" "." "Heart_Left_Ventricle" NA
+"2448" "rs9535455" "DLEU1" "." "." NA
+"2449" "rs9546157" "RNU6-67" "." "." NA
+"2450" "rs9549753" "GRTP1" "HepG2,POL2,Stanford,forskolin" "Cells_Transformed_fibroblasts, Artery_Tibial" NA
+"2451" "rs9552812" "AL157931.1" "." "." NA
+"2452" "rs9568239" "RCBTB1" "." "Whole_Blood" NA
+"2453" "rs9571072" "RP11-394A14.2" "." "Testis" NA
+"2454" "rs9599708" "RNU6-54" "." "." NA
+"2455" "rs9606139" "AC000093.3" "K562,CMYC,Stanford,IFNa6h;K562,CMYC,Stanford,IFNg30" "Adipose_Subcutaneous, Skin_Not_Sun_Exposed_Suprapubic, Skin_Sun_Exposed_Lower_leg" NA
+"2456" "rs9610946" "SCARF2" "." "." NA
+"2457" "rs9629901" "RP11-556E13.1" "." "." NA
+"2458" "rs963837" "RP5-1024C24.1" "." "." NA
+"2459" "rs964184" "ZNF259" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2460" "rs9651802" "ERGIC2" "." "Thyroid, Skin_Sun_Exposed_Lower_leg, Nerve_Tibial" NA
+"2461" "rs9654002" "CACNA2D3" "." "." NA
+"2462" "rs9673818" "LITAF" "." "." NA
+"2463" "rs9681769" "RN5S136" "." "." NA
+"2464" "rs972577" "PACSIN2" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2465" "rs9728101" "Metazoa_SRP" "." "." NA
+"2466" "rs9749364" "RHPN2" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2467" "rs9753194" "SSB" "." "." NA
+"2468" "rs9762134" "PCDH18" "." "." NA
+"2469" "rs9772604" "GS1-24F4.2" "." "Esophagus_Mucosa, Skin_Sun_Exposed_Lower_leg, Testis" NA
+"2470" "rs9807989" "IL18R1" "." "Whole_Blood, Lung" NA
+"2471" "rs9809116" "RP11-447M4.1" "ECC-1,POL2,HudsonAlpha,DMSO_0.02pct;MCF10A-Er-Src,STAT3,Harvard(Weissman),EtOH_0.01pct_4hr;MCF10A-Er-Src,STAT3,Harvard(Weissman),TAM_1uM_36hr" "." NA
+"2472" "rs9815073" "LPP" "." "." NA
+"2473" "rs9816784" "TFRC" "." "Thyroid" NA
+"2474" "rs9827401" "PLCL2" "." "Cells_Transformed_fibroblasts, Whole_Blood" NA
+"2475" "rs9829114" "PAK2" "." "." NA
+"2476" "rs983855" "RP11-257I14.1" "." "." NA
+"2477" "rs9841857" "NFKBIZ" "." "Lymphoblastoid_EUR_exonlevel, Nerve_Tibial" NA
+"2478" "rs9850274" "ZDHHC19" "." "." NA
+"2479" "rs9851607" "MYRIP" "." "." NA
+"2480" "rs9852704" "CGGBP1" "." "Breast_Mammary_Tissue, Thyroid" NA
+"2481" "rs9855176" "AC027119.1" "." "." NA
+"2482" "rs9861346" "LSAMP" "." "." NA
+"2483" "rs9870122" "PPP2R3A" "." "Lymphoblastoid_EUR_exonlevel" NA
+"2484" "rs9878913" "CD200R1L" "." "." NA
+"2485" "rs9890032" "ATAD5" "." "Artery_Coronary, Brain_Cortex, Whole_Blood" NA
+"2486" "rs9891219" "GUCY2D" "." "Lymphoblastoid_EUR_exonlevel, Brain_Cerebellum, Brain_Cerebellar_Hemisphere" NA
+"2487" "rs9896239" "MIR451B" "." "Adipose_Visceral_Omentum, Nerve_Tibial, Thyroid" NA
+"2488" "rs9897123" "GAS7" "." "Cells_Transformed_fibroblasts" NA
+"2489" "rs9908933" "AC055813.1" "." "Artery_Tibial, Brain_Cortex, Artery_Coronary" NA
+"2490" "rs9911000" "ZNF232" "." "Lymphoblastoid_EUR_exonlevel, Whole_Blood" NA
+"2491" "rs9931598" "CHD9" "." "." NA
+"2492" "rs9939277" "ZFPM1" "." "Thyroid" NA
+"2493" "rs9965170" "SKOR2" "." "Adipose_Subcutaneous" NA
+"2494" "rs998908" "CD9" "." "Whole_Blood, Lymphoblastoid_EUR_exonlevel" NA

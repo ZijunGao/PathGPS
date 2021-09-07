@@ -4,7 +4,11 @@
 \alias{latentMediatorExample}
 \title{latentMediatorExample}
 \usage{
-latentMediatorExample(data = "metabolites", plotOnly = TRUE)
+latentMediatorExample(
+  data = "metabolites",
+  plotOnly = TRUE,
+  clustering.method = "UMAP"
+)
 }
 \arguments{
 \item{X}{...}
