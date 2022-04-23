@@ -12,6 +12,7 @@
 "1309" "Fresh fruit intake"
 "1319" "Dried fruit intake"
 "1329" "Oily fish intake"
+
 "1369" "Beef intake"
 "137" "Number of treatments/medications taken"
 "1418_3" "Milk type used: Skimmed"
