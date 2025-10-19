@@ -7,7 +7,8 @@
 latentMediatorExample(
   data = "metabolites",
   plotOnly = TRUE,
-  clustering.method = "UMAP"
+  clustering.method = "UMAP",
+  envr.subtract = TRUE
 )
 }
 \arguments{

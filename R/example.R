@@ -5,7 +5,7 @@
 #' @param X ...
 #'
 #' @export
-latentMediatorExample = function(data = "metabolites", plotOnly = TRUE, clustering.method = "UMAP"){
+latentMediatorExample = function(data = "metabolites", plotOnly = TRUE, clustering.method = "UMAP",  envr.subtract = TRUE){
   if(data == "metabolites"){
     # rm(list = ls())
     # hyper-parameters
@@ -31,7 +31,9 @@ latentMediatorExample = function(data = "metabolites", plotOnly = TRUE, clusteri
     parameters$data = "metabolites"
 
     # estimation
-    SR = pathGPS(beta = "metabolites", UV = SR0[c(5,6)], p = p, p0 = p0, r = r, envr.subtract = TRUE, sprs.transform = TRUE, aggregate = TRUE, parameters = parameters, returnFull = TRUE)
+    # SR0 = readRDS(file = "/Users/zijungao/Dropbox/PathGPS/plot/source code/source data/metabolitesUMAP.rds")
+    # SR = pathGPS(beta = "metabolites", UV = SR0[c(5,6)], p = p, p0 = p0, r = r, envr.subtract = TRUE, sprs.transform = TRUE, aggregate = TRUE, parameters = parameters, returnFull = TRUE)
+    SR = pathGPS(beta = "metabolites", p = p, p0 = p0, r = r, envr.subtract = envr.subtract, sprs.transform = TRUE, aggregate = TRUE, parameters = parameters, returnFull = TRUE)
     # plot
     pl = clusterPlot(model = SR, pValue = "metabolites", names = F)
     pl.name = clusterPlot(model = SR, pValue = "metabolites", names = T)
@@ -43,7 +45,6 @@ latentMediatorExample = function(data = "metabolites", plotOnly = TRUE, clusteri
       ggplot2::ggsave("/Users/zijungao/Desktop/test2.pdf", pl.name, width = 8, height = 8) # to be deleted
     }
     write.csv(SR$cluster, "/Users/zijungao/Desktop/test2.csv", row.names = FALSE)
-    # SR0 = readRDS(file = "/Users/zijungao/Dropbox/PathGPS/plot/source code/source data/metabolitesUMAP.rds")
     return(SR)
   }
   if (data == "biobank"){
@@ -73,7 +74,9 @@ latentMediatorExample = function(data = "metabolites", plotOnly = TRUE, clusteri
     parameters$data = "biobank"
 
     # estimate U, V
-    model.biobank = pathGPS(beta = "biobank", UV = model.biobank0[c(5,6)], p = p, p0 = p0, r = r, envr.subtract = TRUE, sprs.transform = TRUE, aggregate = TRUE, parameters = parameters, returnFull = TRUE) # UV = NULL or record (model.biobank0[c(5,6)])
+    # model.biobank0 = readRDS("/Users/zijungao/Dropbox/PathGPS/plot/source code/source data/biobankUMAP.rds") # model.biobank recovers the result Sept. 15, 2021, the most up-to-date
+    # model.biobank = pathGPS(beta = "biobank", UV = model.biobank0[c(5,6)], p = p, p0 = p0, r = r, envr.subtract = envr.subtract, sprs.transform = TRUE, aggregate = TRUE, parameters = parameters, returnFull = TRUE) # UV = NULL or record (model.biobank0[c(5,6)])
+    model.biobank = pathGPS(beta = "biobank", p = p, p0 = p0, r = r, envr.subtract = envr.subtract, sprs.transform = TRUE, aggregate = TRUE, parameters = parameters, returnFull = TRUE) # UV = NULL or record (model.biobank0[c(5,6)])
 
     pl.biobank = clusterPlot(model = model.biobank, pValue = "biobank", names = F)
     # biobank.coappearance = read.table("./data/biobankCoappearance.txt")
@@ -83,15 +86,15 @@ latentMediatorExample = function(data = "metabolites", plotOnly = TRUE, clusteri
       ggplot2::ggsave("/Users/zijungao/Desktop/test2.pdf", pl.biobank, width = 6, height = 6) # to be deleted; with names: width = 12, height = 8; UMAP: width = 6, height = 15; tSNE: width = 6, height = 6
     }
     # write.table(model.biobank$cluster, "/Users/zijungao/Desktop/test2.tsv", sep = "\t", row.names = FALSE) # pl$result[,-c("eQTL")]
-    endTime=proc.time(); print("pl"); print(endTime[3] - startTime[3])
+    # endTime=proc.time(); print("pl"); print(endTime[3] - startTime[3])
   }
-  result = list()
-  if(!plotOnly){result$summary = pl$result; result$pl = pl$pl; result$VHat = SR$VHat; result$UHat = SR$UHat}
+  # result = list()
+  if(!plotOnly){result$summary = pl$result; result$pl = pl$pl; result$VHat = SR$VHat; result$UHat = SR$UHat; return(result)}
   # model.biobank$pl = pl.biobank2
   # model.biobank$pl.name = pl.biobank
   # saveRDS(model.biobank, "/Users/zijungao/Dropbox/PathGPS/plot/source code/source data/biobankUMAP.rds")
-  # model.biobank/model.biobank0 = readRDS("/Users/zijungao/Dropbox/PathGPS/plot/source code/source data/biobankUMAP.rds") # model.biobank recovers the result Sept. 15, 2021, the most up-to-date
-  return(result)
+  # return(result)
+  return(model.biobank)
 }
 
 

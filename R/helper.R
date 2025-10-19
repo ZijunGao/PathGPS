@@ -16,8 +16,6 @@ colSpDistance = function(X1,X2){
   dist = 1 - max(abs(eigen(P1-P2)$values))
   return (dist)
 }
-# prev.
-myDistance = colSpDistance
 
 #' clusteringError
 #'

@@ -15,5 +15,4 @@ pathGPS.oneshot(
 }
 \description{
 oneshot estimation of U and V
-TODO!!!
 }

@@ -39,7 +39,9 @@
 #' @return VHat, UHat
 #'
 #' @export
-pathGPS = function(beta = "metabolites", UV = NULL, graph = NULL, p, p0, r, envr.subtract = TRUE, sprs.transform = TRUE, aggregate = TRUE, returnFull = FALSE,  parameters = list()){
+pathGPS = function(beta = "metabolites",
+                   UV = NULL,
+                   graph = NULL, p, p0, r, envr.subtract = TRUE, sprs.transform = TRUE, aggregate = TRUE, returnFull = FALSE,  parameters = list()){
   # preprocess
   if(is.character(beta)){
     if(beta == "metabolites"){
@@ -56,6 +58,7 @@ pathGPS = function(beta = "metabolites", UV = NULL, graph = NULL, p, p0, r, envr
   } else if(is.null(dim(beta))){stop("please input a matrix of summary statistics for multiple genotypes and multiple phenotypes")}
   pFull = dim(beta)[1]; q = dim(beta)[2]
 
+  # estimate U, V
   if(!is.null(UV)){
     UHatList = UV$UHat; VHatList = UV$VHat
     if(class(UHatList) != "list"){UHatList = list(UHatList)}
@@ -66,7 +69,7 @@ pathGPS = function(beta = "metabolites", UV = NULL, graph = NULL, p, p0, r, envr
     if(!is.null(colnames(beta))){phenotypeNames = colnames(beta)
     } else {phenotypeNames = paste("phenotype", seq(1,q), sep = "")}
     if(!is.null(rownames(beta))){SNPNames = rownames(beta)
-    } else {SNPNames = paste("genotype", seq(1,pFull), sep = "")}
+    } else {SNPNames = paste("genotype", seq(1, pFull), sep = "")}
 
     if(sprs.transform){
       if(is.null(parameters$sprs.transform.m)){parameters$sprs.transform.m = 1}
@@ -215,7 +218,6 @@ pathGPS = function(beta = "metabolites", UV = NULL, graph = NULL, p, p0, r, envr
 #' pathGPS.oneshot
 #'
 #' oneshot estimation of U and V
-#' TODO!!!
 pathGPS.oneshot = function(beta1, beta0, r, envr.subtract = TRUE, sprs.transform = TRUE, parameters = list()){
   p = dim(beta1)[1]; q = dim(beta1)[2]; p0 = dim(beta0)[1]
   phenotypeNames = colnames(beta1); SNPNames = rownames(beta1)
